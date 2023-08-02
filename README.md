@@ -1,0 +1,3 @@
+# Misty Forest (GBC)
+This is Misty Forest. Originally made for GBC using Pokemon Crystal as a base.
+More info tba...
