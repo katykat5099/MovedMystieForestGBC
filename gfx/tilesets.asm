@@ -215,15 +215,6 @@ INCBIN "data/tilesets/battle_tower_inside_metatiles.bin"
 TilesetBattleTowerInsideColl::
 INCLUDE "data/tilesets/battle_tower_inside_collision.asm"
 
-TilesetGateGFX::
-INCBIN "gfx/tilesets/gate.2bpp.lz"
-
-TilesetGateMeta::
-INCBIN "data/tilesets/gate_metatiles.bin"
-
-TilesetGateColl::
-INCLUDE "data/tilesets/gate_collision.asm"
-
 TilesetJohtoModernGFX::
 TilesetBattleTowerOutsideGFX::
 INCBIN "gfx/tilesets/johto_modern.2bpp.lz"
@@ -335,3 +326,12 @@ INCBIN "data/tilesets/omanyte_word_room_metatiles.bin"
 
 TilesetAerodactylWordRoomMeta::
 INCBIN "data/tilesets/aerodactyl_word_room_metatiles.bin"
+
+TilesetGateGFX::
+INCBIN "gfx/tilesets/gate.2bpp.lz"
+
+TilesetGateMeta::
+INCBIN "data/tilesets/gate_metatiles.bin"
+
+TilesetGateColl::
+INCLUDE "data/tilesets/gate_collision.asm"
