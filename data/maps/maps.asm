@@ -17,32 +17,32 @@ ENDM
 MapGroupPointers::
 ; pointers to the first map of each map group
 	table_width 2, MapGroupPointers
-	dw MapGroup_Olivine     ;  1
-	dw MapGroup_Mahogany    ;  2
-	dw MapGroup_Dungeons    ;  3
-	dw MapGroup_Ecruteak    ;  4
-	dw MapGroup_Blackthorn  ;  5
-	dw MapGroup_Cinnabar    ;  6
-	dw MapGroup_Cerulean    ;  7
-	dw MapGroup_Azalea      ;  8
-	dw MapGroup_LakeOfRage  ;  9
-	dw MapGroup_Violet      ; 10
-	dw MapGroup_Goldenrod   ; 11
-	dw MapGroup_Vermilion   ; 12
-	dw MapGroup_Pallet      ; 13
-	dw MapGroup_Pewter      ; 14
-	dw MapGroup_FastShip    ; 15
-	dw MapGroup_Indigo      ; 16
-	dw MapGroup_Fuchsia     ; 17
-	dw MapGroup_Lavender    ; 18
-	dw MapGroup_Silver      ; 19
-	dw MapGroup_CableClub   ; 20
-	dw MapGroup_Celadon     ; 21
-	dw MapGroup_Cianwood    ; 22
-	dw MapGroup_Viridian    ; 23
-	dw MapGroup_NewBark     ; 24
-	dw MapGroup_Saffron     ; 25
-	dw MapGroup_Cherrygrove ; 26
+	dw MapGroup_Olivine                     ;  1
+	dw MapGroup_Mahogany                    ;  2
+	dw MapGroup_Dungeons                    ;  3
+	dw MapGroup_Ecruteak                    ;  4
+	dw MapGroup_Blackthorn                  ;  5
+	dw MapGroup_Cinnabar                    ;  6
+	dw MapGroup_Cerulean                    ;  7
+	dw MapGroup_Azalea                      ;  8
+	dw MapGroup_LakeOfRage                  ;  9
+	dw MapGroup_Violet                      ; 10
+	dw MapGroup_Goldenrod                   ; 11
+	dw MapGroup_Vermilion                   ; 12
+	dw MapGroup_Pallet                      ; 13
+	dw MapGroup_Pewter                      ; 14
+	dw MapGroup_FastShip                    ; 15
+	dw MapGroup_Indigo                      ; 16
+	dw MapGroup_Fuchsia                     ; 17
+	dw MapGroup_Lavender                    ; 18
+	dw MapGroup_Silver                      ; 19
+	dw MapGroup_CableClub                   ; 20
+	dw MapGroup_Celadon                     ; 21
+	dw MapGroup_Cianwood                    ; 22
+	dw MapGroup_Viridian                    ; 23
+	dw MapGroup_MystieForestVillageArea     ; 24
+	dw MapGroup_Saffron                     ; 25
+	dw MapGroup_Cherrygrove                 ; 26
 	assert_table_length NUM_MAP_GROUPS
 
 MapGroup_Olivine:
@@ -486,22 +486,22 @@ MapGroup_Viridian:
 	map VictoryRoadGate, TILESET_GATE, GATE, LANDMARK_ROUTE_26, MUSIC_INDIGO_PLATEAU, FALSE, PALETTE_DAY, FISHGROUP_SHORE
 	assert_table_length NUM_VIRIDIAN_MAPS
 
-MapGroup_NewBark:
-	table_width MAP_LENGTH, MapGroup_NewBark
+MapGroup_MystieForestVillageArea:
+	table_width MAP_LENGTH, MapGroup_MystieForestVillageArea
 	map Route26, TILESET_JOHTO, ROUTE, LANDMARK_ROUTE_26, MUSIC_ROUTE_26, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
 	map Route27, TILESET_JOHTO, ROUTE, LANDMARK_ROUTE_27, MUSIC_ROUTE_26, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
 	map Route29, TILESET_JOHTO, ROUTE, LANDMARK_ROUTE_29, MUSIC_ROUTE_29, FALSE, PALETTE_AUTO, FISHGROUP_SHORE
-	map NewBarkTown, TILESET_JOHTO, TOWN, LANDMARK_NEW_BARK_TOWN, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
-	map ElmsLab, TILESET_LAB, INDOOR, LANDMARK_NEW_BARK_TOWN, MUSIC_PROF_ELM, FALSE, PALETTE_DAY, FISHGROUP_SHORE
-	map PlayersHouse1F, TILESET_PLAYERS_HOUSE, INDOOR, LANDMARK_NEW_BARK_TOWN, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
-	map PlayersHouse2F, TILESET_PLAYERS_ROOM, INDOOR, LANDMARK_NEW_BARK_TOWN, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
-	map PlayersNeighborsHouse, TILESET_HOUSE, INDOOR, LANDMARK_NEW_BARK_TOWN, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
-	map ElmsHouse, TILESET_PLAYERS_HOUSE, INDOOR, LANDMARK_NEW_BARK_TOWN, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	map MystieForestVillage, TILESET_JOHTO, TOWN, LANDMARK_MYSTIE_FOREST_VILLAGE, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_AUTO, FISHGROUP_OCEAN
+	map ElmsLab, TILESET_LAB, INDOOR, LANDMARK_MYSTIE_FOREST_VILLAGE, MUSIC_PROF_ELM, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	map PlayersHouse1F, TILESET_PLAYERS_HOUSE, INDOOR, LANDMARK_MYSTIE_FOREST_VILLAGE, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	map PlayersHouse2F, TILESET_PLAYERS_ROOM, INDOOR, LANDMARK_MYSTIE_FOREST_VILLAGE, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	map PlayersNeighborsHouse, TILESET_HOUSE, INDOOR, LANDMARK_MYSTIE_FOREST_VILLAGE, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
+	map ElmsHouse, TILESET_PLAYERS_HOUSE, INDOOR, LANDMARK_MYSTIE_FOREST_VILLAGE, MUSIC_NEW_BARK_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
 	map Route26HealHouse, TILESET_HOUSE, INDOOR, LANDMARK_ROUTE_26, MUSIC_AZALEA_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
 	map DayOfWeekSiblingsHouse, TILESET_HOUSE, INDOOR, LANDMARK_ROUTE_26, MUSIC_AZALEA_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
 	map Route27SandstormHouse, TILESET_HOUSE, INDOOR, LANDMARK_ROUTE_27, MUSIC_AZALEA_TOWN, FALSE, PALETTE_DAY, FISHGROUP_SHORE
 	map Route29Route46Gate, TILESET_GATE, GATE, LANDMARK_ROUTE_29, MUSIC_ROUTE_29, FALSE, PALETTE_DAY, FISHGROUP_SHORE
-	assert_table_length NUM_NEW_BARK_MAPS
+	assert_table_length NUM_MYSTIE_FOREST_VILLAGE_AREA_MAPS
 
 MapGroup_Saffron:
 	table_width MAP_LENGTH, MapGroup_Saffron

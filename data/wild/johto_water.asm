@@ -205,7 +205,7 @@ JohtoWaterWildMons:
 	db 5, MAGIKARP
 	end_water_wildmons
 
-	def_water_wildmons NEW_BARK_TOWN
+	def_water_wildmons MYSTIE_FOREST_VILLAGE
 	db 6 percent ; encounter rate
 	db 20, TENTACOOL
 	db 15, TENTACOOL
