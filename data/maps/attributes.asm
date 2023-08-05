@@ -97,7 +97,7 @@ MACRO connection
 ENDM
 
 
-	map_attributes MystieForestVillage, MYSTIE_FOREST_VILLAGE, $07, WEST | EAST
+	map_attributes MystieForestVillage, MYSTIE_FOREST_VILLAGE, $0F, WEST | EAST
 	connection west, Route29, ROUTE_29, 0
 	connection east, Route27, ROUTE_27, 0
 
