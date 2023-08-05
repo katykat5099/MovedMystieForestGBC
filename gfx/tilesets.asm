@@ -340,7 +340,7 @@ TilesetMystieForestGFX::
 INCBIN "gfx/tilesets/mystie_forest.2bpp.lz"
 
 TilesetMystieForestMeta::
-INCBIN "data/tilesets/gate_metatiles.bin"
+INCBIN "data/tilesets/mystie_forest_metatiles.bin"
 
 TilesetMystieForestColl::
-INCLUDE "data/tilesets/gate_collision.asm"
+INCLUDE "data/tilesets/mystie_forest_collision.asm"
