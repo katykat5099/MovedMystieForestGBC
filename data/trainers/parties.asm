@@ -719,7 +719,6 @@ LassGroup:
 
 	; LASS (6)
 	db "LINDA@", TRAINERTYPE_NORMAL
-	db 32, IVYSAUR
 	db 34, VENUSAUR
 	db -1 ; end
 
@@ -809,7 +808,6 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (2)
 	db "AARON@", TRAINERTYPE_NORMAL
-	db 24, IVYSAUR
 	db 24, CHARMELEON
 	db 24, WARTORTLE
 	db -1 ; end
@@ -990,7 +988,6 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (11)
 	db "MEGAN@", TRAINERTYPE_MOVES
-	db 32, IVYSAUR,    GROWL, LEECH_SEED, POISONPOWDER, RAZOR_LEAF
 	db 32, VENUSAUR,   BODY_SLAM, SLEEP_POWDER, RAZOR_LEAF, SWEET_SCENT
 	db -1 ; end
 
@@ -1008,7 +1005,6 @@ CooltrainerFGroup:
 
 	; COOLTRAINERF (14)
 	db "QUINN@", TRAINERTYPE_NORMAL
-	db 38, IVYSAUR
 	db 38, STARMIE
 	db -1 ; end
 
@@ -2799,7 +2795,6 @@ PicnickerGroup:
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 14, HOPPIP
 	db 14, HOPPIP
-	db 17, IVYSAUR
 	db -1 ; end
 
 	; PICNICKER (10)
@@ -2837,7 +2832,6 @@ PicnickerGroup:
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 26, SKIPLOOM
 	db 26, SKIPLOOM
-	db 29, IVYSAUR
 	db -1 ; end
 
 	; PICNICKER (16)
@@ -2891,7 +2885,6 @@ PicnickerGroup:
 	db "GINA@", TRAINERTYPE_NORMAL
 	db 30, SKIPLOOM
 	db 30, SKIPLOOM
-	db 32, IVYSAUR
 	db -1 ; end
 
 	; PICNICKER (25)

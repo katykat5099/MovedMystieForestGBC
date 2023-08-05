@@ -1,7 +1,7 @@
 BitmasksPointers:
 	table_width 2, BitmasksPointers
 	dw BuckleoBitmasks
-	dw IvysaurBitmasks
+	dw WoffBitmasks
 	dw VenusaurBitmasks
 	dw CharmanderBitmasks
 	dw CharmeleonBitmasks

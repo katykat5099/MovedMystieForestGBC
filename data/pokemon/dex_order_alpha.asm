@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	db HOUNDOUR
 	db HYPNO
 	db IGGLYBUFF
-	db IVYSAUR
+	db WOFF
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUMPLUFF

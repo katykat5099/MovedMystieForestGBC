@@ -1,7 +1,7 @@
 FramesPointers:
 	table_width 2, FramesPointers
 	dw BuckleoFrames
-	dw IvysaurFrames
+	dw WoffFrames
 	dw VenusaurFrames
 	dw CharmanderFrames
 	dw CharmeleonFrames

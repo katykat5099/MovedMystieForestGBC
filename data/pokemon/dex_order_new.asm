@@ -228,7 +228,7 @@ NewPokedexOrder:
 	db AERODACTYL
 	db SNORLAX
 	db BUCKLEO
-	db IVYSAUR
+	db WOFF
 	db VENUSAUR
 	db CHARMANDER
 	db CHARMELEON

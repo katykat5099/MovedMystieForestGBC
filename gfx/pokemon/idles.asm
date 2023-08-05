@@ -1,5 +1,5 @@
 BuckleoAnimationIdle:    INCLUDE "gfx/pokemon/buckleo/anim_idle.asm"
-IvysaurAnimationIdle:    INCLUDE "gfx/pokemon/ivysaur/anim_idle.asm"
+WoffAnimationIdle:       INCLUDE "gfx/pokemon/woff/anim_idle.asm"
 VenusaurAnimationIdle:   INCLUDE "gfx/pokemon/venusaur/anim_idle.asm"
 CharmanderAnimationIdle: INCLUDE "gfx/pokemon/charmander/anim_idle.asm"
 CharmeleonAnimationIdle: INCLUDE "gfx/pokemon/charmeleon/anim_idle.asm"

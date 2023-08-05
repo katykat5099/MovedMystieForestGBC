@@ -1,5 +1,5 @@
 BuckleoAnimation:    INCLUDE "gfx/pokemon/buckleo/anim.asm"
-IvysaurAnimation:    INCLUDE "gfx/pokemon/ivysaur/anim.asm"
+WoffAnimation:       INCLUDE "gfx/pokemon/woff/anim.asm"
 VenusaurAnimation:   INCLUDE "gfx/pokemon/venusaur/anim.asm"
 CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"

@@ -8,7 +8,7 @@ Pokered_MonIndices:
 	db VOLTORB
 	db NIDOKING
 	db SLOWBRO
-	db IVYSAUR
+	db WOFF
 	db EXEGGUTOR
 	db LICKITUNG
 	db EXEGGCUTE
