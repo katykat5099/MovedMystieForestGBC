@@ -2,7 +2,7 @@ FramesPointers:
 	table_width 2, FramesPointers
 	dw BuckleoFrames
 	dw WoffFrames
-	dw VenusaurFrames
+	dw VantaroFrames
 	dw CharmanderFrames
 	dw CharmeleonFrames
 	dw CharizardFrames

@@ -2,7 +2,7 @@ PokemonNames::
 	table_width NAME_LENGTH - 1, PokemonNames
 	db "Buckleo@@@"
 	db "Woff@@@@@@"
-	db "VENUSAUR@@"
+	db "Vantaro@@@"
 	db "CHARMANDER"
 	db "CHARMELEON"
 	db "CHARIZARD@"

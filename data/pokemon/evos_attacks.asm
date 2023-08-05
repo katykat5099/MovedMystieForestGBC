@@ -25,22 +25,10 @@ WoffEvosAttacks: ; to-do
 	db 1, TACKLE
 	db 0 ; no more level-up moves
 
-VenusaurEvosAttacks:
-	db 0 ; no more evolutions
+VantaroEvosAttacks:
+	db 0 ; does not evolve
 	db 1, TACKLE
 	db 1, GROWL
-	db 1, LEECH_SEED
-	db 1, VINE_WHIP
-	db 4, GROWL
-	db 7, LEECH_SEED
-	db 10, VINE_WHIP
-	db 15, POISONPOWDER
-	db 15, SLEEP_POWDER
-	db 22, RAZOR_LEAF
-	db 29, SWEET_SCENT
-	db 41, GROWTH
-	db 53, SYNTHESIS
-	db 65, SOLARBEAM
 	db 0 ; no more level-up moves
 
 CharmanderEvosAttacks:

@@ -3,7 +3,7 @@ PokedexDataPointerTable:
 	table_width 2, PokedexDataPointerTable
 	dw BuckleoPokedexEntry
 	dw WoffPokedexEntry
-	dw VenusaurPokedexEntry
+	dw VantaroPokedexEntry
 	dw CharmanderPokedexEntry
 	dw CharmeleonPokedexEntry
 	dw CharizardPokedexEntry

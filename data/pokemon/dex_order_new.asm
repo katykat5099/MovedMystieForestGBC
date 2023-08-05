@@ -229,7 +229,7 @@ NewPokedexOrder:
 	db SNORLAX
 	db BUCKLEO
 	db WOFF
-	db VENUSAUR
+	db VANTARO
 	db CHARMANDER
 	db CHARMELEON
 	db CHARIZARD

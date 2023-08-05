@@ -7,8 +7,8 @@ PokemonPicPointers::
 	dba_pic BuckleoBackpic
 	dba_pic WoffFrontpic
 	dba_pic WoffBackpic
-	dba_pic VenusaurFrontpic
-	dba_pic VenusaurBackpic
+	dba_pic VantaroFrontpic
+	dba_pic VantaroBackpic
 	dba_pic CharmanderFrontpic
 	dba_pic CharmanderBackpic
 	dba_pic CharmeleonFrontpic

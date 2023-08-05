@@ -1,6 +1,6 @@
 BuckleoBitmasks:    INCLUDE "gfx/pokemon/buckleo/bitmask.asm"
 WoffBitmasks:       INCLUDE "gfx/pokemon/woff/bitmask.asm"
-VenusaurBitmasks:   INCLUDE "gfx/pokemon/venusaur/bitmask.asm"
+VantaroBitmasks:    INCLUDE "gfx/pokemon/vantaro/bitmask.asm"
 CharmanderBitmasks: INCLUDE "gfx/pokemon/charmander/bitmask.asm"
 CharmeleonBitmasks: INCLUDE "gfx/pokemon/charmeleon/bitmask.asm"
 CharizardBitmasks:  INCLUDE "gfx/pokemon/charizard/bitmask.asm"

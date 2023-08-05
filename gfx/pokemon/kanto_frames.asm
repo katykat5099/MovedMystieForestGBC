@@ -2,7 +2,7 @@ KantoFrames: ; used only for BANK(KantoFrames)
 
 BuckleoFrames:    INCLUDE "gfx/pokemon/buckleo/frames.asm"
 WoffFrames:       INCLUDE "gfx/pokemon/woff/frames.asm"
-VenusaurFrames:   INCLUDE "gfx/pokemon/venusaur/frames.asm"
+VantaroFrames:    INCLUDE "gfx/pokemon/vantaro/frames.asm"
 CharmanderFrames: INCLUDE "gfx/pokemon/charmander/frames.asm"
 CharmeleonFrames: INCLUDE "gfx/pokemon/charmeleon/frames.asm"
 CharizardFrames:  INCLUDE "gfx/pokemon/charizard/frames.asm"
