@@ -18,7 +18,7 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
-	db BULBASAUR
+	db BUCKLEO
 	db BUTTERFREE
 	db CATERPIE
 	db CELEBI

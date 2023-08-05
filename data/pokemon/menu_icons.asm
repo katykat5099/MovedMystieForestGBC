@@ -2,7 +2,7 @@
 
 MonMenuIcons:
 	table_width 1, MonMenuIcons
-	db ICON_BULBASAUR   ; BULBASAUR
+	db ICON_FOX         ; BUCKLEO
 	db ICON_BULBASAUR   ; IVYSAUR
 	db ICON_BULBASAUR   ; VENUSAUR
 	db ICON_CHARMANDER  ; CHARMANDER
