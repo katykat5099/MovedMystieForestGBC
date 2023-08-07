@@ -23,9 +23,9 @@ ENDM
 
 BaseData::
 	table_width BASE_DATA_SIZE, BaseData
-INCLUDE "data/pokemon/base_stats/bulbasaur.asm"
-INCLUDE "data/pokemon/base_stats/ivysaur.asm"
-INCLUDE "data/pokemon/base_stats/venusaur.asm"
+INCLUDE "data/pokemon/base_stats/buckleo.asm"
+INCLUDE "data/pokemon/base_stats/woff.asm"
+INCLUDE "data/pokemon/base_stats/vantaro.asm"
 INCLUDE "data/pokemon/base_stats/charmander.asm"
 INCLUDE "data/pokemon/base_stats/charmeleon.asm"
 INCLUDE "data/pokemon/base_stats/charizard.asm"
