@@ -212,13 +212,6 @@ JohtoWaterWildMons:
 	db 20, TENTACRUEL
 	end_water_wildmons
 
-	def_water_wildmons CHERRYGROVE_CITY
-	db 6 percent ; encounter rate
-	db 20, TENTACOOL
-	db 15, TENTACOOL
-	db 20, TENTACRUEL
-	end_water_wildmons
-
 	def_water_wildmons VIOLET_CITY
 	db 2 percent ; encounter rate
 	db 20, POLIWAG

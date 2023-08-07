@@ -101,8 +101,7 @@ ENDM
 	connection west, ThreeTowersConnect, THREE_TOWERS_CONNECT, 0
 	connection east, Route27, ROUTE_27, 0
 
-	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $35, NORTH | EAST
-	connection north, Route30, ROUTE_30, 5
+	map_attributes TowerOne, TOWER_ONE, $0F, EAST
 	connection east, ThreeTowersConnect, THREE_TOWERS_CONNECT, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
@@ -157,12 +156,12 @@ ENDM
 
 	map_attributes ThreeTowersConnect, THREE_TOWERS_CONNECT, $0F, NORTH | WEST | EAST
 	connection north, Route46, ROUTE_46, 10
-	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
+	connection west, TowerOne, TOWER_ONE, 0
 	connection east, MystieForestVillage, MYSTIE_FOREST_VILLAGE, 0
 
 	map_attributes Route30, ROUTE_30, $05, NORTH | SOUTH
 	connection north, Route31, ROUTE_31, -10
-	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
+	connection south, TowerOne, TOWER_ONE, -5
 
 	map_attributes Route31, ROUTE_31, $05, SOUTH | WEST
 	connection south, Route30, ROUTE_30, 10

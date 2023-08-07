@@ -25,7 +25,6 @@ TreeMonMaps:
 	treemon_map ROUTE_45,                  TREEMON_SET_CANYON
 	treemon_map ROUTE_46,                  TREEMON_SET_CANYON
 	treemon_map MYSTIE_FOREST_VILLAGE,     TREEMON_SET_FOREST
-	treemon_map CHERRYGROVE_CITY,          TREEMON_SET_CITY
 	treemon_map VIOLET_CITY,               TREEMON_SET_CITY
 	treemon_map AZALEA_TOWN,               TREEMON_SET_TOWN
 	treemon_map CIANWOOD_CITY,             TREEMON_SET_CITY

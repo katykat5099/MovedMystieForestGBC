@@ -526,8 +526,8 @@ RadioTower5F_Blocks:
 MystieForestVillage_Blocks:
 	INCBIN "maps/MystieForestVillage.blk"
 
-CherrygroveCity_Blocks:
-	INCBIN "maps/CherrygroveCity.blk"
+TowerOne_Blocks:
+	INCBIN "maps/TowerOne.blk"
 
 VioletCity_Blocks:
 	INCBIN "maps/VioletCity.blk"

@@ -25,7 +25,6 @@ SpawnPoints:
 	spawn ROUTE_23,                    9,  6
 
 	spawn MYSTIE_FOREST_VILLAGE,      13,  6
-	spawn CHERRYGROVE_CITY,           29,  4
 	spawn VIOLET_CITY,                31, 26
 	spawn ROUTE_32,                   11, 74
 	spawn AZALEA_TOWN,                15, 10

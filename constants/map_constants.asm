@@ -456,6 +456,7 @@ ENDM
 	newgroup MYSTIE_FOREST_VILLAGE_AREA                           ; 24
 	map_const ROUTE_26,                                    10, 54 ;  1
 	map_const ROUTE_27,                                    40,  9 ;  2
+	map_const TOWER_ONE,                                   20,  9 ;  3
 	map_const THREE_TOWERS_CONNECT,                         30,  9 ;  3
 	map_const MYSTIE_FOREST_VILLAGE,                       10,  9 ;  4
 	map_const ELMS_LAB,                                     5,  6 ;  5
@@ -490,7 +491,6 @@ ENDM
 	newgroup CHERRYGROVE                                          ; 26
 	map_const ROUTE_30,                                    10, 27 ;  1
 	map_const ROUTE_31,                                    20,  9 ;  2
-	map_const CHERRYGROVE_CITY,                            20,  9 ;  3
 	map_const CHERRYGROVE_MART,                             6,  4 ;  4
 	map_const CHERRYGROVE_POKECENTER_1F,                    5,  4 ;  5
 	map_const CHERRYGROVE_GYM_SPEECH_HOUSE,                 4,  4 ;  6
