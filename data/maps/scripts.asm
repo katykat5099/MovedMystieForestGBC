@@ -437,7 +437,7 @@ INCLUDE "maps/Route12.asm"
 
 SECTION "Map Scripts 23", ROMX
 
-INCLUDE "maps/NewBarkTown.asm"
+INCLUDE "maps/MystieForestVillage.asm"
 INCLUDE "maps/VioletCity.asm"
 INCLUDE "maps/OlivineCity.asm"
 INCLUDE "maps/Route37.asm"

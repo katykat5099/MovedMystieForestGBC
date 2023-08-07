@@ -8,7 +8,7 @@ Landmarks:
 ; entries correspond to constants/landmark_constants.asm
 	table_width 4, Landmarks
 	landmark  -8, -16, SpecialMapName
-	landmark 140, 100, NewBarkTownName
+	landmark 140, 100, MystieForestVillageName
 	landmark 128, 100, Route29Name
 	landmark 100, 100, CherrygroveCityName
 	landmark 100,  80, Route30Name
@@ -106,13 +106,13 @@ Landmarks:
 	landmark 140, 116, FastShipName
 	assert_table_length NUM_LANDMARKS
 
-NewBarkTownName:     db "NEW BARK¯TOWN@"
-CherrygroveCityName: db "CHERRYGROVE¯CITY@"
-VioletCityName:      db "VIOLET CITY@"
-AzaleaTownName:      db "AZALEA TOWN@"
-GoldenrodCityName:   db "GOLDENROD¯CITY@"
-EcruteakCityName:    db "ECRUTEAK¯CITY@"
-OlivineCityName:     db "OLIVINE¯CITY@"
+MystieForestVillageName:     db "MYSTIE¯VILLAGE@"
+CherrygroveCityName:         db "CHERRYGROVE¯CITY@"
+VioletCityName:              db "VIOLET CITY@"
+AzaleaTownName:              db "AZALEA TOWN@"
+GoldenrodCityName:           db "GOLDENROD¯CITY@"
+EcruteakCityName:            db "ECRUTEAK¯CITY@"
+OlivineCityName:             db "OLIVINE¯CITY@"
 CianwoodCityName:    db "CIANWOOD¯CITY@"
 MahoganyTownName:    db "MAHOGANY¯TOWN@"
 BlackthornCityName:  db "BLACKTHORN¯CITY@"

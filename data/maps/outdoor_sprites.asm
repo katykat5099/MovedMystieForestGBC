@@ -27,7 +27,7 @@ OutdoorSprites:
 	dw CeladonGroupSprites
 	dw CianwoodGroupSprites
 	dw ViridianGroupSprites
-	dw NewBarkGroupSprites
+	dw MystieForestGroupSprites
 	dw SaffronGroupSprites
 	dw CherrygroveGroupSprites
 	assert_table_length NUM_MAP_GROUPS
@@ -307,7 +307,7 @@ IndigoGroupSprites:
 	db SPRITE_POKE_BALL
 	db SPRITE_BOULDER
 
-NewBarkGroupSprites:
+MystieForestGroupSprites:
 	db SPRITE_SUICUNE
 	db SPRITE_SILVER_TROPHY
 	db SPRITE_FAMICOM
