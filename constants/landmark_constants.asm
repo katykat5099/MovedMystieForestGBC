@@ -3,7 +3,7 @@
 	const LANDMARK_SPECIAL           ; 00
 ; Johto landmarks
 	const LANDMARK_MYSTIE_FOREST_VILLAGE     ; 01
-	const LANDMARK_ROUTE_29                  ; 02
+	const LANDMARK_MYSTIE_FOREST_TOWERS      ; 02
 	const LANDMARK_CHERRYGROVE_CITY          ; 03
 	const LANDMARK_ROUTE_30                  ; 04
 	const LANDMARK_ROUTE_31                  ; 05

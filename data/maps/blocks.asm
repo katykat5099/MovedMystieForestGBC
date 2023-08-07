@@ -76,8 +76,8 @@ Route33_Blocks:
 Route45_Blocks:
 	INCBIN "maps/Route45.blk"
 
-Route29_Blocks:
-	INCBIN "maps/Route29.blk"
+ThreeTowersConnect_Blocks:
+	INCBIN "maps/ThreeTowersConnect.blk"
 
 Route37_Blocks:
 	INCBIN "maps/Route37.blk"
