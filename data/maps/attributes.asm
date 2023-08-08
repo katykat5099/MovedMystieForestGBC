@@ -155,7 +155,7 @@ ENDM
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -9
 
 	map_attributes ThreeTowersConnect, THREE_TOWERS_CONNECT, $0F, NORTH | WEST | EAST
-	connection north, Route46, ROUTE_46, 10
+	connection north, TowerTwo, TOWER_TWO, 10
 	connection west, TowerOne, TOWER_ONE, 0
 	connection east, MystieForestVillage, MYSTIE_FOREST_VILLAGE, 0
 
@@ -222,11 +222,10 @@ ENDM
 
 	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
 	connection north, BlackthornCity, BLACKTHORN_CITY, 0
-	connection west, Route46, ROUTE_46, 36
+	connection west, TowerTwo, TOWER_TWO, 36
 
-	map_attributes Route46, ROUTE_46, $05, SOUTH | EAST
+	map_attributes TowerTwo, TOWER_TWO, $0F, SOUTH
 	connection south, ThreeTowersConnect, THREE_TOWERS_CONNECT, -10
-	connection east, Route45, ROUTE_45, -36
 
 	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
 	connection south, Route2, ROUTE_2, 5

@@ -136,8 +136,8 @@ Route42_Blocks:
 Route34_Blocks:
 	INCBIN "maps/Route34.blk"
 
-Route46_Blocks:
-	INCBIN "maps/Route46.blk"
+TowerTwo_Blocks:
+	INCBIN "maps/TowerTwo.blk"
 
 FuchsiaCity_Blocks:
 	INCBIN "maps/FuchsiaCity.blk"

@@ -404,7 +404,6 @@ PhoneScript_AnswerPhone_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAnswerPhoneText
@@ -441,11 +440,6 @@ PhoneScript_AnswerPhone_Female:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinAnswerPhoneText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Female_Day:
 	readvar VAR_CALLERID
 	ifequal PHONE_POKEFAN_BEVERLY, .Beverly
@@ -455,7 +449,6 @@ PhoneScript_AnswerPhone_Female_Day:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAnswerPhoneDayText
@@ -492,11 +485,6 @@ PhoneScript_AnswerPhone_Female_Day:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinAnswerPhoneDayText
-	promptbutton
-	end
-
 PhoneScript_AnswerPhone_Female_Nite:
 	readvar VAR_CALLERID
 	ifequal PHONE_POKEFAN_BEVERLY, .Beverly
@@ -506,7 +494,6 @@ PhoneScript_AnswerPhone_Female_Nite:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAnswerPhoneNiteText
@@ -540,11 +527,6 @@ PhoneScript_AnswerPhone_Female_Nite:
 
 .Tiffany:
 	farwritetext TiffanyAnswerPhoneNiteText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinAnswerPhoneNiteText
 	promptbutton
 	end
 
@@ -934,7 +916,6 @@ PhoneScript_GreetPhone_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGreetText
@@ -971,11 +952,6 @@ PhoneScript_GreetPhone_Female:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinGreetText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Female_Day:
 	readvar VAR_CALLERID
 	ifequal PHONE_POKEFAN_BEVERLY, .Beverly
@@ -985,7 +961,6 @@ PhoneScript_GreetPhone_Female_Day:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGreetDayText
@@ -1022,11 +997,6 @@ PhoneScript_GreetPhone_Female_Day:
 	promptbutton
 	end
 
-.Erin:
-	farwritetext ErinGreetDayText
-	promptbutton
-	end
-
 PhoneScript_GreetPhone_Female_Nite:
 	readvar VAR_CALLERID
 	ifequal PHONE_POKEFAN_BEVERLY, .Beverly
@@ -1036,7 +1006,6 @@ PhoneScript_GreetPhone_Female_Nite:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGreetNiteText
@@ -1070,11 +1039,6 @@ PhoneScript_GreetPhone_Female_Nite:
 
 .Tiffany:
 	farwritetext TiffanyGreetNiteText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinGreetNiteText
 	promptbutton
 	end
 
@@ -1197,7 +1161,6 @@ PhoneScript_Generic_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyGenericText
@@ -1231,11 +1194,6 @@ PhoneScript_Generic_Female:
 
 .Tiffany:
 	farwritetext TiffanyGenericText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinGenericText
 	promptbutton
 	end
 

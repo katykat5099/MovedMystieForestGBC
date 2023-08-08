@@ -1414,7 +1414,6 @@ AskNumber1FScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAskNumber1Text
@@ -1437,9 +1436,6 @@ AskNumber1FScript:
 .Tiffany:
 	farwritetext TiffanyAskNumber1Text
 	end
-.Erin:
-	farwritetext ErinAskNumber1Text
-	end
 
 AskNumber2FScript:
 	readvar VAR_CALLERID
@@ -1450,7 +1446,6 @@ AskNumber2FScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyAskNumber2Text
@@ -1473,9 +1468,6 @@ AskNumber2FScript:
 .Tiffany:
 	farwritetext TiffanyAskNumber2Text
 	end
-.Erin:
-	farwritetext ErinAskNumber2Text
-	end
 
 RegisteredNumberFScript:
 	farwritetext RegisteredNumber2Text
@@ -1493,7 +1485,6 @@ NumberAcceptedFScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyNumberAcceptedText
@@ -1530,11 +1521,6 @@ NumberAcceptedFScript:
 	waitbutton
 	closetext
 	end
-.Erin:
-	farwritetext ErinNumberAcceptedText
-	waitbutton
-	closetext
-	end
 
 NumberDeclinedFScript:
 	readvar VAR_CALLERID
@@ -1545,7 +1531,6 @@ NumberDeclinedFScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyNumberDeclinedText
@@ -1582,11 +1567,6 @@ NumberDeclinedFScript:
 	waitbutton
 	closetext
 	end
-.Erin:
-	farwritetext ErinNumberDeclinedText
-	waitbutton
-	closetext
-	end
 
 PhoneFullFScript:
 	readvar VAR_CALLERID
@@ -1597,7 +1577,6 @@ PhoneFullFScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyPhoneFullText
@@ -1634,11 +1613,6 @@ PhoneFullFScript:
 	waitbutton
 	closetext
 	end
-.Erin:
-	farwritetext ErinPhoneFullText
-	waitbutton
-	closetext
-	end
 
 RematchFScript:
 	readvar VAR_CALLERID
@@ -1648,7 +1622,6 @@ RematchFScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beth:
 	farwritetext BethRematchText
@@ -1677,11 +1650,6 @@ RematchFScript:
 	end
 .Tiffany:
 	farwritetext TiffanyRematchText
-	waitbutton
-	closetext
-	end
-.Erin:
-	farwritetext ErinRematchText
 	waitbutton
 	closetext
 	end
@@ -1716,7 +1684,6 @@ PackFullFScript:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyPackFullText
@@ -1738,21 +1705,8 @@ PackFullFScript:
 	waitbutton
 	closetext
 	end
-.Erin:
-	farwritetext ErinPackFullText
-	waitbutton
-	closetext
-	end
-
 RematchGiftFScript:
 	readvar VAR_CALLERID
-	ifequal PHONE_PICNICKER_ERIN, .Erin
-
-.Erin:
-	opentext
-	farwritetext ErinRematchGiftText
-	promptbutton
-	end
 
 GymStatue1Script:
 	getcurlandmarkname STRING_BUFFER_3
