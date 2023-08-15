@@ -97,7 +97,8 @@ MACRO connection
 ENDM
 
 
-	map_attributes MystieForestVillage, MYSTIE_FOREST_VILLAGE, $0F, WEST | EAST
+	map_attributes MystieForestVillage, MYSTIE_FOREST_VILLAGE, $0F, NORTH | WEST | EAST
+	connection north, EldersTower, ELDERS_TOWER, 0
 	connection west, ThreeTowersConnect, THREE_TOWERS_CONNECT, 0
 	connection east, Route27, ROUTE_27, 0
 
@@ -159,12 +160,11 @@ ENDM
 	connection west, TowerOne, TOWER_ONE, 0
 	connection east, MystieForestVillage, MYSTIE_FOREST_VILLAGE, 0
 
-	map_attributes Route30, ROUTE_30, $05, NORTH | SOUTH
-	connection north, Route31, ROUTE_31, -10
-	connection south, TowerOne, TOWER_ONE, -5
+	map_attributes EldersTower, ELDERS_TOWER, $0F, SOUTH
+	connection south, MystieForestVillage, MYSTIE_FOREST_VILLAGE, 0
 
 	map_attributes Route31, ROUTE_31, $05, SOUTH | WEST
-	connection south, Route30, ROUTE_30, 10
+	connection south, EldersTower, ELDERS_TOWER, 10
 	connection west, VioletCity, VIOLET_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH

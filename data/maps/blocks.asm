@@ -124,8 +124,8 @@ BetaSproutTower6_Blocks: ; unreferenced
 BetaPokecenter_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaPokecenter.blk"
 
-Route30_Blocks:
-	INCBIN "maps/Route30.blk"
+EldersTower_Blocks:
+	INCBIN "maps/EldersTower.blk"
 
 Route26_Blocks:
 	INCBIN "maps/Route26.blk"

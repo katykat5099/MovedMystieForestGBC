@@ -458,6 +458,7 @@ ENDM
 	map_const TOWER_ONE,                                   20,  9 ;  3
     map_const TOWER_TWO,                                   10, 18 ;  9
 	map_const THREE_TOWERS_CONNECT,                         30,  9 ;  3
+	map_const ELDERS_TOWER,                                10, 10 ;  1
 	map_const MYSTIE_FOREST_VILLAGE,                       10,  9 ;  4
 	map_const ELMS_LAB,                                     5,  6 ;  5
 	map_const PLAYERS_HOUSE_1F,                             5,  4 ;  6
@@ -489,7 +490,6 @@ ENDM
 	endgroup
 
 	newgroup CHERRYGROVE                                          ; 26
-	map_const ROUTE_30,                                    10, 27 ;  1
 	map_const ROUTE_31,                                    20,  9 ;  2
 	map_const CHERRYGROVE_MART,                             6,  4 ;  4
 	map_const CHERRYGROVE_POKECENTER_1F,                    5,  4 ;  5
