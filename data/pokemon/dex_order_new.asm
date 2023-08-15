@@ -230,7 +230,7 @@ NewPokedexOrder:
 	db BUCKLEO
 	db WOFF
 	db VANTARO
-	db CHARMANDER
+	db GEKKOU
 	db CHARMELEON
 	db CHARIZARD
 	db SQUIRTLE

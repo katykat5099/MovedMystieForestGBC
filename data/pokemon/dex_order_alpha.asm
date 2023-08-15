@@ -24,7 +24,7 @@ AlphabeticalPokedexOrder:
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
-	db CHARMANDER
+	db GEKKOU
 	db CHARMELEON
 	db CHIKORITA
 	db CHINCHOU

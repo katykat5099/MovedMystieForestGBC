@@ -4,7 +4,7 @@ PokedexDataPointerTable:
 	dw BuckleoPokedexEntry
 	dw WoffPokedexEntry
 	dw VantaroPokedexEntry
-	dw CharmanderPokedexEntry
+	dw GekkouPokedexEntry
 	dw CharmeleonPokedexEntry
 	dw CharizardPokedexEntry
 	dw SquirtlePokedexEntry

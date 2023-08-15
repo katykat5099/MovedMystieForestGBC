@@ -22,7 +22,7 @@
 	const BUCKLEO    ; 01
 	const WOFF       ; 02
 	const VANTARO    ; 03
-	const CHARMANDER ; 04
+	const GEKKOU     ; 04
 	const CHARMELEON ; 05
 	const CHARIZARD  ; 06
 	const SQUIRTLE   ; 07

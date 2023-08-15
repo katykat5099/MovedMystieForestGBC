@@ -9,8 +9,8 @@ PokemonPicPointers::
 	dba_pic WoffBackpic
 	dba_pic VantaroFrontpic
 	dba_pic VantaroBackpic
-	dba_pic CharmanderFrontpic
-	dba_pic CharmanderBackpic
+	dba_pic GekkouFrontpic
+	dba_pic GekkouBackpic
 	dba_pic CharmeleonFrontpic
 	dba_pic CharmeleonBackpic
 	dba_pic CharizardFrontpic

@@ -3,7 +3,7 @@ BitmasksPointers:
 	dw BuckleoBitmasks
 	dw WoffBitmasks
 	dw VantaroBitmasks
-	dw CharmanderBitmasks
+	dw GekkouBitmasks
 	dw CharmeleonBitmasks
 	dw CharizardBitmasks
 	dw SquirtleBitmasks

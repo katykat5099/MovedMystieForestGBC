@@ -3,7 +3,7 @@ AnimationPointers:
 	dw BuckleoAnimation
 	dw WoffAnimation
 	dw VantaroAnimation
-	dw CharmanderAnimation
+	dw GekkouAnimation
 	dw CharmeleonAnimation
 	dw CharizardAnimation
 	dw SquirtleAnimation

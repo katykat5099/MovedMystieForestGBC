@@ -3,7 +3,7 @@ PokemonNames::
 	db "Buckleo@@@"
 	db "Woff@@@@@@"
 	db "Vantaro@@@"
-	db "CHARMANDER"
+	db "Gekkou@@@@"
 	db "CHARMELEON"
 	db "CHARIZARD@"
 	db "SQUIRTLE@@"

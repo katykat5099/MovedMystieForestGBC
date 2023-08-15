@@ -31,19 +31,11 @@ VantaroEvosAttacks:
 	db 1, GROWL
 	db 0 ; no more level-up moves
 
-CharmanderEvosAttacks:
-	db EVOLVE_LEVEL, 16, CHARMELEON
+GekkouEvosAttacks:
+	db EVOLVE_LEVEL, 16, CHARMELEON ; to-do
 	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, GROWL
-	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 19, RAGE
-	db 25, SCARY_FACE
-	db 31, FLAMETHROWER
-	db 37, SLASH
-	db 43, DRAGON_RAGE
-	db 49, FIRE_SPIN
+	db 1, SCRATCH ; to-do, dragon scratch (dragon type scratch)
+	db 1, TWISTER
 	db 0 ; no more level-up moves
 
 CharmeleonEvosAttacks:

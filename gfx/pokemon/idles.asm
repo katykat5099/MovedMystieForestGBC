@@ -1,7 +1,7 @@
 BuckleoAnimationIdle:    INCLUDE "gfx/pokemon/buckleo/anim_idle.asm"
 WoffAnimationIdle:       INCLUDE "gfx/pokemon/woff/anim_idle.asm"
 VantaroAnimationIdle:    INCLUDE "gfx/pokemon/vantaro/anim_idle.asm"
-CharmanderAnimationIdle: INCLUDE "gfx/pokemon/charmander/anim_idle.asm"
+GekkouAnimationIdle:     INCLUDE "gfx/pokemon/gekkou/anim_idle.asm"
 CharmeleonAnimationIdle: INCLUDE "gfx/pokemon/charmeleon/anim_idle.asm"
 CharizardAnimationIdle:  INCLUDE "gfx/pokemon/charizard/anim_idle.asm"
 SquirtleAnimationIdle:   INCLUDE "gfx/pokemon/squirtle/anim_idle.asm"

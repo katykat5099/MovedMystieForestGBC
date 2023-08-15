@@ -10,15 +10,6 @@ SECTION "Egg Moves", ROMX
 
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
-CharmanderEggMoves:
-	db BELLY_DRUM
-	db ANCIENTPOWER
-	db ROCK_SLIDE
-	db BITE
-	db OUTRAGE
-	db BEAT_UP
-	db -1 ; end
-
 SquirtleEggMoves:
 	db MIRROR_COAT
 	db HAZE

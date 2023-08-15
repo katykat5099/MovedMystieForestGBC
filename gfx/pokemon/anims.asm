@@ -1,7 +1,7 @@
 BuckleoAnimation:    INCLUDE "gfx/pokemon/buckleo/anim.asm"
 WoffAnimation:       INCLUDE "gfx/pokemon/woff/anim.asm"
 VantaroAnimation:    INCLUDE "gfx/pokemon/vantaro/anim.asm"
-CharmanderAnimation: INCLUDE "gfx/pokemon/charmander/anim.asm"
+GekkouAnimation:     INCLUDE "gfx/pokemon/gekkou/anim.asm"
 CharmeleonAnimation: INCLUDE "gfx/pokemon/charmeleon/anim.asm"
 CharizardAnimation:  INCLUDE "gfx/pokemon/charizard/anim.asm"
 SquirtleAnimation:   INCLUDE "gfx/pokemon/squirtle/anim.asm"

@@ -5,7 +5,7 @@ EvosAttacksPointers::
 	dw BuckleoEvosAttacks
 	dw WoffEvosAttacks
 	dw VantaroEvosAttacks
-	dw CharmanderEvosAttacks
+	dw GekkouEvosAttacks
 	dw CharmeleonEvosAttacks
 	dw CharizardEvosAttacks
 	dw SquirtleEvosAttacks

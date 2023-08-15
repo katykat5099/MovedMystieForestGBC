@@ -3,7 +3,7 @@ FramesPointers:
 	dw BuckleoFrames
 	dw WoffFrames
 	dw VantaroFrames
-	dw CharmanderFrames
+	dw GekkouFrames
 	dw CharmeleonFrames
 	dw CharizardFrames
 	dw SquirtleFrames

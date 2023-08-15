@@ -3,7 +3,7 @@ SECTION "Pokedex Entries 001-064", ROMX
 BuckleoPokedexEntry::    INCLUDE "data/pokemon/dex_entries/buckleo.asm"
 WoffPokedexEntry::       INCLUDE "data/pokemon/dex_entries/ivysaur.asm"
 VantaroPokedexEntry::    INCLUDE "data/pokemon/dex_entries/vantaro.asm"
-CharmanderPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmander.asm"
+GekkouPokedexEntry::     INCLUDE "data/pokemon/dex_entries/gekkou.asm"
 CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"
 SquirtlePokedexEntry::   INCLUDE "data/pokemon/dex_entries/squirtle.asm"

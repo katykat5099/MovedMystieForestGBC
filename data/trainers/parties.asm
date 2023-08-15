@@ -802,7 +802,6 @@ JanineGroup:
 CooltrainerMGroup:
 	; COOLTRAINERM (1)
 	db "NICK@", TRAINERTYPE_MOVES
-	db 26, CHARMANDER, EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	db 26, SQUIRTLE,   WITHDRAW, WATER_GUN, BITE, CURSE
 	db -1 ; end
 
@@ -877,19 +876,16 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (13)
 	db "ERICK@", TRAINERTYPE_NORMAL
-	db 10, CHARMANDER
 	db 10, SQUIRTLE
 	db -1 ; end
 
 	; COOLTRAINERM (14)
 	db "ANDY@", TRAINERTYPE_NORMAL
-	db 10, CHARMANDER
 	db 10, SQUIRTLE
 	db -1 ; end
 
 	; COOLTRAINERM (15)
 	db "TYLER@", TRAINERTYPE_NORMAL
-	db 10, CHARMANDER
 	db 10, SQUIRTLE
 	db -1 ; end
 
@@ -909,7 +905,6 @@ CooltrainerMGroup:
 
 	; COOLTRAINERM (18)
 	db "STEVE@", TRAINERTYPE_NORMAL
-	db 14, CHARMANDER
 	db 14, SQUIRTLE
 	db -1 ; end
 
@@ -3223,7 +3218,6 @@ PokefanMGroup:
 
 	; POKEFANM (5)
 	db "CARTER@", TRAINERTYPE_ITEM
-	db 29, CHARMANDER, BERRY
 	db 29, SQUIRTLE,   BERRY
 	db -1 ; end
 
