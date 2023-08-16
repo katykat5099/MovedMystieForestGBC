@@ -27,9 +27,6 @@ SaffronCity_Blocks:
 Route2_Blocks:
 	INCBIN "maps/Route2.blk"
 
-ElmsHouse_Blocks:
-	INCBIN "maps/ElmsHouse.blk"
-
 BetaSproutTower1_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaSproutTower1.blk"
 
@@ -292,8 +289,8 @@ BetaOlivineCity_Blocks: ; unreferenced
 BetaNewBarkTown_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaNewBarkTown.blk"
 
-ElmsLab_Blocks:
-	INCBIN "maps/ElmsLab.blk"
+EldersTowerIndoor_Blocks:
+	INCBIN "maps/EldersTowerIndoor.blk"
 
 CeruleanCity_Blocks:
 	INCBIN "maps/CeruleanCity.blk"
