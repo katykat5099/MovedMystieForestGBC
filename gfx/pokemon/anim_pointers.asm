@@ -6,7 +6,7 @@ AnimationPointers:
 	dw GekkouAnimation
 	dw WizardonAnimation
 	dw CharizardAnimation
-	dw SquirtleAnimation
+	dw GekklodonAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation
 	dw CaterpieAnimation

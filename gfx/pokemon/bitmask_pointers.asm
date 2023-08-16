@@ -6,7 +6,7 @@ BitmasksPointers:
 	dw GekkouBitmasks
 	dw WizardonBitmasks
 	dw CharizardBitmasks
-	dw SquirtleBitmasks
+	dw GekklodonBitmasks
 	dw WartortleBitmasks
 	dw BlastoiseBitmasks
 	dw CaterpieBitmasks

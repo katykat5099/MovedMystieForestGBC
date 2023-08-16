@@ -10,15 +10,6 @@ SECTION "Egg Moves", ROMX
 
 INCLUDE "data/pokemon/egg_move_pointers.asm"
 
-SquirtleEggMoves:
-	db MIRROR_COAT
-	db HAZE
-	db MIST
-	db CONFUSION
-	db FORESIGHT
-	db FLAIL
-	db -1 ; end
-
 PidgeyEggMoves:
 	db PURSUIT
 	db FAINT_ATTACK

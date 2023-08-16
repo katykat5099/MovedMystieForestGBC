@@ -800,14 +800,8 @@ JanineGroup:
 	db -1 ; end
 
 CooltrainerMGroup:
-	; COOLTRAINERM (1)
-	db "NICK@", TRAINERTYPE_MOVES
-	db 26, SQUIRTLE,   WITHDRAW, WATER_GUN, BITE, CURSE
-	db -1 ; end
-
 	; COOLTRAINERM (2)
 	db "AARON@", TRAINERTYPE_NORMAL
-	db 24, WIZARDON
 	db 24, WARTORTLE
 	db -1 ; end
 
@@ -874,21 +868,6 @@ CooltrainerMGroup:
 	db 35, SANDSLASH,  SAND_ATTACK, POISON_STING, SLASH, SWIFT
 	db -1 ; end
 
-	; COOLTRAINERM (13)
-	db "ERICK@", TRAINERTYPE_NORMAL
-	db 10, SQUIRTLE
-	db -1 ; end
-
-	; COOLTRAINERM (14)
-	db "ANDY@", TRAINERTYPE_NORMAL
-	db 10, SQUIRTLE
-	db -1 ; end
-
-	; COOLTRAINERM (15)
-	db "TYLER@", TRAINERTYPE_NORMAL
-	db 10, SQUIRTLE
-	db -1 ; end
-
 	; COOLTRAINERM (16)
 	db "SEAN@", TRAINERTYPE_NORMAL
 	db 35, FLAREON
@@ -899,18 +878,7 @@ CooltrainerMGroup:
 	; COOLTRAINERM (17)
 	db "KEVIN@", TRAINERTYPE_NORMAL
 	db 38, RHYHORN
-	db 35, WIZARDON
 	db 35, WARTORTLE
-	db -1 ; end
-
-	; COOLTRAINERM (18)
-	db "STEVE@", TRAINERTYPE_NORMAL
-	db 14, SQUIRTLE
-	db -1 ; end
-
-	; COOLTRAINERM (19)
-	db "ALLEN@", TRAINERTYPE_MOVES
-	db 27, WIZARDON, EMBER, SMOKESCREEN, RAGE, SCARY_FACE
 	db -1 ; end
 
 	; COOLTRAINERM (20)
@@ -2433,7 +2401,6 @@ BikerGroup:
 	; BIKER (6)
 	db "CHARLES@", TRAINERTYPE_NORMAL
 	db 30, KOFFING
-	db 30, WIZARDON
 	db 30, WEEZING
 	db -1 ; end
 
@@ -2491,11 +2458,6 @@ FirebreatherGroup:
 	db 29, MAGMAR
 	db 32, WEEZING
 	db 29, MAGMAR
-	db -1 ; end
-
-	; FIREBREATHER (2)
-	db "DICK@", TRAINERTYPE_NORMAL
-	db 17, WIZARDON
 	db -1 ; end
 
 	; FIREBREATHER (3)
@@ -3214,11 +3176,6 @@ PokefanMGroup:
 	db 23, PIKACHU,    BERRY
 	db 23, PIKACHU,    BERRY
 	db 23, PIKACHU,    BERRY
-	db -1 ; end
-
-	; POKEFANM (5)
-	db "CARTER@", TRAINERTYPE_ITEM
-	db 29, SQUIRTLE,   BERRY
 	db -1 ; end
 
 	; POKEFANM (6)

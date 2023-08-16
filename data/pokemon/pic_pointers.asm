@@ -15,8 +15,8 @@ PokemonPicPointers::
 	dba_pic WizardonBackpic
 	dba_pic CharizardFrontpic
 	dba_pic CharizardBackpic
-	dba_pic SquirtleFrontpic
-	dba_pic SquirtleBackpic
+	dba_pic GekklodonFrontpic
+	dba_pic GekklodonBackpic
 	dba_pic WartortleFrontpic
 	dba_pic WartortleBackpic
 	dba_pic BlastoiseFrontpic

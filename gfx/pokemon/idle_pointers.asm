@@ -6,7 +6,7 @@ AnimationIdlePointers:
 	dw GekkouAnimationIdle
 	dw WizardonAnimationIdle
 	dw CharizardAnimationIdle
-	dw SquirtleAnimationIdle
+	dw GekklodonAnimationIdle
 	dw WartortleAnimationIdle
 	dw BlastoiseAnimationIdle
 	dw CaterpieAnimationIdle

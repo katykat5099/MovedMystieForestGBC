@@ -25,7 +25,7 @@
 	const GEKKOU     ; 04
 	const WIZARDON   ; 05
 	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
+	const GEKKLODON  ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
 	const CATERPIE   ; 0a

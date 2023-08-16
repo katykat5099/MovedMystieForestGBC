@@ -6,7 +6,7 @@ PokemonNames::
 	db "Gekkou@@@@"
 	db "Wizardon@@"
 	db "CHARIZARD@"
-	db "SQUIRTLE@@"
+	db "Gekklodon@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
 	db "CATERPIE@@"

@@ -6,7 +6,7 @@ FramesPointers:
 	dw GekkouFrames
 	dw WizardonFrames
 	dw CharizardFrames
-	dw SquirtleFrames
+	dw GekklodonFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
 	dw CaterpieFrames

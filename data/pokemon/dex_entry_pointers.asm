@@ -7,7 +7,7 @@ PokedexDataPointerTable:
 	dw GekkouPokedexEntry
 	dw WizardonPokedexEntry
 	dw CharizardPokedexEntry
-	dw SquirtlePokedexEntry
+	dw GekklodonPokedexEntry
 	dw WartortlePokedexEntry
 	dw BlastoisePokedexEntry
 	dw CaterpiePokedexEntry
