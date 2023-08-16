@@ -648,7 +648,7 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText1
+	ld hl, MystieForestTaskText
 	call PrintText
 	call RotateThreePalettesRight
 	call ClearTilemap
@@ -706,8 +706,8 @@ OakSpeech:
 	call PrintText
 	ret
 
-OakText1:
-	text_far _OakText1
+MystieForestTaskText:
+	text_far _MystieForestTaskText
 	text_end
 
 OakText2:

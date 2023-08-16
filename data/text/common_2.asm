@@ -1525,17 +1525,41 @@ _MayRegisterItemText::
 	line "on SELECT Button."
 	done
 
-_OakText1::
-	text "Hello! Sorry to"
-	line "keep you waiting!"
+_MystieForestTaskText::
+	text "Hello! Welcome to"
+	line "Mystie Forest."
 
-	para "Welcome to the"
-	line "world of #MON!"
+	para "Allow me to intro-"
+	line "duce you to, well,"
+	para "yourself!"
 
-	para "My name is OAK."
+	para "You're a young"
+	line "adult, part of a"
+	para "group of trainee"
+	line "researchers in"
+	para "the Mystie"
+	line "Village."
 
-	para "People call me the"
-	line "#MON PROF."
+	para "Today is the day"
+	line "that you finally"
+	para "get to be recog-"
+	line "nised as an"
+	para "official"
+	line "member of the"
+	para "Researching Team."
+
+	para "To earn this new"
+	line "position, you"
+	para "must complete"
+	line "a secret test!"
+
+	para "What is this"
+	line "test?"
+
+	para "Come find me"
+	line "right away to"
+	para "find out!"
+
 	prompt
 
 _OakText2::
