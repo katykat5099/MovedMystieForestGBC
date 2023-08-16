@@ -1,11 +1,11 @@
 	object_const_def
 
-ElmsLab_MapScripts:
+ThreeTowersConnect_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
 
-ElmsLab_MapEvents:
+ThreeTowersConnect_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events

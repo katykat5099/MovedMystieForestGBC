@@ -34,7 +34,6 @@ MrPokemonsHouseMrPokemonEventScript:
 	waitsfx
 	itemnotify
 	setevent EVENT_GOT_MYSTERY_EGG_FROM_MR_POKEMON
-	blackoutmod CHERRYGROVE_CITY
 	writetext MrPokemonIntroText3
 	promptbutton
 	turnobject MRPOKEMONSHOUSE_GENTLEMAN, RIGHT
@@ -124,8 +123,6 @@ MrPokemonsHouse_OakScript:
 	setevent EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
 	clearevent EVENT_PLAYERS_NEIGHBORS_HOUSE_NEIGHBOR
 	setscene SCENE_MRPOKEMONSHOUSE_NOOP
-	setmapscene CHERRYGROVE_CITY, SCENE_CHERRYGROVECITY_MEET_RIVAL
-	setmapscene ELMS_LAB, SCENE_ELMSLAB_MEET_OFFICER
 	specialphonecall SPECIALCALL_ROBBED
 	clearevent EVENT_COP_IN_ELMS_LAB
 	checkevent EVENT_GOT_TOTODILE_FROM_ELM
@@ -374,8 +371,6 @@ MrPokemonsHouse_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  2,  7, ROUTE_30, 2
-	warp_event  3,  7, ROUTE_30, 2
 
 	def_coord_events
 

@@ -168,7 +168,6 @@ Phone_WhosBragging_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyMadeMonEvenCuterText
@@ -202,11 +201,6 @@ Phone_WhosBragging_Female:
 
 .Tiffany:
 	farwritetext TiffanyMonIsAdorableText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinMonIsMuchStrongerText
 	promptbutton
 	end
 
@@ -324,7 +318,6 @@ Phone_WhoDefeatedMon_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyDefeatedMonText
@@ -358,11 +351,6 @@ Phone_WhoDefeatedMon_Female:
 
 .Tiffany:
 	farwritetext TiffanyDefeatedMonText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinDefeatedMonText
 	promptbutton
 	end
 
@@ -480,7 +468,6 @@ Phone_WhoLostAMon_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyLostAMonText
@@ -514,11 +501,6 @@ Phone_WhoLostAMon_Female:
 
 .Tiffany:
 	farwritetext TiffanyLostAMonText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinLostAMonText
 	promptbutton
 	end
 
@@ -643,7 +625,6 @@ PhoneScript_RematchText_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beth:
 	farwritetext BethBattleRematchText
@@ -672,11 +653,6 @@ PhoneScript_RematchText_Female:
 
 .Tiffany:
 	farwritetext TiffanyBattleRematchText
-	promptbutton
-	end
-
-.Erin:
-	farwritetext ErinBattleRematchText
 	promptbutton
 	end
 
@@ -800,7 +776,6 @@ PhoneScript_HangUpText_Female:
 	ifequal PHONE_PICNICKER_GINA, .Gina
 	ifequal PHONE_LASS_DANA, .Dana
 	ifequal PHONE_PICNICKER_TIFFANY, .Tiffany
-	ifequal PHONE_PICNICKER_ERIN, .Erin
 
 .Beverly:
 	farwritetext BeverlyHangUpText
@@ -830,9 +805,6 @@ PhoneScript_HangUpText_Female:
 	farwritetext TiffanyHangUpText
 	end
 
-.Erin:
-	farwritetext ErinHangUpText
-	end
 
 Phone_CheckIfUnseenRare_Male:
 	scall PhoneScriptRareWildMon

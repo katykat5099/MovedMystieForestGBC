@@ -97,13 +97,13 @@ MACRO connection
 ENDM
 
 
-	map_attributes MystieForestVillage, MYSTIE_FOREST_VILLAGE, $07, WEST | EAST
-	connection west, Route29, ROUTE_29, 0
+	map_attributes MystieForestVillage, MYSTIE_FOREST_VILLAGE, $0F, NORTH | WEST | EAST
+	connection north, EldersTower, ELDERS_TOWER, 0
+	connection west, ThreeTowersConnect, THREE_TOWERS_CONNECT, 0
 	connection east, Route27, ROUTE_27, 0
 
-	map_attributes CherrygroveCity, CHERRYGROVE_CITY, $35, NORTH | EAST
-	connection north, Route30, ROUTE_30, 5
-	connection east, Route29, ROUTE_29, 0
+	map_attributes TowerOne, TOWER_ONE, $0F, EAST
+	connection east, ThreeTowersConnect, THREE_TOWERS_CONNECT, 0
 
 	map_attributes VioletCity, VIOLET_CITY, $05, SOUTH | WEST | EAST
 	connection south, Route32, ROUTE_32, 0
@@ -155,17 +155,16 @@ ENDM
 	map_attributes Route28, ROUTE_28, $2c, WEST
 	connection west, SilverCaveOutside, SILVER_CAVE_OUTSIDE, -9
 
-	map_attributes Route29, ROUTE_29, $05, NORTH | WEST | EAST
-	connection north, Route46, ROUTE_46, 10
-	connection west, CherrygroveCity, CHERRYGROVE_CITY, 0
+	map_attributes ThreeTowersConnect, THREE_TOWERS_CONNECT, $0F, NORTH | WEST | EAST
+	connection north, TowerTwo, TOWER_TWO, 10
+	connection west, TowerOne, TOWER_ONE, 0
 	connection east, MystieForestVillage, MYSTIE_FOREST_VILLAGE, 0
 
-	map_attributes Route30, ROUTE_30, $05, NORTH | SOUTH
-	connection north, Route31, ROUTE_31, -10
-	connection south, CherrygroveCity, CHERRYGROVE_CITY, -5
+	map_attributes EldersTower, ELDERS_TOWER, $0F, SOUTH
+	connection south, MystieForestVillage, MYSTIE_FOREST_VILLAGE, 0
 
 	map_attributes Route31, ROUTE_31, $05, SOUTH | WEST
-	connection south, Route30, ROUTE_30, 10
+	connection south, EldersTower, ELDERS_TOWER, 10
 	connection west, VioletCity, VIOLET_CITY, -9
 
 	map_attributes Route32, ROUTE_32, $05, NORTH | SOUTH
@@ -223,11 +222,10 @@ ENDM
 
 	map_attributes Route45, ROUTE_45, $71, NORTH | WEST
 	connection north, BlackthornCity, BLACKTHORN_CITY, 0
-	connection west, Route46, ROUTE_46, 36
+	connection west, TowerTwo, TOWER_TWO, 36
 
-	map_attributes Route46, ROUTE_46, $05, SOUTH | EAST
-	connection south, Route29, ROUTE_29, -10
-	connection east, Route45, ROUTE_45, -36
+	map_attributes TowerTwo, TOWER_TWO, $0F, SOUTH
+	connection south, ThreeTowersConnect, THREE_TOWERS_CONNECT, -10
 
 	map_attributes PewterCity, PEWTER_CITY, $0f, SOUTH | EAST
 	connection south, Route2, ROUTE_2, 5

@@ -76,8 +76,8 @@ Route33_Blocks:
 Route45_Blocks:
 	INCBIN "maps/Route45.blk"
 
-Route29_Blocks:
-	INCBIN "maps/Route29.blk"
+ThreeTowersConnect_Blocks:
+	INCBIN "maps/ThreeTowersConnect.blk"
 
 Route37_Blocks:
 	INCBIN "maps/Route37.blk"
@@ -124,8 +124,8 @@ BetaSproutTower6_Blocks: ; unreferenced
 BetaPokecenter_Blocks: ; unreferenced
 	INCBIN "maps/unused/BetaPokecenter.blk"
 
-Route30_Blocks:
-	INCBIN "maps/Route30.blk"
+EldersTower_Blocks:
+	INCBIN "maps/EldersTower.blk"
 
 Route26_Blocks:
 	INCBIN "maps/Route26.blk"
@@ -136,8 +136,8 @@ Route42_Blocks:
 Route34_Blocks:
 	INCBIN "maps/Route34.blk"
 
-Route46_Blocks:
-	INCBIN "maps/Route46.blk"
+TowerTwo_Blocks:
+	INCBIN "maps/TowerTwo.blk"
 
 FuchsiaCity_Blocks:
 	INCBIN "maps/FuchsiaCity.blk"
@@ -526,8 +526,8 @@ RadioTower5F_Blocks:
 MystieForestVillage_Blocks:
 	INCBIN "maps/MystieForestVillage.blk"
 
-CherrygroveCity_Blocks:
-	INCBIN "maps/CherrygroveCity.blk"
+TowerOne_Blocks:
+	INCBIN "maps/TowerOne.blk"
 
 VioletCity_Blocks:
 	INCBIN "maps/VioletCity.blk"

@@ -397,7 +397,7 @@ INCLUDE "maps/OaksLab.asm"
 
 SECTION "Map Scripts 20", ROMX
 
-INCLUDE "maps/CherrygroveCity.asm"
+INCLUDE "maps/TowerOne.asm"
 INCLUDE "maps/Route35.asm"
 INCLUDE "maps/Route43.asm"
 INCLUDE "maps/Route44.asm"
@@ -410,8 +410,8 @@ SECTION "Map Scripts 21", ROMX
 
 INCLUDE "maps/CianwoodCity.asm"
 INCLUDE "maps/Route27.asm"
-INCLUDE "maps/Route29.asm"
-INCLUDE "maps/Route30.asm"
+INCLUDE "maps/ThreeTowersConnect.asm"
+INCLUDE "maps/EldersTower.asm"
 INCLUDE "maps/Route38.asm"
 INCLUDE "maps/Route13.asm"
 INCLUDE "maps/PewterNidoranSpeechHouse.asm"
@@ -442,7 +442,7 @@ INCLUDE "maps/VioletCity.asm"
 INCLUDE "maps/OlivineCity.asm"
 INCLUDE "maps/Route37.asm"
 INCLUDE "maps/Route42.asm"
-INCLUDE "maps/Route46.asm"
+INCLUDE "maps/TowerTwo.asm"
 INCLUDE "maps/ViridianCity.asm"
 INCLUDE "maps/CeladonCity.asm"
 INCLUDE "maps/Route15.asm"
