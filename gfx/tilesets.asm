@@ -344,3 +344,12 @@ INCBIN "data/tilesets/mystie_forest_metatiles.bin"
 
 TilesetMystieForestColl::
 INCLUDE "data/tilesets/mystie_forest_collision.asm"
+
+TilesetMystieTowersGFX::
+INCBIN "gfx/tilesets/mystie_towers.2bpp.lz"
+
+TilesetMystieTowersMeta::
+INCBIN "data/tilesets/mystie_towers_metatiles.bin"
+
+TilesetMystieTowersColl::
+INCLUDE "data/tilesets/mystie_towers_collision.asm"
