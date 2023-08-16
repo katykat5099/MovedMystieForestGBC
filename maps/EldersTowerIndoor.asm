@@ -20,7 +20,7 @@ MeetResearcherScript1:
     disappear ELDERSTOWERINDOOR_RESEARCHER
     stopfollow
     applymovement PLAYER, StepRight
-    warpfacing LEFT, ELDERS_TOWER_INDOOR, 21, 2
+    warpfacing LEFT, ELDERS_TOWER_INDOOR, 21, 3
     setscene SCENE_FINISHED
     end
 
@@ -37,7 +37,7 @@ MeetResearcherScript2:
     disappear ELDERSTOWERINDOOR_RESEARCHER
     stopfollow
     applymovement PLAYER, StepRight
-    warpfacing LEFT, ELDERS_TOWER_INDOOR, 21, 2
+    warpfacing LEFT, ELDERS_TOWER_INDOOR, 21, 3
     setscene SCENE_FINISHED
     end
 
@@ -69,7 +69,6 @@ GoUpstairs1:
     step UP
     step UP
     step UP
-    step UP
     step RIGHT
     step RIGHT
     step RIGHT
@@ -85,7 +84,6 @@ GoTowardPlayer2:
     step_end
 
 GoUpstairs2:
-    step UP
     step UP
     step UP
     step UP
@@ -110,8 +108,8 @@ EldersTowerIndoor_MapEvents:
 	def_warp_events
 	warp_event  4, 21, ELDERS_TOWER, 1
 	warp_event  5, 21, ELDERS_TOWER, 2
-	warp_event  9, 14, ELDERS_TOWER_INDOOR, 4
-	warp_event 21,  2, ELDERS_TOWER_INDOOR, 3
+	warp_event  9, 15, ELDERS_TOWER_INDOOR, 4
+	warp_event 21,  3, ELDERS_TOWER_INDOOR, 3
 
 	def_coord_events
 	coord_event  4, 20, SCENE_DEFAULT, MeetResearcherScript1
