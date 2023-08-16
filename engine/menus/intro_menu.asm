@@ -628,7 +628,7 @@ Continue_DisplayGameTime:
 	lb bc, PRINTNUM_LEADINGZEROS | 1, 2
 	jp PrintNum
 
-OakSpeech:
+OakSpeech: ; todo Add Sprites for Player & Elder replacing Prof.
 	farcall InitClock
 	call RotateFourPalettesLeft
 	call ClearTilemap
@@ -648,45 +648,7 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, MystieForestTaskText
-	call PrintText
-	call RotateThreePalettesRight
-	call ClearTilemap
-
-	ld a, WOOPER
-	ld [wCurSpecies], a
-	ld [wCurPartySpecies], a
-	call GetBaseData
-
-	hlcoord 6, 4
-	call PrepMonFrontpic
-
-	xor a
-	ld [wTempMonDVs], a
-	ld [wTempMonDVs + 1], a
-
-	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
-	call GetSGBLayout
-	call Intro_WipeInFrontpic
-
-	ld hl, OakText2
-	call PrintText
-	ld hl, OakText4
-	call PrintText
-	call RotateThreePalettesRight
-	call ClearTilemap
-
-	xor a
-	ld [wCurPartySpecies], a
-	ld a, POKEMON_PROF
-	ld [wTrainerClass], a
-	call Intro_PrepTrainerPic
-
-	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
-	call GetSGBLayout
-	call Intro_RotatePalettesLeftFrontpic
-
-	ld hl, OakText5
+	ld hl, MystieForestWelcome
 	call PrintText
 	call RotateThreePalettesRight
 	call ClearTilemap
@@ -699,44 +661,53 @@ OakSpeech:
 	call GetSGBLayout
 	call Intro_RotatePalettesLeftFrontpic
 
-	ld hl, OakText6
+	ld hl, MystieForestName
 	call PrintText
 	call NamePlayer
-	ld hl, OakText7
+	call RotateThreePalettesRight
+    call ClearTilemap
+
+	xor a
+    ld [wCurPartySpecies], a
+    ld a, POKEMON_PROF
+    ld [wTrainerClass], a
+    call Intro_PrepTrainerPic
+
+    ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
+    call GetSGBLayout
+    call Intro_RotatePalettesLeftFrontpic
+
+    ld hl, MystieForestTaskText
+	call PrintText
+	call RotateThreePalettesRight
+    call ClearTilemap
+
+	xor a
+	ld [wCurPartySpecies], a
+	farcall DrawIntroPlayerPic
+
+	ld b, SCGB_TRAINER_OR_MON_FRONTPIC_PALS
+	call GetSGBLayout
+	call Intro_RotatePalettesLeftFrontpic
+
+	ld hl, MystieForestEndIntro
 	call PrintText
 	ret
+
+MystieForestWelcome:
+	text_far _MystieForestWelcome
+	text_end
+
+MystieForestName:
+	text_far _MystieForestName
+	text_end
 
 MystieForestTaskText:
 	text_far _MystieForestTaskText
 	text_end
 
-OakText2:
-	text_far _OakText2
-	text_asm
-	ld a, WOOPER
-	call PlayMonCry
-	call WaitSFX
-	ld hl, OakText3
-	ret
-
-OakText3:
-	text_far _OakText3
-	text_end
-
-OakText4:
-	text_far _OakText4
-	text_end
-
-OakText5:
-	text_far _OakText5
-	text_end
-
-OakText6:
-	text_far _OakText6
-	text_end
-
-OakText7:
-	text_far _OakText7
+MystieForestEndIntro:
+	text_far _MystieForestEndIntro
 	text_end
 
 NamePlayer:

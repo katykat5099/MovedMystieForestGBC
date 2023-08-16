@@ -1525,11 +1525,18 @@ _MayRegisterItemText::
 	line "on SELECT Button."
 	done
 
-_MystieForestTaskText::
+_MystieForestWelcome::
 	text "Hello! Welcome to"
 	line "Mystie Forest."
+	prompt
 
-	para "Allow me to intro-"
+_MystieForestName::
+	text "What is your"
+	line "name?"
+	prompt
+
+_MystieForestTaskText::
+	text "Allow me to intro-"
 	line "duce you to, well,"
 	para "yourself!"
 
@@ -1559,43 +1566,8 @@ _MystieForestTaskText::
 	para "Come find me"
 	line "right away to"
 	para "find out!"
-
 	prompt
 
-_OakText2::
-	text "This world is in-"
-	line "habited by crea-"
-	cont "tures that we call"
-	cont "#MON.@"
-	text_end
-
-_OakText3::
-	text_promptbutton
-	text_end
-
-	text_end ; unreferenced
-
-_OakText4::
-	text "People and #MON"
-	line "live together by"
-
-	para "supporting each"
-	line "other."
-
-	para "Some people play"
-	line "with #MON, some"
-	cont "battle with them."
-	prompt
-
-_OakText5::
-	text "But we don't know"
-	line "everything about"
-	cont "#MON yet."
-
-	para "There are still"
-	line "many mysteries to"
-	cont "solve."
-
-	para "That's why I study"
-	line "#MON every day."
+_MystieForestEndIntro::
+	text "See you soon!"
 	prompt
