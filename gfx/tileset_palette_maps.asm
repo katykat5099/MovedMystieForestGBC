@@ -112,7 +112,7 @@ TilesetMystieForestPalMap:
 INCLUDE "gfx/tilesets/mystie_forest_palette_map.asm"
 
 TilesetMystieTowersPalMap:
-INCLUDE "gfx/tilesets/mystie_forest_palette_map.asm"
+INCLUDE "gfx/tilesets/mystie_towers_palette_map.asm"
 
 MapGroupPalettes: ; unreferenced
 ; entries correspond to MAPGROUP_* constants
