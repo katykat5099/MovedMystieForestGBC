@@ -20,7 +20,7 @@ InitCrystalData:
 
 INCLUDE "mobile/mobile_12.asm"
 
-InitGender:
+InitGender: ; todo Remove Genders if possible.
 	call InitGenderScreen
 	call LoadGenderScreenPal
 	call LoadGenderScreenLightBlueTile

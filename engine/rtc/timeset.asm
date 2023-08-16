@@ -41,8 +41,6 @@ InitClock:
 	call .ClearScreen
 	call WaitBGMap
 	call RotateFourPalettesRight
-	ld hl, OakTimeWokeUpText
-	call PrintText
 	ld hl, wTimeSetBuffer
 	ld bc, wTimeSetBufferEnd - wTimeSetBuffer
 	xor a
@@ -74,7 +72,7 @@ InitClock:
 	ld a, [wInitHourBuffer]
 	ld [wStringBuffer2 + 1], a
 	call .ClearScreen
-	ld hl, OakTimeWhatHoursText
+	ld hl, PrintHoursSelectedText
 	call PrintText
 	call YesNoBox
 	jr nc, .HourIsSet
@@ -104,7 +102,7 @@ InitClock:
 	ld a, [wInitMinuteBuffer]
 	ld [wStringBuffer2 + 2], a
 	call .ClearScreen
-	ld hl, OakTimeWhoaMinutesText
+	ld hl, PrintMinutesSelectedText
 	call PrintText
 	call YesNoBox
 	jr nc, .MinutesAreSet
@@ -113,7 +111,7 @@ InitClock:
 
 .MinutesAreSet:
 	call InitTimeOfDay
-	ld hl, OakText_ResponseToSetTime
+	ld hl, PrintFinalSetTime
 	call PrintText
 	call WaitPressAorB_BlinkCursor
 	pop af
@@ -289,10 +287,6 @@ PrintTwoDigitNumberLeftAlign:
 	call PrintNum
 	ret
 
-OakTimeWokeUpText:
-	text_far _OakTimeWokeUpText
-	text_end
-
 OakTimeWhatTimeIsItText:
 	text_far _OakTimeWhatTimeIsItText
 	text_end
@@ -300,11 +294,9 @@ OakTimeWhatTimeIsItText:
 String_oclock:
 	db "o'clock@"
 
-OakTimeWhatHoursText:
-	; What?@ @
-	text_far _OakTimeWhatHoursText
+PrintHoursSelectedText:
 	text_asm
-	hlcoord 1, 16
+	hlcoord 1, 14
 	call DisplayHourOClock
 	ld hl, .OakTimeHoursQuestionMarkText
 	ret
@@ -320,11 +312,9 @@ OakTimeHowManyMinutesText:
 String_min:
 	db "min.@"
 
-OakTimeWhoaMinutesText:
-	; Whoa!@ @
-	text_far _OakTimeWhoaMinutesText
-	text_asm
-	hlcoord 7, 14
+PrintMinutesSelectedText:
+    text_asm
+	hlcoord 1, 14
 	call DisplayMinutesWithMinString
 	ld hl, .OakTimeMinutesQuestionMarkText
 	ret
@@ -333,7 +323,7 @@ OakTimeWhoaMinutesText:
 	text_far _OakTimeMinutesQuestionMarkText
 	text_end
 
-OakText_ResponseToSetTime:
+PrintFinalSetTime:
 	text_asm
 	decoord 1, 14
 	ld a, [wInitHourBuffer]
@@ -347,32 +337,11 @@ OakText_ResponseToSetTime:
 	ld b, h
 	ld c, l
 	ld a, [wInitHourBuffer]
-	cp MORN_HOUR
-	jr c, .nite
-	cp DAY_HOUR + 1
-	jr c, .morn
-	cp NITE_HOUR
-	jr c, .day
-.nite
-	ld hl, .OakTimeSoDarkText
-	ret
-.morn
-	ld hl, .OakTimeOversleptText
-	ret
-.day
-	ld hl, .OakTimeYikesText
-	ret
+	ld hl, .timeFinal
+    ret
 
-.OakTimeOversleptText:
-	text_far _OakTimeOversleptText
-	text_end
-
-.OakTimeYikesText:
-	text_far _OakTimeYikesText
-	text_end
-
-.OakTimeSoDarkText:
-	text_far _OakTimeSoDarkText
+.timeFinal:
+	text_far _TextTimeFinal
 	text_end
 
 TimeSetBackgroundGFX:
