@@ -32,26 +32,17 @@ VantaroEvosAttacks:
 	db 0 ; no more level-up moves
 
 GekkouEvosAttacks:
-	db EVOLVE_LEVEL, 16, CHARMELEON ; to-do
+	db EVOLVE_LEVEL, 16, WIZARDON ; to-do
 	db 0 ; no more evolutions
 	db 1, SCRATCH ; to-do, dragon scratch (dragon type scratch)
 	db 1, TWISTER
 	db 0 ; no more level-up moves
 
-CharmeleonEvosAttacks:
-	db EVOLVE_LEVEL, 36, CHARIZARD
+WizardonEvosAttacks:
+	db EVOLVE_LEVEL, 36, CHARIZARD ;todo
 	db 0 ; no more evolutions
-	db 1, SCRATCH
+	db 1, SCRATCH ;todo Dragon Scratch here as well.
 	db 1, GROWL
-	db 1, EMBER
-	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 20, RAGE
-	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
-	db 41, SLASH
-	db 48, DRAGON_RAGE
-	db 55, FIRE_SPIN
 	db 0 ; no more level-up moves
 
 CharizardEvosAttacks:

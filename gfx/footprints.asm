@@ -16,7 +16,7 @@ INCBIN "gfx/footprints/buckleo.1bpp",    footprint_top
 INCBIN "gfx/footprints/woff.1bpp",       footprint_top
 INCBIN "gfx/footprints/vantaro.1bpp",    footprint_top
 INCBIN "gfx/footprints/gekkou.1bpp",     footprint_top
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
+INCBIN "gfx/footprints/wizardon.1bpp",   footprint_top
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
@@ -25,7 +25,7 @@ INCBIN "gfx/footprints/buckleo.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/woff.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/vantaro.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gekkou.1bpp",     footprint_bottom
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
+INCBIN "gfx/footprints/wizardon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
 INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom

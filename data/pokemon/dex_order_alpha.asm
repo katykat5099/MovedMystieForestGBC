@@ -25,7 +25,7 @@ AlphabeticalPokedexOrder:
 	db CHANSEY
 	db CHARIZARD
 	db GEKKOU
-	db CHARMELEON
+	db WIZARDON
 	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE

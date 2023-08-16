@@ -231,7 +231,7 @@ NewPokedexOrder:
 	db WOFF
 	db VANTARO
 	db GEKKOU
-	db CHARMELEON
+	db WIZARDON
 	db CHARIZARD
 	db SQUIRTLE
 	db WARTORTLE

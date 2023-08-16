@@ -4,7 +4,7 @@ AnimationIdlePointers:
 	dw WoffAnimationIdle
 	dw VantaroAnimationIdle
 	dw GekkouAnimationIdle
-	dw CharmeleonAnimationIdle
+	dw WizardonAnimationIdle
 	dw CharizardAnimationIdle
 	dw SquirtleAnimationIdle
 	dw WartortleAnimationIdle

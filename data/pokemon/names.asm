@@ -4,7 +4,7 @@ PokemonNames::
 	db "Woff@@@@@@"
 	db "Vantaro@@@"
 	db "Gekkou@@@@"
-	db "CHARMELEON"
+	db "Wizardon@@"
 	db "CHARIZARD@"
 	db "SQUIRTLE@@"
 	db "WARTORTLE@"

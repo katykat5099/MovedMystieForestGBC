@@ -4,7 +4,7 @@ BitmasksPointers:
 	dw WoffBitmasks
 	dw VantaroBitmasks
 	dw GekkouBitmasks
-	dw CharmeleonBitmasks
+	dw WizardonBitmasks
 	dw CharizardBitmasks
 	dw SquirtleBitmasks
 	dw WartortleBitmasks

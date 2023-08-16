@@ -5,7 +5,7 @@ PokedexDataPointerTable:
 	dw WoffPokedexEntry
 	dw VantaroPokedexEntry
 	dw GekkouPokedexEntry
-	dw CharmeleonPokedexEntry
+	dw WizardonPokedexEntry
 	dw CharizardPokedexEntry
 	dw SquirtlePokedexEntry
 	dw WartortlePokedexEntry
