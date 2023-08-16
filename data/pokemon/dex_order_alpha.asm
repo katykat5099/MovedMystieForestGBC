@@ -18,14 +18,14 @@ AlphabeticalPokedexOrder:
 	db BELLSPROUT
 	db BLASTOISE
 	db BLISSEY
-	db BULBASAUR
+	db BUCKLEO
 	db BUTTERFREE
 	db CATERPIE
 	db CELEBI
 	db CHANSEY
 	db CHARIZARD
-	db CHARMANDER
-	db CHARMELEON
+	db GEKKOU
+	db WIZARDON
 	db CHIKORITA
 	db CHINCHOU
 	db CLEFABLE
@@ -94,7 +94,7 @@ AlphabeticalPokedexOrder:
 	db HOUNDOUR
 	db HYPNO
 	db IGGLYBUFF
-	db IVYSAUR
+	db WOFF
 	db JIGGLYPUFF
 	db JOLTEON
 	db JUMPLUFF
@@ -210,7 +210,7 @@ AlphabeticalPokedexOrder:
 	db SNUBBULL
 	db SPEAROW
 	db SPINARAK
-	db SQUIRTLE
+	db GEKKLODON
 	db STANTLER
 	db STARMIE
 	db STARYU
@@ -237,7 +237,7 @@ AlphabeticalPokedexOrder:
 	db VAPOREON
 	db VENOMOTH
 	db VENONAT
-	db VENUSAUR
+	db VANTARO
 	db VICTREEBEL
 	db VILEPLUME
 	db VOLTORB

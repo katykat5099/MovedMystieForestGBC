@@ -1,12 +1,12 @@
 PokemonNames::
 	table_width NAME_LENGTH - 1, PokemonNames
-	db "BULBASAUR@"
-	db "IVYSAUR@@@"
-	db "VENUSAUR@@"
-	db "CHARMANDER"
-	db "CHARMELEON"
+	db "Buckleo@@@"
+	db "Woff@@@@@@"
+	db "Vantaro@@@"
+	db "Gekkou@@@@"
+	db "Wizardon@@"
 	db "CHARIZARD@"
-	db "SQUIRTLE@@"
+	db "Gekklodon@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"
 	db "CATERPIE@@"

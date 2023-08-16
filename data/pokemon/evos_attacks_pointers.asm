@@ -2,13 +2,13 @@
 
 EvosAttacksPointers::
 	table_width 2, EvosAttacksPointers
-	dw BulbasaurEvosAttacks
-	dw IvysaurEvosAttacks
-	dw VenusaurEvosAttacks
-	dw CharmanderEvosAttacks
-	dw CharmeleonEvosAttacks
+	dw BuckleoEvosAttacks
+	dw WoffEvosAttacks
+	dw VantaroEvosAttacks
+	dw GekkouEvosAttacks
+	dw WizardonEvosAttacks
 	dw CharizardEvosAttacks
-	dw SquirtleEvosAttacks
+	dw GekklodonEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks
 	dw CaterpieEvosAttacks

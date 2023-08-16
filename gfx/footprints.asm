@@ -12,22 +12,22 @@ Footprints:
 	table_width LEN_1BPP_TILE * 4, Footprints
 
 ; 001-008 top halves
-INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_top
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_top
-INCBIN "gfx/footprints/venusaur.1bpp",   footprint_top
-INCBIN "gfx/footprints/charmander.1bpp", footprint_top
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_top
+INCBIN "gfx/footprints/buckleo.1bpp",    footprint_top
+INCBIN "gfx/footprints/woff.1bpp",       footprint_top
+INCBIN "gfx/footprints/vantaro.1bpp",    footprint_top
+INCBIN "gfx/footprints/gekkou.1bpp",     footprint_top
+INCBIN "gfx/footprints/wizardon.1bpp",   footprint_top
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
-INCBIN "gfx/footprints/squirtle.1bpp",   footprint_top
+INCBIN "gfx/footprints/gekklodon.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
-INCBIN "gfx/footprints/bulbasaur.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/ivysaur.1bpp",    footprint_bottom
-INCBIN "gfx/footprints/venusaur.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/charmander.1bpp", footprint_bottom
-INCBIN "gfx/footprints/charmeleon.1bpp", footprint_bottom
+INCBIN "gfx/footprints/buckleo.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/woff.1bpp",       footprint_bottom
+INCBIN "gfx/footprints/vantaro.1bpp",    footprint_bottom
+INCBIN "gfx/footprints/gekkou.1bpp",     footprint_bottom
+INCBIN "gfx/footprints/wizardon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
-INCBIN "gfx/footprints/squirtle.1bpp",   footprint_bottom
+INCBIN "gfx/footprints/gekklodon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves
 INCBIN "gfx/footprints/blastoise.1bpp",  footprint_top

@@ -19,13 +19,13 @@
 ; - FramesPointers (see gfx/pokemon/frame_pointers.asm)
 ; - EZChat_SortedPokemon (see data/pokemon/ezchat_order.asm)
 	const_def 1
-	const BULBASAUR  ; 01
-	const IVYSAUR    ; 02
-	const VENUSAUR   ; 03
-	const CHARMANDER ; 04
-	const CHARMELEON ; 05
+	const BUCKLEO    ; 01
+	const WOFF       ; 02
+	const VANTARO    ; 03
+	const GEKKOU     ; 04
+	const WIZARDON   ; 05
 	const CHARIZARD  ; 06
-	const SQUIRTLE   ; 07
+	const GEKKLODON  ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09
 	const CATERPIE   ; 0a

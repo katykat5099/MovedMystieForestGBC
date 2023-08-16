@@ -3,20 +3,20 @@
 PokemonPicPointers::
 ; entries correspond to Pokémon species, two apiece
 	table_width 3 * 2, PokemonPicPointers
-	dba_pic BulbasaurFrontpic
-	dba_pic BulbasaurBackpic
-	dba_pic IvysaurFrontpic
-	dba_pic IvysaurBackpic
-	dba_pic VenusaurFrontpic
-	dba_pic VenusaurBackpic
-	dba_pic CharmanderFrontpic
-	dba_pic CharmanderBackpic
-	dba_pic CharmeleonFrontpic
-	dba_pic CharmeleonBackpic
+	dba_pic BuckleoFrontpic
+	dba_pic BuckleoBackpic
+	dba_pic WoffFrontpic
+	dba_pic WoffBackpic
+	dba_pic VantaroFrontpic
+	dba_pic VantaroBackpic
+	dba_pic GekkouFrontpic
+	dba_pic GekkouBackpic
+	dba_pic WizardonFrontpic
+	dba_pic WizardonBackpic
 	dba_pic CharizardFrontpic
 	dba_pic CharizardBackpic
-	dba_pic SquirtleFrontpic
-	dba_pic SquirtleBackpic
+	dba_pic GekklodonFrontpic
+	dba_pic GekklodonBackpic
 	dba_pic WartortleFrontpic
 	dba_pic WartortleBackpic
 	dba_pic BlastoiseFrontpic

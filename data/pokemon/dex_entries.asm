@@ -1,12 +1,12 @@
 SECTION "Pokedex Entries 001-064", ROMX
 
-BulbasaurPokedexEntry::  INCLUDE "data/pokemon/dex_entries/bulbasaur.asm"
-IvysaurPokedexEntry::    INCLUDE "data/pokemon/dex_entries/ivysaur.asm"
-VenusaurPokedexEntry::   INCLUDE "data/pokemon/dex_entries/venusaur.asm"
-CharmanderPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmander.asm"
-CharmeleonPokedexEntry:: INCLUDE "data/pokemon/dex_entries/charmeleon.asm"
+BuckleoPokedexEntry::    INCLUDE "data/pokemon/dex_entries/buckleo.asm"
+WoffPokedexEntry::       INCLUDE "data/pokemon/dex_entries/ivysaur.asm"
+VantaroPokedexEntry::    INCLUDE "data/pokemon/dex_entries/vantaro.asm"
+GekkouPokedexEntry::     INCLUDE "data/pokemon/dex_entries/gekkou.asm"
+WizardonPokedexEntry::   INCLUDE "data/pokemon/dex_entries/wizardon.asm"
 CharizardPokedexEntry::  INCLUDE "data/pokemon/dex_entries/charizard.asm"
-SquirtlePokedexEntry::   INCLUDE "data/pokemon/dex_entries/squirtle.asm"
+GekklodonPokedexEntry::  INCLUDE "data/pokemon/dex_entries/gekklodon.asm"
 WartortlePokedexEntry::  INCLUDE "data/pokemon/dex_entries/wartortle.asm"
 BlastoisePokedexEntry::  INCLUDE "data/pokemon/dex_entries/blastoise.asm"
 CaterpiePokedexEntry::   INCLUDE "data/pokemon/dex_entries/caterpie.asm"

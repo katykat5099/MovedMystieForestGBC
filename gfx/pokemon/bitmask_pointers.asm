@@ -1,12 +1,12 @@
 BitmasksPointers:
 	table_width 2, BitmasksPointers
-	dw BulbasaurBitmasks
-	dw IvysaurBitmasks
-	dw VenusaurBitmasks
-	dw CharmanderBitmasks
-	dw CharmeleonBitmasks
+	dw BuckleoBitmasks
+	dw WoffBitmasks
+	dw VantaroBitmasks
+	dw GekkouBitmasks
+	dw WizardonBitmasks
 	dw CharizardBitmasks
-	dw SquirtleBitmasks
+	dw GekklodonBitmasks
 	dw WartortleBitmasks
 	dw BlastoiseBitmasks
 	dw CaterpieBitmasks

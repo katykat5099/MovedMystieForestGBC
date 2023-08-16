@@ -1,12 +1,12 @@
 FramesPointers:
 	table_width 2, FramesPointers
-	dw BulbasaurFrames
-	dw IvysaurFrames
-	dw VenusaurFrames
-	dw CharmanderFrames
-	dw CharmeleonFrames
+	dw BuckleoFrames
+	dw WoffFrames
+	dw VantaroFrames
+	dw GekkouFrames
+	dw WizardonFrames
 	dw CharizardFrames
-	dw SquirtleFrames
+	dw GekklodonFrames
 	dw WartortleFrames
 	dw BlastoiseFrames
 	dw CaterpieFrames
