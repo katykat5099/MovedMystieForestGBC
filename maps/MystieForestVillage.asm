@@ -9,8 +9,8 @@ MystieForestVillage_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event 13,  7, PLAYERS_HOUSE_1F, 1
-	warp_event 14,  7, PLAYERS_HOUSE_1F, 2
+	warp_event 13,  7, PLAYERS_HOUSE, 1
+	warp_event 14,  7, PLAYERS_HOUSE, 2
 
 	def_coord_events
 

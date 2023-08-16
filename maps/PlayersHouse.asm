@@ -1,21 +1,21 @@
 	object_const_def
-	const PLAYERSHOUSE1F_MOM1
-	const PLAYERSHOUSE1F_MOM2
-	const PLAYERSHOUSE1F_MOM3
-	const PLAYERSHOUSE1F_MOM4
-	const PLAYERSHOUSE1F_POKEFAN_F
+	const PLAYERSHOUSE_MOM1
+	const PLAYERSHOUSE_MOM2
+	const PLAYERSHOUSE_MOM3
+	const PLAYERSHOUSE_MOM4
+	const PLAYERSHOUSE_POKEFAN_F
 
-PlayersHouse1F_MapScripts:
+PlayersHouse_MapScripts:
 	def_scene_scripts
-	scene_script PlayersHouse1FNoop1Scene, SCENE_PLAYERSHOUSE1F_MEET_MOM
-	scene_script PlayersHouse1FNoop2Scene, SCENE_PLAYERSHOUSE1F_NOOP
+	scene_script PlayersHouseNoop1Scene, SCENE_PLAYERSHOUSE_MEET_MOM
+	scene_script PlayersHouseNoop2Scene, SCENE_PLAYERSHOUSE_NOOP
 
 	def_callbacks
 
-PlayersHouse1FNoop1Scene:
+PlayersHouseNoop1Scene:
 	end
 
-PlayersHouse1FNoop2Scene:
+PlayersHouseNoop2Scene:
 	end
 
 MeetMomLeftScript:
@@ -23,25 +23,25 @@ MeetMomLeftScript:
 
 MeetMomRightScript:
 	playmusic MUSIC_MOM
-	showemote EMOTE_SHOCK, PLAYERSHOUSE1F_MOM1, 15
+	showemote EMOTE_SHOCK, PLAYERSHOUSE_MOM1, 15
 	turnobject PLAYER, LEFT
 	checkevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_1
 	iffalse .OnRight
-	applymovement PLAYERSHOUSE1F_MOM1, MomTurnsTowardPlayerMovement
+	applymovement PLAYERSHOUSE_MOM1, MomTurnsTowardPlayerMovement
 	sjump MeetMomScript
 
 .OnRight:
-	applymovement PLAYERSHOUSE1F_MOM1, MomWalksToPlayerMovement
+	applymovement PLAYERSHOUSE_MOM1, MomWalksToPlayerMovement
 MeetMomScript:
 	opentext
 	writetext ElmsLookingForYouText
 	promptbutton
 	getstring STRING_BUFFER_4, PokegearName
-	scall PlayersHouse1FReceiveItemStd
+	scall PlayersHouseReceiveItemStd
 	setflag ENGINE_POKEGEAR
 	setflag ENGINE_PHONE_CARD
 	addcellnum PHONE_MOM
-	setscene SCENE_PLAYERSHOUSE1F_NOOP
+	setscene SCENE_PLAYERSHOUSE_NOOP
 	setevent EVENT_PLAYERS_HOUSE_MOM_1
 	clearevent EVENT_PLAYERS_HOUSE_MOM_2
 	writetext MomGivesPokegearText
@@ -87,16 +87,16 @@ MeetMomScript:
 	sjump .Finish
 
 .FromRight:
-	applymovement PLAYERSHOUSE1F_MOM1, MomTurnsBackMovement
+	applymovement PLAYERSHOUSE_MOM1, MomTurnsBackMovement
 	sjump .Finish
 
 .FromLeft:
-	applymovement PLAYERSHOUSE1F_MOM1, MomWalksBackMovement
+	applymovement PLAYERSHOUSE_MOM1, MomWalksBackMovement
 	sjump .Finish
 
 .Finish:
 	special RestartMapMusic
-	turnobject PLAYERSHOUSE1F_MOM1, LEFT
+	turnobject PLAYERSHOUSE_MOM1, LEFT
 	end
 
 MeetMomTalkedScript:
@@ -106,7 +106,7 @@ MeetMomTalkedScript:
 PokegearName:
 	db "#GEAR@"
 
-PlayersHouse1FReceiveItemStd:
+PlayersHouseReceiveItemStd:
 	jumpstd ReceiveItemScript
 	end
 
@@ -114,7 +114,7 @@ MomScript:
 	faceplayer
 	setevent EVENT_TEMPORARY_UNTIL_MAP_RELOAD_2
 	checkscene
-	iffalse MeetMomTalkedScript ; SCENE_PLAYERSHOUSE1F_MEET_MOM
+	iffalse MeetMomTalkedScript ; SCENE_PLAYERSHOUSE_MEET_MOM
 	opentext
 	checkevent EVENT_FIRST_TIME_BANKING_WITH_MOM
 	iftrue .FirstTimeBanking
@@ -179,20 +179,20 @@ NeighborScript:
 	writetext NeighborText
 	waitbutton
 	closetext
-	turnobject PLAYERSHOUSE1F_POKEFAN_F, RIGHT
+	turnobject PLAYERSHOUSE_POKEFAN_F, RIGHT
 	end
 
-PlayersHouse1FTVScript:
-	jumptext PlayersHouse1FTVText
+PlayersHouseTVScript:
+	jumptext PlayersHouseTVText
 
-PlayersHouse1FStoveScript:
-	jumptext PlayersHouse1FStoveText
+PlayersHouseStoveScript:
+	jumptext PlayersHouseStoveText
 
-PlayersHouse1FSinkScript:
-	jumptext PlayersHouse1FSinkText
+PlayersHouseSinkScript:
+	jumptext PlayersHouseSinkText
 
-PlayersHouse1FFridgeScript:
-	jumptext PlayersHouse1FFridgeText
+PlayersHouseFridgeScript:
+	jumptext PlayersHouseFridgeText
 
 MomTurnsTowardPlayerMovement:
 	turn_head RIGHT
@@ -351,20 +351,20 @@ NeighborText:
 	line "#MON!"
 	done
 
-PlayersHouse1FStoveText:
+PlayersHouseStoveText:
 	text "Mom's specialty!"
 
 	para "CINNABAR VOLCANO"
 	line "BURGER!"
 	done
 
-PlayersHouse1FSinkText:
+PlayersHouseSinkText:
 	text "The sink is spot-"
 	line "less. Mom likes it"
 	cont "clean."
 	done
 
-PlayersHouse1FFridgeText:
+PlayersHouseFridgeText:
 	text "Let's see what's"
 	line "in the fridge…"
 
@@ -372,7 +372,7 @@ PlayersHouse1FFridgeText:
 	line "tasty LEMONADE!"
 	done
 
-PlayersHouse1FTVText:
+PlayersHouseTVText:
 	text "There's a movie on"
 	line "TV: Stars dot the"
 
@@ -383,27 +383,26 @@ PlayersHouse1FTVText:
 	line "rolling too!"
 	done
 
-PlayersHouse1F_MapEvents:
+PlayersHouse_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  6,  7, MYSTIE_FOREST_VILLAGE, 2
-	warp_event  7,  7, MYSTIE_FOREST_VILLAGE, 2
-	warp_event  9,  0, PLAYERS_HOUSE_2F, 1
+	warp_event  2,  5, MYSTIE_FOREST_VILLAGE, 2
+	warp_event  3,  5, MYSTIE_FOREST_VILLAGE, 2
 
 	def_coord_events
-	coord_event  8,  4, SCENE_PLAYERSHOUSE1F_MEET_MOM, MeetMomLeftScript
-	coord_event  9,  4, SCENE_PLAYERSHOUSE1F_MEET_MOM, MeetMomRightScript
+	coord_event  4,  0, SCENE_PLAYERSHOUSE_MEET_MOM, MeetMomLeftScript
+	coord_event  5,  0, SCENE_PLAYERSHOUSE_MEET_MOM, MeetMomRightScript
 
 	def_bg_events
-	bg_event  0,  1, BGEVENT_READ, PlayersHouse1FStoveScript
-	bg_event  1,  1, BGEVENT_READ, PlayersHouse1FSinkScript
-	bg_event  2,  1, BGEVENT_READ, PlayersHouse1FFridgeScript
-	bg_event  4,  1, BGEVENT_READ, PlayersHouse1FTVScript
+	bg_event  0,  0, BGEVENT_READ, PlayersHouseStoveScript
+	bg_event  0,  0, BGEVENT_READ, PlayersHouseSinkScript
+	bg_event  0,  0, BGEVENT_READ, PlayersHouseFridgeScript
+	bg_event  0,  0, BGEVENT_READ, PlayersHouseTVScript
 
 	def_object_events
-	object_event  7,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
-	object_event  2,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, MORN, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  7,  4, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, DAY, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  0,  2, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, NITE, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
-	object_event  4,  4, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR
+	object_event  3,  0, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_1
+	object_event  1,  0, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, MORN, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  3,  0, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, DAY, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  1,  0, SPRITE_MOM, SPRITEMOVEDATA_STANDING_UP, 0, 0, -1, NITE, 0, OBJECTTYPE_SCRIPT, 0, MomScript, EVENT_PLAYERS_HOUSE_MOM_2
+	object_event  2,  0, SPRITE_POKEFAN_F, SPRITEMOVEDATA_STANDING_RIGHT, 0, 0, -1, -1, PAL_NPC_RED, OBJECTTYPE_SCRIPT, 0, NeighborScript, EVENT_PLAYERS_HOUSE_1F_NEIGHBOR

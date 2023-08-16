@@ -265,8 +265,8 @@ Route43_Blocks:
 Route39_Blocks:
 	INCBIN "maps/Route39.blk"
 
-PlayersHouse1F_Blocks:
-	INCBIN "maps/PlayersHouse1F.blk"
+PlayersHouse_Blocks:
+	INCBIN "maps/PlayersHouse.blk"
 
 Route38EcruteakGate_Blocks:
 Route42EcruteakGate_Blocks:
@@ -845,9 +845,6 @@ VermilionPort_Blocks:
 OlivineCafe_Blocks:
 SafariZoneMainOffice_Blocks:
 	INCBIN "maps/OlivineCafe.blk"
-
-PlayersHouse2F_Blocks:
-	INCBIN "maps/PlayersHouse2F.blk"
 
 SaffronMagnetTrainStation_Blocks:
 	INCBIN "maps/SaffronMagnetTrainStation.blk"

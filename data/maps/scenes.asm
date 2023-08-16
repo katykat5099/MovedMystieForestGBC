@@ -27,7 +27,7 @@ MapScenes::
 	scene_var ROUTE_27,                                    wRoute27SceneID
 	scene_var MYSTIE_FOREST_VILLAGE,                       wNewBarkTownSceneID
 	scene_var ELMS_LAB,                                    wElmsLabSceneID
-	scene_var PLAYERS_HOUSE_1F,                            wPlayersHouse1FSceneID
+	scene_var PLAYERS_HOUSE,                               wPlayersHouse1FSceneID
 	scene_var THREE_TOWERS_CONNECT,                        wRoute29SceneID
 	scene_var TOWER_ONE,                                   wCherrygroveCitySceneID
 	scene_var MR_POKEMONS_HOUSE,                           wMrPokemonsHouseSceneID

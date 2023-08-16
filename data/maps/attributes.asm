@@ -664,8 +664,7 @@ ENDM
 	map_attributes Route2Gate, ROUTE_2_GATE, $00, 0
 	map_attributes VictoryRoadGate, VICTORY_ROAD_GATE, $00, 0
 	map_attributes ElmsLab, ELMS_LAB, $00, 0
-	map_attributes PlayersHouse1F, PLAYERS_HOUSE_1F, $00, 0
-	map_attributes PlayersHouse2F, PLAYERS_HOUSE_2F, $00, 0
+	map_attributes PlayersHouse, PLAYERS_HOUSE, $00, 0
 	map_attributes PlayersNeighborsHouse, PLAYERS_NEIGHBORS_HOUSE, $00, 0
 	map_attributes ElmsHouse, ELMS_HOUSE, $00, 0
 	map_attributes Route26HealHouse, ROUTE_26_HEAL_HOUSE, $00, 0
