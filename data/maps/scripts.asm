@@ -150,10 +150,9 @@ INCLUDE "maps/TinTowerRoof.asm"
 SECTION "Map Scripts 9", ROMX
 
 INCLUDE "maps/Route34.asm"
-INCLUDE "maps/ElmsLab.asm"
+INCLUDE "maps/EldersTowerIndoor.asm"
 INCLUDE "maps/PlayersHouse.asm"
 INCLUDE "maps/PlayersNeighborsHouse.asm"
-INCLUDE "maps/ElmsHouse.asm"
 INCLUDE "maps/Route26HealHouse.asm"
 INCLUDE "maps/DayOfWeekSiblingsHouse.asm"
 INCLUDE "maps/Route27SandstormHouse.asm"
