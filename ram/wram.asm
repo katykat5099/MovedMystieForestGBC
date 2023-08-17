@@ -3061,7 +3061,7 @@ wKarensRoomSceneID::                              db
 wLancesRoomSceneID::                              db
 wHallOfFameSceneID::                              db
 wRoute27SceneID::                                 db
-wNewBarkTownSceneID::                             db
+wMystieForestVillageSceneID::                     db
 wElmsLabSceneID::                                 db
 wEldersTowerIndoorTwoSceneID::                    db
 wPlayersHouse1FSceneID::                          db

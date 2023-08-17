@@ -1,9 +1,27 @@
 	object_const_def
+	const MYSTIEFORESTVILLAGE_PINELAKS
 
 MystieForestVillage_MapScripts:
 	def_scene_scripts
 
 	def_callbacks
+
+PinelakInTheWay:
+    faceplayer
+    opentext
+    writetext DontStepOnPinelak
+    promptbutton
+    closetext
+	end
+
+;TEXT BELOW
+DontStepOnPinelak:
+    text "There are a ton"
+    line "of Pinelaks here…"
+
+    para "Better not step"
+    line "here…"
+    done
 
 MystieForestVillage_MapEvents:
 	db 0, 0 ; filler
@@ -17,3 +35,4 @@ MystieForestVillage_MapEvents:
 	def_bg_events
 
 	def_object_events
+	object_event  0, 15, SPRITE_MOM, SPRITEMOVEDATA_STANDING_DOWN, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, PinelakInTheWay, START_TOWERS_CHALLENGE

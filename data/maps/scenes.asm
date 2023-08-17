@@ -25,7 +25,7 @@ MapScenes::
 	scene_var LANCES_ROOM,                                 wLancesRoomSceneID
 	scene_var HALL_OF_FAME,                                wHallOfFameSceneID
 	scene_var ROUTE_27,                                    wRoute27SceneID
-	scene_var MYSTIE_FOREST_VILLAGE,                       wNewBarkTownSceneID
+	scene_var MYSTIE_FOREST_VILLAGE,                       wMystieForestVillageSceneID
 	scene_var ELDERS_TOWER_INDOOR,                         wElmsLabSceneID
 	scene_var ELDERS_TOWER_INDOOR_TWO,                     wEldersTowerIndoorTwoSceneID
 	scene_var PLAYERS_HOUSE,                               wPlayersHouse1FSceneID
