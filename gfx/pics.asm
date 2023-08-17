@@ -214,7 +214,7 @@ QuagsireFrontpic:    INCBIN "gfx/pokemon/quagsire/front.animated.2bpp.lz"
 
 SECTION "Pics 9", ROMX
 
-EkansFrontpic:       INCBIN "gfx/pokemon/ekans/front.animated.2bpp.lz"
+EkansFrontpic:       
 SudowoodoFrontpic:   INCBIN "gfx/pokemon/sudowoodo/front.animated.2bpp.lz"
 PikachuFrontpic:     INCBIN "gfx/pokemon/pikachu/front.animated.2bpp.lz"
 SeadraFrontpic:      INCBIN "gfx/pokemon/seadra/front.animated.2bpp.lz"
