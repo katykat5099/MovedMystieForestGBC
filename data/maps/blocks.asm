@@ -185,7 +185,6 @@ CianwoodLugiaSpeechHouse_Blocks:
 PokeSeersHouse_Blocks:
 ViridianNicknameSpeechHouse_Blocks:
 Route2NuggetHouse_Blocks:
-PlayersNeighborsHouse_Blocks:
 Route26HealHouse_Blocks:
 DayOfWeekSiblingsHouse_Blocks:
 Route27SandstormHouse_Blocks:
@@ -291,6 +290,10 @@ BetaNewBarkTown_Blocks: ; unreferenced
 
 EldersTowerIndoor_Blocks:
 	INCBIN "maps/EldersTowerIndoor.blk"
+
+EldersTowerIndoorTwo_Blocks:
+	INCBIN "maps/EldersTowerIndoorTwo.blk"
+
 
 CeruleanCity_Blocks:
 	INCBIN "maps/CeruleanCity.blk"

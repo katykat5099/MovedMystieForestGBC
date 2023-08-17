@@ -20,7 +20,7 @@ MeetResearcherScript1:
     disappear ELDERSTOWERINDOOR_RESEARCHER
     stopfollow
     applymovement PLAYER, StepRight
-    warpfacing LEFT, ELDERS_TOWER_INDOOR, 21, 3
+    warp ELDERS_TOWER_INDOOR_TWO, 9, 3
     setscene SCENE_FINISHED
     end
 
@@ -37,7 +37,7 @@ MeetResearcherScript2:
     disappear ELDERSTOWERINDOOR_RESEARCHER
     stopfollow
     applymovement PLAYER, StepRight
-    warpfacing LEFT, ELDERS_TOWER_INDOOR, 21, 3
+    warp ELDERS_TOWER_INDOOR_TWO, 9, 3
     setscene SCENE_FINISHED
     end
 
@@ -69,6 +69,7 @@ GoUpstairs1:
     step UP
     step UP
     step UP
+    step UP
     step RIGHT
     step RIGHT
     step RIGHT
@@ -84,6 +85,7 @@ GoTowardPlayer2:
     step_end
 
 GoUpstairs2:
+    step UP
     step UP
     step UP
     step UP
@@ -106,16 +108,15 @@ EldersTowerIndoor_MapEvents:
 	db 0, 0 ; filler
 
 	def_warp_events
-	warp_event  4, 21, ELDERS_TOWER, 1
-	warp_event  5, 21, ELDERS_TOWER, 2
-	warp_event  9, 15, ELDERS_TOWER_INDOOR, 4
-	warp_event 21,  3, ELDERS_TOWER_INDOOR, 3
+	warp_event  4,  9, ELDERS_TOWER, 1
+	warp_event  5,  9, ELDERS_TOWER, 2
+	warp_event  9,  3, ELDERS_TOWER_INDOOR_TWO, 1
 
 	def_coord_events
-	coord_event  4, 20, SCENE_DEFAULT, MeetResearcherScript1
-	coord_event  5, 20, SCENE_DEFAULT, MeetResearcherScript2
+	coord_event  4,  8, SCENE_DEFAULT, MeetResearcherScript1
+	coord_event  5,  8, SCENE_DEFAULT, MeetResearcherScript2
 
 	def_bg_events
 
 	def_object_events
-	object_event  7, 17, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ResearcherReadBooks, -1
+	object_event  7,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ResearcherReadBooks, -1
