@@ -27,6 +27,7 @@ MapScenes::
 	scene_var ROUTE_27,                                    wRoute27SceneID
 	scene_var MYSTIE_FOREST_VILLAGE,                       wNewBarkTownSceneID
 	scene_var ELDERS_TOWER_INDOOR,                         wElmsLabSceneID
+	scene_var ELDERS_TOWER_INDOOR_TWO,                     wEldersTowerIndoorTwoSceneID
 	scene_var PLAYERS_HOUSE,                               wPlayersHouse1FSceneID
 	scene_var THREE_TOWERS_CONNECT,                        wRoute29SceneID
 	scene_var TOWER_ONE,                                   wCherrygroveCitySceneID

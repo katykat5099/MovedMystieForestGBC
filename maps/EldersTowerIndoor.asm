@@ -11,7 +11,7 @@ MeetResearcherScript1:
     applymovement ELDERSTOWERINDOOR_RESEARCHER, FaceDown
     showemote EMOTE_SHOCK, ELDERSTOWERINDOOR_RESEARCHER, 15
     opentext
-    writetext ReadBooks
+    writetext PlayerComeQuick
     promptbutton
     closetext
     applymovement ELDERSTOWERINDOOR_RESEARCHER, GoTowardPlayer1
@@ -19,16 +19,17 @@ MeetResearcherScript1:
     applymovement ELDERSTOWERINDOOR_RESEARCHER, GoUpstairs1
     disappear ELDERSTOWERINDOOR_RESEARCHER
     stopfollow
-    applymovement PLAYER, StepRight
-    warp ELDERS_TOWER_INDOOR_TWO, 9, 3
     setscene SCENE_FINISHED
+    applymovement PLAYER, StepUp
+    warp ELDERS_TOWER_INDOOR_TWO, 9, 3
+    warpsound
     end
 
 MeetResearcherScript2:
     applymovement ELDERSTOWERINDOOR_RESEARCHER, FaceDown
     showemote EMOTE_SHOCK, ELDERSTOWERINDOOR_RESEARCHER, 15
     opentext
-    writetext ReadBooks
+    writetext PlayerComeQuick
     promptbutton
     closetext
     applymovement ELDERSTOWERINDOOR_RESEARCHER, GoTowardPlayer2
@@ -36,23 +37,35 @@ MeetResearcherScript2:
     applymovement ELDERSTOWERINDOOR_RESEARCHER, GoUpstairs2
     disappear ELDERSTOWERINDOOR_RESEARCHER
     stopfollow
-    applymovement PLAYER, StepRight
-    warp ELDERS_TOWER_INDOOR_TWO, 9, 3
     setscene SCENE_FINISHED
+    applymovement PLAYER, StepUp
+    warp ELDERS_TOWER_INDOOR_TWO, 9, 3
+    warpsound
     end
 
-ResearcherReadBooks:
+ResearcherTalkToOthers:
     faceplayer
     opentext
-    writetext ReadBooks
+    writetext TalkToOthersText
     promptbutton
     closetext
 	end
 
 ;TEXT BELOW
-ReadBooks:
+PlayerComeQuick:
     text "<PLAYER>!! Come"
     line "quick!"
+    done
+
+TalkToOthersText:
+    text "Make sure to talk"
+    line "to the others"
+    cont "here to get some"
+    cont "hints!"
+
+    para "Don't tell the"
+    line "elder I told you"
+    cont "that!…"
     done
 
 ;MOVEMENT BELOW
@@ -68,13 +81,12 @@ GoUpstairs1:
     step UP
     step UP
     step UP
+    step RIGHT
+    step RIGHT
+    step RIGHT
+    step RIGHT
+    step RIGHT
     step UP
-    step UP
-    step RIGHT
-    step RIGHT
-    step RIGHT
-    step RIGHT
-    step RIGHT
     step_end
 
 GoTowardPlayer2:
@@ -88,16 +100,15 @@ GoUpstairs2:
     step UP
     step UP
     step UP
+    step RIGHT
+    step RIGHT
+    step RIGHT
+    step RIGHT
     step UP
-    step UP
-    step RIGHT
-    step RIGHT
-    step RIGHT
-    step RIGHT
     step_end
 
-StepRight:
-    step RIGHT
+StepUp:
+    step UP
     step_end
 
 FaceDown:
@@ -119,4 +130,4 @@ EldersTowerIndoor_MapEvents:
 	def_bg_events
 
 	def_object_events
-	object_event  7,  5, SPRITE_MOM, SPRITEMOVEDATA_STANDING_LEFT, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ResearcherReadBooks, -1
+	object_event  7,  5, SPRITE_MOM, SPRITEMOVEDATA_SPINRANDOM_SLOW, 0, 0, -1, -1, 0, OBJECTTYPE_SCRIPT, 0, ResearcherTalkToOthers, -1

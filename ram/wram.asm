@@ -3063,6 +3063,7 @@ wHallOfFameSceneID::                              db
 wRoute27SceneID::                                 db
 wNewBarkTownSceneID::                             db
 wElmsLabSceneID::                                 db
+wEldersTowerIndoorTwoSceneID::                    db
 wPlayersHouse1FSceneID::                          db
 wRoute29SceneID::                                 db
 wCherrygroveCitySceneID::                         db
