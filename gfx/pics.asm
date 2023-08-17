@@ -331,7 +331,7 @@ SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
 SECTION "Pics 12", ROMX
 
 VantaroBackpic:      INCBIN "gfx/pokemon/vantaro/back.2bpp.lz"
-MoltresBackpic:      INCBIN "gfx/pokemon/moltres/back.2bpp.lz"
+MoltresBackpic:
 SunfloraBackpic:     INCBIN "gfx/pokemon/sunflora/back.2bpp.lz"
 PhanpyFrontpic:      INCBIN "gfx/pokemon/phanpy/front.animated.2bpp.lz"
 RhydonBackpic:       INCBIN "gfx/pokemon/rhydon/back.2bpp.lz"
