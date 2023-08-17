@@ -185,7 +185,6 @@ CianwoodLugiaSpeechHouse_Blocks:
 PokeSeersHouse_Blocks:
 ViridianNicknameSpeechHouse_Blocks:
 Route2NuggetHouse_Blocks:
-Route26HealHouse_Blocks:
 DayOfWeekSiblingsHouse_Blocks:
 Route27SandstormHouse_Blocks:
 MrPsychicsHouse_Blocks:
@@ -528,6 +527,9 @@ MystieForestVillage_Blocks:
 
 TowerOne_Blocks:
 	INCBIN "maps/TowerOne.blk"
+
+TowerOneIndoorF1_Blocks:
+	INCBIN "maps/TowerIndoorF1.blk"
 
 VioletCity_Blocks:
 	INCBIN "maps/VioletCity.blk"

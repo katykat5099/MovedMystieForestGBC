@@ -457,13 +457,13 @@ ENDM
 	map_const ROUTE_27,                                    40,  9 ;  2
 	map_const TOWER_ONE,                                   20,  9 ;  3
     map_const TOWER_TWO,                                   10, 18 ;  9
-	map_const THREE_TOWERS_CONNECT,                         30,  9 ;  3
+	map_const THREE_TOWERS_CONNECT,                        30,  9 ;  3
 	map_const ELDERS_TOWER,                                10, 10 ;  1
 	map_const MYSTIE_FOREST_VILLAGE,                       10,  9 ;  4
 	map_const ELDERS_TOWER_INDOOR,                          5,  5 ;  5
 	map_const PLAYERS_HOUSE,                                3,  3 ;  6
 	map_const ELDERS_TOWER_INDOOR_TWO,                      5,  5 ;  8
-	map_const ROUTE_26_HEAL_HOUSE,                          4,  4 ; 10
+	map_const TOWER_ONE_INDOOR_F1,                         11, 10 ; 10
 	map_const DAY_OF_WEEK_SIBLINGS_HOUSE,                   4,  4 ; 11
 	map_const ROUTE_27_SANDSTORM_HOUSE,                     4,  4 ; 12
 	map_const ROUTE_29_ROUTE_46_GATE,                       5,  4 ; 13
