@@ -3,28 +3,28 @@
 JohtoGrassWildMons:
 
 	def_grass_wildmons TOWER_ONE_BASEMENT
-	db 2 percent, 2 percent, 2 percent ; encounter rates: morn/day/nite
+	db 8 percent, 8 percent, 8 percent ; encounter rates: morn/day/nite
 	; morn
 	db 3, BUCKLEO
-	db 5, VANTARO
-	db 5, WOFF
-	db 5, WOFF
+	db 4, VANTARO
+	db 4, WOFF
+	db 4, WOFF
 	db 5, RATTATA
 	db 6, RATTATA
 	db 8, RATTATA
 	; day
 	db 3, BUCKLEO
-	db 5, VANTARO
-	db 5, WOFF
-	db 5, WOFF
+	db 4, VANTARO
+	db 4, WOFF
+	db 4, WOFF
 	db 5, RATTATA
 	db 6, RATTATA
 	db 8, RATTATA
 	; nite
 	db 3, BUCKLEO
-	db 5, VANTARO
-	db 5, WOFF
-	db 5, WOFF
+	db 4, VANTARO
+	db 4, WOFF
+	db 4, WOFF
 	db 5, RATTATA
 	db 6, RATTATA
 	db 8, RATTATA
