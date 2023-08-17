@@ -36,8 +36,7 @@ GoToElder:
     para "The Elder came"
     line "over this morning"
     cont "while you were"
-
-    para "asleep."
+    cont "asleep."
 
     para "He said that it"
     line "is time for you"
@@ -46,8 +45,7 @@ GoToElder:
     para "You should head"
     line "out north and go"
     cont "see what he has"
-
-    para "to say."
+    cont "to say."
     done
 
 BetterGetGoing:

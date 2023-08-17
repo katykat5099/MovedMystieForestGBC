@@ -31,6 +31,6 @@
 	tilecoll WALL, WALL, WALL, WALL ; 1e
 	tilecoll WALL, WALL, WALL, WALL ; 1f
 	tilecoll FLOOR, WALL, FLOOR, WALL ; 20
-	tilecoll RIGHT_WALL, LEFT_WALL, WALL, FLOOR ; 21
+	tilecoll FLOOR, FLOOR, WALL, WALL ; 21
 	tilecoll WALL, WALL, WALL, DOOR ; 22
 	tilecoll WALL, WALL, DOOR, WALL ; 23

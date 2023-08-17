@@ -1538,34 +1538,34 @@ _MystieForestName::
 _MystieForestTaskText::
 	text "Allow me to intro-"
 	line "duce you to, well,"
-	para "yourself!"
+	cont "yourself!"
 
 	para "You're a young"
 	line "adult, part of a"
-	para "group of trainee"
-	line "researchers in"
-	para "the Mystie"
-	line "Village."
+	cont "group of trainee"
+	cont "researchers in"
+	cont "the Mystie"
+	cont "Village."
 
 	para "Today is the day"
 	line "that you finally"
-	para "get to be recog-"
-	line "nised as an"
-	para "official"
-	line "member of the"
-	para "Researching Team."
+	cont "get to be"
+	cont "recognised as an"
+	cont "official member"
+	cont "of the Researching"
+	cont "Team."
 
 	para "To earn this new"
 	line "position, you"
-	para "must complete"
-	line "a secret test!"
+	cont "must complete"
+	cont "a secret test!"
 
 	para "What is this"
 	line "test?"
 
 	para "Come find me"
 	line "right away to"
-	para "find out!"
+	cont "find out!"
 	prompt
 
 _MystieForestEndIntro::

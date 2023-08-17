@@ -7,7 +7,6 @@ MystieForestVillage_MapScripts:
 	def_callbacks
 
 PinelakInTheWay:
-    faceplayer
     opentext
     writetext DontStepOnPinelak
     promptbutton
