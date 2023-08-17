@@ -172,7 +172,7 @@ GetAnimatedEnemyFrontpic:
     ; Get animation size (total tiles - base sprite size)
     ld a, [sEnemyFrontpicTileCount]
     sub c
-    ret z : Return if there are no animation tiles
+    ret z ; Return if there are no animation tiles
     ld c, a
 	push hl
 	push bc
