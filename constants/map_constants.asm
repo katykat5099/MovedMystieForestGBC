@@ -464,7 +464,7 @@ ENDM
 	map_const PLAYERS_HOUSE,                                3,  3 ;  6
 	map_const ELDERS_TOWER_INDOOR_TWO,                      5,  5 ;  8
 	map_const TOWER_ONE_INDOOR_F1,                         11, 10 ; 10
-	map_const DAY_OF_WEEK_SIBLINGS_HOUSE,                   4,  4 ; 11
+	map_const TOWER_ONE_BASEMENT,                          10,  9 ; 11
 	map_const ROUTE_27_SANDSTORM_HOUSE,                     4,  4 ; 12
 	map_const ROUTE_29_ROUTE_46_GATE,                       5,  4 ; 13
 	endgroup

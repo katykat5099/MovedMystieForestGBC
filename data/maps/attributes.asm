@@ -667,7 +667,7 @@ ENDM
 	map_attributes PlayersHouse, PLAYERS_HOUSE, $00, 0
 	map_attributes EldersTowerIndoorTwo, ELDERS_TOWER_INDOOR_TWO, $00, 0
 	map_attributes TowerOneIndoorF1, TOWER_ONE_INDOOR_F1, $00, 0
-	map_attributes DayOfWeekSiblingsHouse, DAY_OF_WEEK_SIBLINGS_HOUSE, $00, 0
+	map_attributes TowerOneBasement, TOWER_ONE_BASEMENT, $00, 0
 	map_attributes Route27SandstormHouse, ROUTE_27_SANDSTORM_HOUSE, $00, 0
 	map_attributes Route29Route46Gate, ROUTE_29_ROUTE_46_GATE, $00, 0
 	map_attributes FightingDojo, FIGHTING_DOJO, $00, 0

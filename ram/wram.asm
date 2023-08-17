@@ -3066,7 +3066,7 @@ wElmsLabSceneID::                                 db
 wEldersTowerIndoorTwoSceneID::                    db
 wPlayersHouse1FSceneID::                          db
 wRoute29SceneID::                                 db
-wCherrygroveCitySceneID::                         db
+wTowerOneBasementSceneID::                        db
 wMrPokemonsHouseSceneID::                         db
 wRoute32SceneID::                                 db
 wRoute35NationalParkGateSceneID::                 db

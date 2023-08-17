@@ -30,7 +30,7 @@ MapScenes::
 	scene_var ELDERS_TOWER_INDOOR_TWO,                     wEldersTowerIndoorTwoSceneID
 	scene_var PLAYERS_HOUSE,                               wPlayersHouse1FSceneID
 	scene_var THREE_TOWERS_CONNECT,                        wRoute29SceneID
-	scene_var TOWER_ONE,                                   wCherrygroveCitySceneID
+	scene_var TOWER_ONE_BASEMENT,                          wTowerOneBasementSceneID
 	scene_var MR_POKEMONS_HOUSE,                           wMrPokemonsHouseSceneID
 	scene_var ROUTE_32,                                    wRoute32SceneID
 	scene_var ROUTE_35_NATIONAL_PARK_GATE,                 wRoute35NationalParkGateSceneID
