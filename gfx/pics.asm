@@ -330,7 +330,7 @@ SnorlaxBackpic:      INCBIN "gfx/pokemon/snorlax/back.2bpp.lz"
 
 SECTION "Pics 12", ROMX
 
-VantaroBackpic:      INCBIN "gfx/pokemon/vantaro/back.2bpp.lz"
+VantaroBackpic:
 MoltresBackpic:
 SunfloraBackpic:     INCBIN "gfx/pokemon/sunflora/back.2bpp.lz"
 PhanpyFrontpic:      INCBIN "gfx/pokemon/phanpy/front.animated.2bpp.lz"
@@ -486,7 +486,7 @@ AriadosBackpic:      INCBIN "gfx/pokemon/ariados/back.2bpp.lz"
 SneaselBackpic:      INCBIN "gfx/pokemon/sneasel/back.2bpp.lz"
 UmbreonBackpic:      INCBIN "gfx/pokemon/umbreon/back.2bpp.lz"
 MurkrowBackpic:      INCBIN "gfx/pokemon/murkrow/back.2bpp.lz"
-WoffBackpic:         INCBIN "gfx/pokemon/woff/back.2bpp.lz"
+WoffBackpic:
 SlowbroBackpic:      INCBIN "gfx/pokemon/slowbro/back.2bpp.lz"
 PsychicTPic:         INCBIN "gfx/trainers/psychic_t.2bpp.lz"
 GolduckBackpic:      INCBIN "gfx/pokemon/golduck/back.2bpp.lz"
@@ -586,7 +586,7 @@ ParasBackpic:        INCBIN "gfx/pokemon/paras/back.2bpp.lz"
 VaporeonBackpic:     INCBIN "gfx/pokemon/vaporeon/back.2bpp.lz"
 TentacoolBackpic:    INCBIN "gfx/pokemon/tentacool/back.2bpp.lz"
 ExecutivefPic:       INCBIN "gfx/trainers/executive_f.2bpp.lz"
-BuckleoBackpic:      INCBIN "gfx/pokemon/buckleo/back.2bpp.lz"
+BuckleoBackpic:
 SmoochumBackpic:     INCBIN "gfx/pokemon/smoochum/back.2bpp.lz"
 PichuBackpic:        INCBIN "gfx/pokemon/pichu/back.2bpp.lz"
 HoundoomBackpic:     INCBIN "gfx/pokemon/houndoom/back.2bpp.lz"
