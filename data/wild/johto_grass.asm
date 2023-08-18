@@ -9,25 +9,25 @@ JohtoGrassWildMons:
 	db 4, VANTARO
 	db 4, WOFF
 	db 4, WOFF
-	db 5, RATTATA
-	db 6, RATTATA
-	db 8, RATTATA
+	db 5, RATSKULL
+	db 6, RATSKULL
+	db 8, RATSKULL
 	; day
 	db 3, BUCKLEO
 	db 4, VANTARO
 	db 4, WOFF
 	db 4, WOFF
-	db 5, RATTATA
-	db 6, RATTATA
-	db 8, RATTATA
+	db 5, RATSKULL
+	db 6, RATSKULL
+	db 8, RATSKULL
 	; nite
 	db 3, BUCKLEO
 	db 4, VANTARO
 	db 4, WOFF
 	db 4, WOFF
-	db 5, RATTATA
-	db 6, RATTATA
-	db 8, RATTATA
+	db 5, RATSKULL
+	db 6, RATSKULL
+	db 8, RATSKULL
 	end_grass_wildmons
 
 	def_grass_wildmons SPROUT_TOWER_2F
