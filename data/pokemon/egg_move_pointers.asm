@@ -16,7 +16,7 @@ EggMovePointers::
 	dw NoEggMoves
 	dw NoEggMoves
 	dw PidgeyEggMoves
-	dw NoEggMoves
+	dw RatskullEggMoves
 	dw NoEggMoves
 	dw RattataEggMoves
 	dw NoEggMoves

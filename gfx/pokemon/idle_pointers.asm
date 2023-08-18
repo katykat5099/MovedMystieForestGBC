@@ -16,7 +16,7 @@ AnimationIdlePointers:
 	dw KakunaAnimationIdle
 	dw BeedrillAnimationIdle
 	dw PidgeyAnimationIdle
-	dw PidgeottoAnimationIdle
+	dw RatskullAnimationIdle
 	dw PidgeotAnimationIdle
 	dw RattataAnimationIdle
 	dw RaticateAnimationIdle

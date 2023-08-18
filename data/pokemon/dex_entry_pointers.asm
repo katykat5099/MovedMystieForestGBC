@@ -17,7 +17,7 @@ PokedexDataPointerTable:
 	dw KakunaPokedexEntry
 	dw BeedrillPokedexEntry
 	dw PidgeyPokedexEntry
-	dw PidgeottoPokedexEntry
+	dw RatskullPokedexEntry
 	dw PidgeotPokedexEntry
 	dw RattataPokedexEntry
 	dw RaticatePokedexEntry

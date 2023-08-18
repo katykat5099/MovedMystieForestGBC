@@ -1,6 +1,6 @@
 ; Every Pokémon sorted in New Pokédex Order.
 
-NewPokedexOrder:
+NewPokedexOrder: ; todo Reorganize this mess. (prob when I have all the mons added though)
 	table_width 1, NewPokedexOrder
 	db CHIKORITA
 	db BAYLEEF
@@ -12,7 +12,7 @@ NewPokedexOrder:
 	db CROCONAW
 	db FERALIGATR
 	db PIDGEY
-	db PIDGEOTTO
+	db RATSKULL
 	db PIDGEOT
 	db SPEAROW
 	db FEAROW

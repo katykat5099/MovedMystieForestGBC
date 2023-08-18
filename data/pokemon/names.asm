@@ -16,7 +16,7 @@ PokemonNames::
 	db "KAKUNA@@@@"
 	db "BEEDRILL@@"
 	db "PIDGEY@@@@"
-	db "PIDGEOTTO@"
+	db "Ratskull@@"
 	db "PIDGEOT@@@"
 	db "RATTATA@@@"
 	db "RATICATE@@"

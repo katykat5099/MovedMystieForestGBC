@@ -16,6 +16,11 @@ PidgeyEggMoves:
 	db FORESIGHT
 	db -1 ; end
 
+RatskullEggMoves: ; todo Add Moveset for Ratskull
+	db PURSUIT
+	db FAINT_ATTACK
+	db -1 ; end
+
 RattataEggMoves:
 	db SCREECH
 	db FLAME_WHEEL

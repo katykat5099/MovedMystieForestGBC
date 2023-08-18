@@ -18,7 +18,7 @@ MonMenuIcons:
 	db ICON_CATERPILLAR ; KAKUNA
 	db ICON_BUG         ; BEEDRILL
 	db ICON_BIRD        ; PIDGEY
-	db ICON_BIRD        ; PIDGEOTTO
+	db ICON_FOX         ; RATSKULL
 	db ICON_BIRD        ; PIDGEOT
 	db ICON_FOX         ; RATTATA
 	db ICON_FOX         ; RATICATE

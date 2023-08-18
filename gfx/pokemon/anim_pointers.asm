@@ -16,7 +16,7 @@ AnimationPointers:
 	dw KakunaAnimation
 	dw BeedrillAnimation
 	dw PidgeyAnimation
-	dw PidgeottoAnimation
+	dw RatskullAnimation
 	dw PidgeotAnimation
 	dw RattataAnimation
 	dw RaticateAnimation

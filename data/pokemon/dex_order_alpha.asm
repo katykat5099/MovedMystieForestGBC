@@ -1,6 +1,6 @@
 ; Every Pokémon sorted alphabetically by name.
 
-AlphabeticalPokedexOrder:
+AlphabeticalPokedexOrder: ; todo Reorganize this mess. (prob when I have all the mons added though)
 	table_width 1, AlphabeticalPokedexOrder
 	db ABRA
 	db AERODACTYL
@@ -160,7 +160,7 @@ AlphabeticalPokedexOrder:
 	db PHANPY
 	db PICHU
 	db PIDGEOT
-	db PIDGEOTTO
+	db RATSKULL
 	db PIDGEY
 	db PIKACHU
 	db PILOSWINE
