@@ -29,6 +29,11 @@
 	const PARLYZ_HEAL  ; 0d
 	const FULL_HEAL    ; 26
 
+	const ETHER        ; 3f
+	const MAX_ETHER    ; 40
+	const ELIXER       ; 41
+	const MAX_ELIXER   ; 15
+
 	const ENERGYPOWDER ; 79
 	const ENERGY_ROOT  ; 7a
 	const HEAL_POWDER  ; 7b
@@ -56,7 +61,6 @@
 	const MOON_STONE   ; 08
 	const ESCAPE_ROPE  ; 13
 	const REPEL        ; 14
-	const MAX_ELIXER   ; 15
 	const FIRE_STONE   ; 16
 	const THUNDERSTONE ; 17
 	const WATER_STONE  ; 18
@@ -81,9 +85,6 @@
 	const GOOD_ROD     ; 3b
 	const SILVER_LEAF  ; 3c
 	const SUPER_ROD    ; 3d
-	const ETHER        ; 3f
-	const MAX_ETHER    ; 40
-	const ELIXER       ; 41
 	const RED_SCALE    ; 42
 	const SECRETPOTION ; 43
 	const S_S_TICKET   ; 44

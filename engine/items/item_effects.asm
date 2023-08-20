@@ -37,6 +37,11 @@ ItemEffects:
 	dw StatusHealingEffect ; PARLYZ_HEAL
 	dw StatusHealingEffect ; FULL_HEAL
 
+	dw RestorePPEffect     ; ETHER
+	dw RestorePPEffect     ; MAX_ETHER
+	dw RestorePPEffect     ; ELIXER
+	dw RestorePPEffect     ; MAX_ELIXER
+
 	dw EnergypowderEffect  ; ENERGYPOWDER
 	dw EnergyRootEffect    ; ENERGY_ROOT
 	dw HealPowderEffect    ; HEAL_POWDER
@@ -64,7 +69,6 @@ ItemEffects:
 	dw EvoStoneEffect      ; MOON_STONE
 	dw EscapeRopeEffect    ; ESCAPE_ROPE
 	dw RepelEffect         ; REPEL
-	dw RestorePPEffect     ; MAX_ELIXER
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
@@ -89,9 +93,6 @@ ItemEffects:
 	dw GoodRodEffect       ; GOOD_ROD
 	dw NoEffect            ; SILVER_LEAF
 	dw SuperRodEffect      ; SUPER_ROD
-	dw RestorePPEffect     ; ETHER
-	dw RestorePPEffect     ; MAX_ETHER
-	dw RestorePPEffect     ; ELIXER
 	dw NoEffect            ; RED_SCALE
 	dw NoEffect            ; SECRETPOTION
 	dw NoEffect            ; S_S_TICKET

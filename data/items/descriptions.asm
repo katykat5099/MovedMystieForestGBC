@@ -24,6 +24,11 @@ ItemDescriptions:
 	dw ParlyzHealDesc
 	dw FullHealDesc
 
+	dw EtherDesc
+	dw MaxEtherDesc
+	dw ElixerDesc
+	dw MaxElixerDesc
+
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -51,7 +56,6 @@ ItemDescriptions:
 	dw MoonStoneDesc
 	dw EscapeRopeDesc
 	dw RepelDesc
-	dw MaxElixerDesc
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
@@ -76,9 +80,6 @@ ItemDescriptions:
 	dw GoodRodDesc
 	dw SilverLeafDesc
 	dw SuperRodDesc
-	dw EtherDesc
-	dw MaxEtherDesc
-	dw ElixerDesc
 	dw RedScaleDesc
 	dw SecretPotionDesc
 	dw SSTicketDesc
