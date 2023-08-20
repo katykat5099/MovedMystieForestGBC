@@ -29,6 +29,17 @@ ItemDescriptions:
 	dw ElixerDesc
 	dw MaxElixerDesc
 
+	dw PsnCureBerryDesc
+	dw PrzCureBerryDesc
+	dw BurntBerryDesc
+	dw IceBerryDesc
+	dw BitterBerryDesc
+	dw MintBerryDesc
+	dw MiracleBerryDesc
+	dw MysteryBerryDesc
+	dw BerryDesc
+	dw GoldBerryDesc
+
 	dw EnergyPowderDesc
 	dw EnergyRootDesc
 	dw HealPowderDesc
@@ -88,17 +99,11 @@ ItemDescriptions:
 	dw SilverWingDesc
 	dw MoomooMilkDesc
 	dw QuickClawDesc
-	dw PsnCureBerryDesc
 	dw GoldLeafDesc
 	dw SoftSandDesc
 	dw SharpBeakDesc
-	dw PrzCureBerryDesc
-	dw BurntBerryDesc
-	dw IceBerryDesc
 	dw PoisonBarbDesc
 	dw KingsRockDesc
-	dw BitterBerryDesc
-	dw MintBerryDesc
 	dw RedApricornDesc
 	dw TinyMushroomDesc
 	dw BigMushroomDesc
@@ -123,7 +128,6 @@ ItemDescriptions:
 	dw SmokeBallDesc
 	dw NeverMeltIceDesc
 	dw MagnetDesc
-	dw MiracleBerryDesc
 	dw PearlDesc
 	dw BigPearlDesc
 	dw EverStoneDesc
@@ -160,7 +164,6 @@ ItemDescriptions:
 	dw TeruSama15Desc
 	dw TeruSama16Desc
 	dw TeruSama17Desc
-	dw MysteryBerryDesc
 	dw DragonScaleDesc
 	dw BerserkGeneDesc
 	dw TeruSama18Desc
@@ -183,8 +186,6 @@ ItemDescriptions:
 	dw PolkadotBowDesc
 	dw TeruSama22Desc
 	dw UpGradeDesc
-	dw BerryDesc
-	dw GoldBerryDesc
 	dw SquirtBottleDesc
 	dw TeruSama23Desc
 	dw ParkBallDesc
