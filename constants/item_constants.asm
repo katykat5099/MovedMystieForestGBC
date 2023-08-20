@@ -112,9 +112,33 @@
 	const PEARL        ; 6e
 	const BIG_PEARL    ; 6f
 
-    const BRIGHTPOWDER ; 03
+    ; KEY ITEMS
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
+	const COIN_CASE    ; 36
+	const ITEMFINDER   ; 37
+	const POKE_FLUTE   ; 38
+	const OLD_ROD      ; 3a
+	const GOOD_ROD     ; 3b
+	const SUPER_ROD    ; 3d
+	const RED_SCALE    ; 42
+	const SECRETPOTION ; 43
+	const S_S_TICKET   ; 44
+	const MYSTERY_EGG  ; 45
+	const CLEAR_BELL   ; 46
+	const SILVER_WING  ; 47
+	const GS_BALL      ; 73
+	const BLUE_CARD    ; 74
+	const CARD_KEY     ; 7f
+	const MACHINE_PART ; 80
+	const EGG_TICKET   ; 81
+	const LOST_ITEM    ; 82
+	const BASEMENT_KEY ; 85
+	const PASS         ; 86
+	const SQUIRTBOTTLE ; af
+	const RAINBOW_WING ; b2
+
+    const BRIGHTPOWDER ; 03
 	const ESCAPE_ROPE  ; 13
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
@@ -125,20 +149,8 @@
 	const SODA_POP     ; 2f
 	const LEMONADE     ; 30
 	const ITEM_32      ; 32
-	const COIN_CASE    ; 36
-	const ITEMFINDER   ; 37
-	const POKE_FLUTE   ; 38
 	const EXP_SHARE    ; 39
-	const OLD_ROD      ; 3a
-	const GOOD_ROD     ; 3b
 	const SILVER_LEAF  ; 3c
-	const SUPER_ROD    ; 3d
-	const RED_SCALE    ; 42
-	const SECRETPOTION ; 43
-	const S_S_TICKET   ; 44
-	const MYSTERY_EGG  ; 45
-	const CLEAR_BELL   ; 46
-	const SILVER_WING  ; 47
 	const MOOMOO_MILK  ; 48
 	const QUICK_CLAW   ; 49
 	const GOLD_LEAF    ; 4b
@@ -159,18 +171,10 @@
 	const SMOKE_BALL   ; 6a
 	const EVERSTONE    ; 70
 	const RAGECANDYBAR ; 72
-	const GS_BALL      ; 73
-	const BLUE_CARD    ; 74
 	const THICK_CLUB   ; 76
 	const FOCUS_BAND   ; 77
 	const ITEM_78      ; 78
 	const LUCKY_EGG    ; 7e
-	const CARD_KEY     ; 7f
-	const MACHINE_PART ; 80
-	const EGG_TICKET   ; 81
-	const LOST_ITEM    ; 82
-	const BASEMENT_KEY ; 85
-	const PASS         ; 86
 	const ITEM_87      ; 87
 	const ITEM_88      ; 88
 	const ITEM_89      ; 89
@@ -203,10 +207,8 @@
 	const GORGEOUS_BOX ; a8
 	const ITEM_AB      ; ab
 	const UP_GRADE     ; ac
-	const SQUIRTBOTTLE ; af
 	const ITEM_B0      ; b0
 	const PARK_BALL    ; b1
-	const RAINBOW_WING ; b2
 	const ITEM_B3      ; b3
 	const BRICK_PIECE  ; b4
 	const SURF_MAIL    ; b5

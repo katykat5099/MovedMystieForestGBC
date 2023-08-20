@@ -120,9 +120,33 @@ ItemEffects:
 	dw NoEffect            ; PEARL
 	dw NoEffect            ; BIG_PEARL
 
-    dw NoEffect            ; BRIGHTPOWDER
+    ; KEY ITEMS
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
+	dw CoinCaseEffect      ; COIN_CASE
+	dw ItemfinderEffect    ; ITEMFINDER
+	dw PokeFluteEffect     ; POKE_FLUTE
+	dw OldRodEffect        ; OLD_ROD
+	dw GoodRodEffect       ; GOOD_ROD
+	dw SuperRodEffect      ; SUPER_ROD
+	dw NoEffect            ; RED_SCALE
+	dw NoEffect            ; SECRETPOTION
+	dw NoEffect            ; S_S_TICKET
+	dw NoEffect            ; MYSTERY_EGG
+	dw NoEffect            ; CLEAR_BELL
+	dw NoEffect            ; SILVER_WING
+	dw NoEffect            ; GS_BALL
+	dw BlueCardEffect      ; BLUE_CARD
+	dw CardKeyEffect       ; CARD_KEY
+	dw NoEffect            ; MACHINE_PART
+	dw NoEffect            ; EGG_TICKET
+	dw NoEffect            ; LOST_ITEM
+	dw BasementKeyEffect   ; BASEMENT_KEY
+	dw NoEffect            ; PASS
+	dw SquirtbottleEffect  ; SQUIRTBOTTLE
+	dw NoEffect            ; RAINBOW_WING
+
+    dw NoEffect            ; BRIGHTPOWDER
 	dw EscapeRopeEffect    ; ESCAPE_ROPE
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
@@ -133,20 +157,8 @@ ItemEffects:
 	dw RestoreHPEffect     ; SODA_POP
 	dw RestoreHPEffect     ; LEMONADE
 	dw NoEffect            ; ITEM_32
-	dw CoinCaseEffect      ; COIN_CASE
-	dw ItemfinderEffect    ; ITEMFINDER
-	dw PokeFluteEffect     ; POKE_FLUTE
 	dw NoEffect            ; EXP_SHARE
-	dw OldRodEffect        ; OLD_ROD
-	dw GoodRodEffect       ; GOOD_ROD
 	dw NoEffect            ; SILVER_LEAF
-	dw SuperRodEffect      ; SUPER_ROD
-	dw NoEffect            ; RED_SCALE
-	dw NoEffect            ; SECRETPOTION
-	dw NoEffect            ; S_S_TICKET
-	dw NoEffect            ; MYSTERY_EGG
-	dw NoEffect            ; CLEAR_BELL
-	dw NoEffect            ; SILVER_WING
 	dw RestoreHPEffect     ; MOOMOO_MILK
 	dw NoEffect            ; QUICK_CLAW
 	dw NoEffect            ; GOLD_LEAF
@@ -167,18 +179,10 @@ ItemEffects:
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; EVERSTONE
 	dw RestoreHPEffect     ; RAGECANDYBAR
-	dw NoEffect            ; GS_BALL
-	dw BlueCardEffect      ; BLUE_CARD
 	dw NoEffect            ; THICK_CLUB
 	dw NoEffect            ; FOCUS_BAND
 	dw NoEffect            ; ITEM_78
 	dw NoEffect            ; LUCKY_EGG
-	dw CardKeyEffect       ; CARD_KEY
-	dw NoEffect            ; MACHINE_PART
-	dw NoEffect            ; EGG_TICKET
-	dw NoEffect            ; LOST_ITEM
-	dw BasementKeyEffect   ; BASEMENT_KEY
-	dw NoEffect            ; PASS
 	dw NoEffect            ; ITEM_87
 	dw NoEffect            ; ITEM_88
 	dw NoEffect            ; ITEM_89
@@ -211,10 +215,8 @@ ItemEffects:
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
-	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; ITEM_B0
 	dw PokeBallEffect      ; PARK_BALL
-	dw NoEffect            ; RAINBOW_WING
 	dw NoEffect            ; ITEM_B3
 	assert_table_length ITEM_B3
 ; The items past ITEM_B3 do not have effect entries:

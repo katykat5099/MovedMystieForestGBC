@@ -108,9 +108,33 @@ ItemDescriptions:
 	dw PearlDesc
 	dw BigPearlDesc
 
-    dw BrightpowderDesc
+    ; KEY ITEMS
 	dw TeruSama1Desc
 	dw BicycleDesc
+	dw CoinCaseDesc
+	dw ItemfinderDesc
+	dw TeruSama5Desc
+	dw OldRodDesc
+	dw GoodRodDesc
+	dw SuperRodDesc
+	dw RedScaleDesc
+	dw SecretPotionDesc
+	dw SSTicketDesc
+	dw MysteryEggDesc
+	dw ClearBellDesc
+	dw SilverWingDesc
+	dw GSBallDesc
+	dw BlueCardDesc
+	dw CardKeyDesc
+	dw MachinePartDesc
+	dw EggTicketDesc
+	dw LostItemDesc
+	dw BasementKeyDesc
+	dw PassDesc
+	dw SquirtBottleDesc
+	dw RainbowWingDesc
+
+    dw BrightpowderDesc
 	dw EscapeRopeDesc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
@@ -120,20 +144,8 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw TeruSama4Desc
-	dw CoinCaseDesc
-	dw ItemfinderDesc
-	dw TeruSama5Desc
 	dw ExpShareDesc
-	dw OldRodDesc
-	dw GoodRodDesc
 	dw SilverLeafDesc
-	dw SuperRodDesc
-	dw RedScaleDesc
-	dw SecretPotionDesc
-	dw SSTicketDesc
-	dw MysteryEggDesc
-	dw ClearBellDesc
-	dw SilverWingDesc
 	dw MoomooMilkDesc
 	dw QuickClawDesc
 	dw GoldLeafDesc
@@ -154,18 +166,10 @@ ItemDescriptions:
 	dw SmokeBallDesc
 	dw EverStoneDesc
 	dw RageCandyBarDesc
-	dw GSBallDesc
-	dw BlueCardDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
 	dw TeruSama8Desc
 	dw LuckyEggDesc
-	dw CardKeyDesc
-	dw MachinePartDesc
-	dw EggTicketDesc
-	dw LostItemDesc
-	dw BasementKeyDesc
-	dw PassDesc
 	dw TeruSama9Desc
 	dw TeruSama10Desc
 	dw TeruSama11Desc
@@ -198,10 +202,8 @@ ItemDescriptions:
 	dw GorgeousBoxDesc
 	dw TeruSama22Desc
 	dw UpGradeDesc
-	dw SquirtBottleDesc
 	dw TeruSama23Desc
 	dw ParkBallDesc
-	dw RainbowWingDesc
 	dw TeruSama24Desc
 	dw BrickPieceDesc
 	dw SurfMailDesc
