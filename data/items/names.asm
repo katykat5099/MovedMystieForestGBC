@@ -1,10 +1,12 @@
 ItemNames::
 	list_start ItemNames
+	; BALLS
 	li "MASTER BALL"
 	li "ULTRA BALL"
-	li "BRIGHTPOWDER"
 	li "GREAT BALL"
 	li "# BALL"
+
+    li "BRIGHTPOWDER"
 	li "TERU-SAMA"
 	li "BICYCLE"
 	li "MOON STONE"

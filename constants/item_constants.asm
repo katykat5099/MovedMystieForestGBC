@@ -5,12 +5,14 @@
 ; - ItemAttributes (see data/items/attributes.asm)
 ; - ItemEffects (see engine/items/item_effects.asm)
 	const_def
+	; BALLS
 	const NO_ITEM      ; 00
 	const MASTER_BALL  ; 01
 	const ULTRA_BALL   ; 02
-	const BRIGHTPOWDER ; 03
 	const GREAT_BALL   ; 04
 	const POKE_BALL    ; 05
+
+    const BRIGHTPOWDER ; 03
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
 	const MOON_STONE   ; 08

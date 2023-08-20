@@ -1,11 +1,13 @@
 ItemDescriptions:
 ; entries correspond to item ids (see constants/item_constants.asm)
 	table_width 2, ItemDescriptions
+	; BALLS
 	dw MasterBallDesc
 	dw UltraBallDesc
-	dw BrightpowderDesc
 	dw GreatBallDesc
 	dw PokeBallDesc
+
+    dw BrightpowderDesc
 	dw TeruSama1Desc
 	dw BicycleDesc
 	dw MoonStoneDesc
