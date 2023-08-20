@@ -13,6 +13,9 @@ ItemNames::
 	li "SUPER POTION"
 	li "POTION"
 
+	li "REVIVE"
+	li "MAX REVIVE"
+
 	li "ANTIDOTE"
 	li "BURN HEAL"
 	li "ICE HEAL"
@@ -57,8 +60,6 @@ ItemNames::
 	li "METAL POWDER"
 	li "NUGGET"
 	li "# DOLL"
-	li "REVIVE"
-	li "MAX REVIVE"
 	li "SUPER REPEL"
 	li "MAX REPEL"
 	li "TERU-SAMA"

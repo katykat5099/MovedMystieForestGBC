@@ -27,6 +27,9 @@ ItemEffects:
 	dw RestoreHPEffect     ; SUPER_POTION
 	dw RestoreHPEffect     ; POTION
 
+	dw ReviveEffect        ; REVIVE
+	dw ReviveEffect        ; MAX_REVIVE
+
 	dw StatusHealingEffect ; ANTIDOTE
 	dw StatusHealingEffect ; BURN_HEAL
 	dw StatusHealingEffect ; ICE_HEAL
@@ -71,8 +74,6 @@ ItemEffects:
 	dw NoEffect            ; METAL_POWDER
 	dw NoEffect            ; NUGGET
 	dw PokeDollEffect      ; POKE_DOLL
-	dw ReviveEffect        ; REVIVE
-	dw ReviveEffect        ; MAX_REVIVE
 	dw SuperRepelEffect    ; SUPER_REPEL
 	dw MaxRepelEffect      ; MAX_REPEL
 	dw NoEffect            ; ITEM_2D

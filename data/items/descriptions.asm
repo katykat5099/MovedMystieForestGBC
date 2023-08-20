@@ -14,6 +14,9 @@ ItemDescriptions:
     dw SuperPotionDesc
     dw PotionDesc
 
+	dw ReviveDesc
+	dw MaxReviveDesc
+
 	dw AntidoteDesc
 	dw BurnHealDesc
 	dw IceHealDesc
@@ -58,8 +61,6 @@ ItemDescriptions:
 	dw MetalPowderDesc
 	dw NuggetDesc
 	dw PokeDollDesc
-	dw ReviveDesc
-	dw MaxReviveDesc
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw TeruSama3Desc

@@ -19,6 +19,9 @@
 	const SUPER_POTION ; 11
 	const POTION       ; 12
 
+	const REVIVE       ; 27
+	const MAX_REVIVE   ; 28
+
 	const ANTIDOTE     ; 09
 	const BURN_HEAL    ; 0a
 	const ICE_HEAL     ; 0b
@@ -63,8 +66,6 @@
 	const METAL_POWDER ; 23
 	const NUGGET       ; 24
 	const POKE_DOLL    ; 25
-	const REVIVE       ; 27
-	const MAX_REVIVE   ; 28
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
 	const ITEM_2D      ; 2d
