@@ -74,6 +74,15 @@
 	const MOON_STONE   ; 08
 	const LEAF_STONE   ; 22
 
+    ; TREASURE
+	const NUGGET       ; 24
+	const TINYMUSHROOM ; 56
+	const BIG_MUSHROOM ; 57
+	const STARDUST     ; 83
+	const STAR_PIECE   ; 84
+	const PEARL        ; 6e
+	const BIG_PEARL    ; 6f
+
     const BRIGHTPOWDER ; 03
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
@@ -82,7 +91,6 @@
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
 	const METAL_POWDER ; 23
-	const NUGGET       ; 24
 	const POKE_DOLL    ; 25
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
@@ -113,8 +121,6 @@
 	const POISON_BARB  ; 51
 	const KINGS_ROCK   ; 52
 	const RED_APRICORN ; 55
-	const TINYMUSHROOM ; 56
-	const BIG_MUSHROOM ; 57
 	const SILVERPOWDER ; 58
 	const BLU_APRICORN ; 59
 	const ITEM_5A      ; 5a
@@ -136,8 +142,6 @@
 	const SMOKE_BALL   ; 6a
 	const NEVERMELTICE ; 6b
 	const MAGNET       ; 6c
-	const PEARL        ; 6e
-	const BIG_PEARL    ; 6f
 	const EVERSTONE    ; 70
 	const SPELL_TAG    ; 71
 	const RAGECANDYBAR ; 72
@@ -153,8 +157,6 @@
 	const MACHINE_PART ; 80
 	const EGG_TICKET   ; 81
 	const LOST_ITEM    ; 82
-	const STARDUST     ; 83
-	const STAR_PIECE   ; 84
 	const BASEMENT_KEY ; 85
 	const PASS         ; 86
 	const ITEM_87      ; 87

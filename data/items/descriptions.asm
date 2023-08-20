@@ -70,6 +70,15 @@ ItemDescriptions:
 	dw MoonStoneDesc
 	dw LeafStoneDesc
 
+    ; TREASURE
+	dw NuggetDesc
+	dw TinyMushroomDesc
+	dw BigMushroomDesc
+	dw StardustDesc
+	dw StarPieceDesc
+	dw PearlDesc
+	dw BigPearlDesc
+
     dw BrightpowderDesc
 	dw TeruSama1Desc
 	dw BicycleDesc
@@ -77,7 +86,6 @@ ItemDescriptions:
 	dw TeruSama2Desc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
-	dw NuggetDesc
 	dw PokeDollDesc
 	dw SuperRepelDesc
 	dw MaxRepelDesc
@@ -108,8 +116,6 @@ ItemDescriptions:
 	dw PoisonBarbDesc
 	dw KingsRockDesc
 	dw RedApricornDesc
-	dw TinyMushroomDesc
-	dw BigMushroomDesc
 	dw SilverPowderDesc
 	dw BluApricornDesc
 	dw TeruSama6Desc
@@ -131,8 +137,6 @@ ItemDescriptions:
 	dw SmokeBallDesc
 	dw NeverMeltIceDesc
 	dw MagnetDesc
-	dw PearlDesc
-	dw BigPearlDesc
 	dw EverStoneDesc
 	dw SpellTagDesc
 	dw RageCandyBarDesc
@@ -148,8 +152,6 @@ ItemDescriptions:
 	dw MachinePartDesc
 	dw EggTicketDesc
 	dw LostItemDesc
-	dw StardustDesc
-	dw StarPieceDesc
 	dw BasementKeyDesc
 	dw PassDesc
 	dw TeruSama9Desc

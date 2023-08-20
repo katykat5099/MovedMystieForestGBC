@@ -82,6 +82,15 @@ ItemEffects:
 	dw EvoStoneEffect      ; MOON_STONE
 	dw EvoStoneEffect      ; LEAF_STONE
 
+    ; TREASURE
+	dw NoEffect            ; NUGGET
+	dw NoEffect            ; TINYMUSHROOM
+	dw NoEffect            ; BIG_MUSHROOM
+	dw NoEffect            ; STARDUST
+	dw NoEffect            ; STAR_PIECE
+	dw NoEffect            ; PEARL
+	dw NoEffect            ; BIG_PEARL
+
     dw NoEffect            ; BRIGHTPOWDER
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
@@ -90,7 +99,6 @@ ItemEffects:
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
 	dw NoEffect            ; METAL_POWDER
-	dw NoEffect            ; NUGGET
 	dw PokeDollEffect      ; POKE_DOLL
 	dw SuperRepelEffect    ; SUPER_REPEL
 	dw MaxRepelEffect      ; MAX_REPEL
@@ -121,8 +129,6 @@ ItemEffects:
 	dw NoEffect            ; POISON_BARB
 	dw NoEffect            ; KINGS_ROCK
 	dw NoEffect            ; RED_APRICORN
-	dw NoEffect            ; TINYMUSHROOM
-	dw NoEffect            ; BIG_MUSHROOM
 	dw NoEffect            ; SILVERPOWDER
 	dw NoEffect            ; BLU_APRICORN
 	dw NoEffect            ; ITEM_5A
@@ -144,8 +150,6 @@ ItemEffects:
 	dw NoEffect            ; SMOKE_BALL
 	dw NoEffect            ; NEVERMELTICE
 	dw NoEffect            ; MAGNET
-	dw NoEffect            ; PEARL
-	dw NoEffect            ; BIG_PEARL
 	dw NoEffect            ; EVERSTONE
 	dw NoEffect            ; SPELL_TAG
 	dw RestoreHPEffect     ; RAGECANDYBAR
@@ -161,8 +165,6 @@ ItemEffects:
 	dw NoEffect            ; MACHINE_PART
 	dw NoEffect            ; EGG_TICKET
 	dw NoEffect            ; LOST_ITEM
-	dw NoEffect            ; STARDUST
-	dw NoEffect            ; STAR_PIECE
 	dw BasementKeyEffect   ; BASEMENT_KEY
 	dw NoEffect            ; PASS
 	dw NoEffect            ; ITEM_87
