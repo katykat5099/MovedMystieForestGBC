@@ -34,6 +34,14 @@ ItemDescriptions:
 	dw CalciumDesc
 	dw PPUpDesc
 
+	dw XAccuracyDesc
+	dw XAttackDesc
+	dw XDefendDesc
+	dw XSpeedDesc
+	dw XSpecialDesc
+	dw DireHitDesc
+	dw GuardSpecDesc
+
     dw BrightpowderDesc
 	dw TeruSama1Desc
 	dw BicycleDesc
@@ -46,26 +54,19 @@ ItemDescriptions:
 	dw WaterStoneDesc
 	dw TeruSama2Desc
 	dw LuckyPunchDesc
-	dw XAccuracyDesc
 	dw LeafStoneDesc
 	dw MetalPowderDesc
 	dw NuggetDesc
 	dw PokeDollDesc
 	dw ReviveDesc
 	dw MaxReviveDesc
-	dw GuardSpecDesc
 	dw SuperRepelDesc
 	dw MaxRepelDesc
-	dw DireHitDesc
 	dw TeruSama3Desc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
-	dw XAttackDesc
 	dw TeruSama4Desc
-	dw XDefendDesc
-	dw XSpeedDesc
-	dw XSpecialDesc
 	dw CoinCaseDesc
 	dw ItemfinderDesc
 	dw TeruSama5Desc

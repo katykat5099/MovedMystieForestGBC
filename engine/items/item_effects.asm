@@ -47,6 +47,14 @@ ItemEffects:
 	dw VitaminEffect       ; CALCIUM
 	dw RestorePPEffect     ; PP_UP
 
+	dw XAccuracyEffect     ; X_ACCURACY
+	dw XItemEffect         ; X_ATTACK
+	dw XItemEffect         ; X_DEFEND
+	dw XItemEffect         ; X_SPEED
+	dw XItemEffect         ; X_SPECIAL
+	dw DireHitEffect       ; DIRE_HIT
+	dw GuardSpecEffect     ; GUARD_SPEC
+
     dw NoEffect            ; BRIGHTPOWDER
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
@@ -59,26 +67,19 @@ ItemEffects:
 	dw EvoStoneEffect      ; WATER_STONE
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
-	dw XAccuracyEffect     ; X_ACCURACY
 	dw EvoStoneEffect      ; LEAF_STONE
 	dw NoEffect            ; METAL_POWDER
 	dw NoEffect            ; NUGGET
 	dw PokeDollEffect      ; POKE_DOLL
 	dw ReviveEffect        ; REVIVE
 	dw ReviveEffect        ; MAX_REVIVE
-	dw GuardSpecEffect     ; GUARD_SPEC
 	dw SuperRepelEffect    ; SUPER_REPEL
 	dw MaxRepelEffect      ; MAX_REPEL
-	dw DireHitEffect       ; DIRE_HIT
 	dw NoEffect            ; ITEM_2D
 	dw RestoreHPEffect     ; FRESH_WATER
 	dw RestoreHPEffect     ; SODA_POP
 	dw RestoreHPEffect     ; LEMONADE
-	dw XItemEffect         ; X_ATTACK
 	dw NoEffect            ; ITEM_32
-	dw XItemEffect         ; X_DEFEND
-	dw XItemEffect         ; X_SPEED
-	dw XItemEffect         ; X_SPECIAL
 	dw CoinCaseEffect      ; COIN_CASE
 	dw ItemfinderEffect    ; ITEMFINDER
 	dw PokeFluteEffect     ; POKE_FLUTE

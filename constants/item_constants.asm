@@ -39,6 +39,14 @@
 	const CALCIUM      ; 1f
 	const PP_UP        ; 3e
 
+	const X_ACCURACY   ; 21
+	const X_ATTACK     ; 31
+	const X_DEFEND     ; 33
+	const X_SPEED      ; 34
+	const X_SPECIAL    ; 35
+	const DIRE_HIT     ; 2c
+	const GUARD_SPEC   ; 29
+
     const BRIGHTPOWDER ; 03
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
@@ -51,26 +59,19 @@
 	const WATER_STONE  ; 18
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
-	const X_ACCURACY   ; 21
 	const LEAF_STONE   ; 22
 	const METAL_POWDER ; 23
 	const NUGGET       ; 24
 	const POKE_DOLL    ; 25
 	const REVIVE       ; 27
 	const MAX_REVIVE   ; 28
-	const GUARD_SPEC   ; 29
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
-	const DIRE_HIT     ; 2c
 	const ITEM_2D      ; 2d
 	const FRESH_WATER  ; 2e
 	const SODA_POP     ; 2f
 	const LEMONADE     ; 30
-	const X_ATTACK     ; 31
 	const ITEM_32      ; 32
-	const X_DEFEND     ; 33
-	const X_SPEED      ; 34
-	const X_SPECIAL    ; 35
 	const COIN_CASE    ; 36
 	const ITEMFINDER   ; 37
 	const POKE_FLUTE   ; 38
