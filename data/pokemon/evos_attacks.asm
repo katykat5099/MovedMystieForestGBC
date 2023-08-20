@@ -34,7 +34,7 @@ VantaroEvosAttacks:
 GekkouEvosAttacks:
 	db EVOLVE_LEVEL, 16, WIZARDON ; to-do
 	db 0 ; no more evolutions
-	db 1, SCRATCH ; to-do, dragon scratch (dragon type scratch)
+	db 1, DRGN_SCRATCH
 	db 1, TWISTER
 	db 0 ; no more level-up moves
 
