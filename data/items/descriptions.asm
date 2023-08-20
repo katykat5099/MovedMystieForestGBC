@@ -21,6 +21,11 @@ ItemDescriptions:
 	dw ParlyzHealDesc
 	dw FullHealDesc
 
+	dw EnergyPowderDesc
+	dw EnergyRootDesc
+	dw HealPowderDesc
+	dw RevivalHerbDesc
+
     dw BrightpowderDesc
 	dw TeruSama1Desc
 	dw BicycleDesc
@@ -126,10 +131,6 @@ ItemDescriptions:
 	dw ThickClubDesc
 	dw FocusBandDesc
 	dw TeruSama8Desc
-	dw EnergyPowderDesc
-	dw EnergyRootDesc
-	dw HealPowderDesc
-	dw RevivalHerbDesc
 	dw HardStoneDesc
 	dw LuckyEggDesc
 	dw CardKeyDesc

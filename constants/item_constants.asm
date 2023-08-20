@@ -26,6 +26,11 @@
 	const PARLYZ_HEAL  ; 0d
 	const FULL_HEAL    ; 26
 
+	const ENERGYPOWDER ; 79
+	const ENERGY_ROOT  ; 7a
+	const HEAL_POWDER  ; 7b
+	const REVIVAL_HERB ; 7c
+
     const BRIGHTPOWDER ; 03
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
@@ -131,10 +136,6 @@
 	const THICK_CLUB   ; 76
 	const FOCUS_BAND   ; 77
 	const ITEM_78      ; 78
-	const ENERGYPOWDER ; 79
-	const ENERGY_ROOT  ; 7a
-	const HEAL_POWDER  ; 7b
-	const REVIVAL_HERB ; 7c
 	const HARD_STONE   ; 7d
 	const LUCKY_EGG    ; 7e
 	const CARD_KEY     ; 7f

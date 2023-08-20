@@ -34,6 +34,11 @@ ItemEffects:
 	dw StatusHealingEffect ; PARLYZ_HEAL
 	dw StatusHealingEffect ; FULL_HEAL
 
+	dw EnergypowderEffect  ; ENERGYPOWDER
+	dw EnergyRootEffect    ; ENERGY_ROOT
+	dw HealPowderEffect    ; HEAL_POWDER
+	dw RevivalHerbEffect   ; REVIVAL_HERB
+
     dw NoEffect            ; BRIGHTPOWDER
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
@@ -139,10 +144,6 @@ ItemEffects:
 	dw NoEffect            ; THICK_CLUB
 	dw NoEffect            ; FOCUS_BAND
 	dw NoEffect            ; ITEM_78
-	dw EnergypowderEffect  ; ENERGYPOWDER
-	dw EnergyRootEffect    ; ENERGY_ROOT
-	dw HealPowderEffect    ; HEAL_POWDER
-	dw RevivalHerbEffect   ; REVIVAL_HERB
 	dw NoEffect            ; HARD_STONE
 	dw NoEffect            ; LUCKY_EGG
 	dw CardKeyEffect       ; CARD_KEY

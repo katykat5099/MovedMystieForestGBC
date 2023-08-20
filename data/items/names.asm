@@ -20,6 +20,11 @@ ItemNames::
 	li "PARLYZ HEAL"
 	li "FULL HEAL"
 
+	li "ENERGYPOWDER"
+	li "ENERGY ROOT"
+	li "HEAL POWDER"
+	li "REVIVAL HERB"
+
     li "BRIGHTPOWDER"
 	li "TERU-SAMA"
 	li "BICYCLE"
@@ -125,10 +130,6 @@ ItemNames::
 	li "THICK CLUB"
 	li "FOCUS BAND"
 	li "TERU-SAMA"
-	li "ENERGYPOWDER"
-	li "ENERGY ROOT"
-	li "HEAL POWDER"
-	li "REVIVAL HERB"
 	li "HARD STONE"
 	li "LUCKY EGG"
 	li "CARD KEY"
