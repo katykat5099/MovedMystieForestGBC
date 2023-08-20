@@ -31,6 +31,14 @@
 	const HEAL_POWDER  ; 7b
 	const REVIVAL_HERB ; 7c
 
+	const RARE_CANDY   ; 20
+	const HP_UP        ; 1a
+	const PROTEIN      ; 1b
+	const IRON         ; 1c
+	const CARBOS       ; 1d
+	const CALCIUM      ; 1f
+	const PP_UP        ; 3e
+
     const BRIGHTPOWDER ; 03
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
@@ -42,13 +50,7 @@
 	const THUNDERSTONE ; 17
 	const WATER_STONE  ; 18
 	const ITEM_19      ; 19
-	const HP_UP        ; 1a
-	const PROTEIN      ; 1b
-	const IRON         ; 1c
-	const CARBOS       ; 1d
 	const LUCKY_PUNCH  ; 1e
-	const CALCIUM      ; 1f
-	const RARE_CANDY   ; 20
 	const X_ACCURACY   ; 21
 	const LEAF_STONE   ; 22
 	const METAL_POWDER ; 23
@@ -77,7 +79,6 @@
 	const GOOD_ROD     ; 3b
 	const SILVER_LEAF  ; 3c
 	const SUPER_ROD    ; 3d
-	const PP_UP        ; 3e
 	const ETHER        ; 3f
 	const MAX_ETHER    ; 40
 	const ELIXER       ; 41

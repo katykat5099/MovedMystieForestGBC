@@ -39,6 +39,14 @@ ItemEffects:
 	dw HealPowderEffect    ; HEAL_POWDER
 	dw RevivalHerbEffect   ; REVIVAL_HERB
 
+	dw RareCandyEffect     ; RARE_CANDY
+	dw VitaminEffect       ; HP_UP
+	dw VitaminEffect       ; PROTEIN
+	dw VitaminEffect       ; IRON
+	dw VitaminEffect       ; CARBOS
+	dw VitaminEffect       ; CALCIUM
+	dw RestorePPEffect     ; PP_UP
+
     dw NoEffect            ; BRIGHTPOWDER
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
@@ -50,13 +58,7 @@ ItemEffects:
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
 	dw NoEffect            ; ITEM_19
-	dw VitaminEffect       ; HP_UP
-	dw VitaminEffect       ; PROTEIN
-	dw VitaminEffect       ; IRON
-	dw VitaminEffect       ; CARBOS
 	dw NoEffect            ; LUCKY_PUNCH
-	dw VitaminEffect       ; CALCIUM
-	dw RareCandyEffect     ; RARE_CANDY
 	dw XAccuracyEffect     ; X_ACCURACY
 	dw EvoStoneEffect      ; LEAF_STONE
 	dw NoEffect            ; METAL_POWDER
@@ -85,7 +87,6 @@ ItemEffects:
 	dw GoodRodEffect       ; GOOD_ROD
 	dw NoEffect            ; SILVER_LEAF
 	dw SuperRodEffect      ; SUPER_ROD
-	dw RestorePPEffect     ; PP_UP
 	dw RestorePPEffect     ; ETHER
 	dw RestorePPEffect     ; MAX_ETHER
 	dw RestorePPEffect     ; ELIXER

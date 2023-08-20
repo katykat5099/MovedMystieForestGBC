@@ -26,6 +26,14 @@ ItemDescriptions:
 	dw HealPowderDesc
 	dw RevivalHerbDesc
 
+	dw RareCandyDesc
+	dw HPUpDesc
+	dw ProteinDesc
+	dw IronDesc
+	dw CarbosDesc
+	dw CalciumDesc
+	dw PPUpDesc
+
     dw BrightpowderDesc
 	dw TeruSama1Desc
 	dw BicycleDesc
@@ -37,13 +45,7 @@ ItemDescriptions:
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
 	dw TeruSama2Desc
-	dw HPUpDesc
-	dw ProteinDesc
-	dw IronDesc
-	dw CarbosDesc
 	dw LuckyPunchDesc
-	dw CalciumDesc
-	dw RareCandyDesc
 	dw XAccuracyDesc
 	dw LeafStoneDesc
 	dw MetalPowderDesc
@@ -72,7 +74,6 @@ ItemDescriptions:
 	dw GoodRodDesc
 	dw SilverLeafDesc
 	dw SuperRodDesc
-	dw PPUpDesc
 	dw EtherDesc
 	dw MaxEtherDesc
 	dw ElixerDesc
