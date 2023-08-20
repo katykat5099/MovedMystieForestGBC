@@ -1,6 +1,7 @@
 ItemDescriptions:
 ; entries correspond to item ids (see constants/item_constants.asm)
 	table_width 2, ItemDescriptions
+	; CORE ITEMS
 	; BALLS
 	dw MasterBallDesc
 	dw UltraBallDesc
@@ -61,6 +62,28 @@ ItemDescriptions:
 	dw DireHitDesc
 	dw GuardSpecDesc
 
+    ; HELD ITEMS
+    ; TYPE BOOSTING ITEMS
+	dw BlackbeltDesc
+	dw BlackGlassesDesc
+	dw CharcoalDesc
+	dw DragonFangDesc
+	dw HardStoneDesc
+	dw MagnetDesc
+	dw MetalCoatDesc
+	dw MiracleSeedDesc
+	dw MysticWaterDesc
+	dw NeverMeltIceDesc
+	dw PinkBowDesc
+	dw PoisonBarbDesc
+	dw SharpBeakDesc
+	dw PolkadotBowDesc
+	dw SilverPowderDesc
+	dw SoftSandDesc
+	dw SpellTagDesc
+	dw TwistedSpoonDesc
+
+    ; BAG-USE ITEMS
     ; EVOLUTION
 	dw RepelDesc
 	dw FireStoneDesc
@@ -75,6 +98,7 @@ ItemDescriptions:
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 
+    ; OTHER
     ; TREASURE
 	dw NuggetDesc
 	dw TinyMushroomDesc
@@ -113,42 +137,28 @@ ItemDescriptions:
 	dw MoomooMilkDesc
 	dw QuickClawDesc
 	dw GoldLeafDesc
-	dw SoftSandDesc
-	dw SharpBeakDesc
-	dw PoisonBarbDesc
 	dw KingsRockDesc
 	dw RedApricornDesc
-	dw SilverPowderDesc
 	dw BluApricornDesc
 	dw TeruSama6Desc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
 	dw CleanseTagDesc
-	dw MysticWaterDesc
-	dw TwistedSpoonDesc
 	dw WhtApricornDesc
-	dw BlackbeltDesc
 	dw BlkApricornDesc
 	dw TeruSama7Desc
 	dw PnkApricornDesc
-	dw BlackGlassesDesc
 	dw SlowpokeTailDesc
-	dw PinkBowDesc
 	dw StickDesc
 	dw SmokeBallDesc
-	dw NeverMeltIceDesc
-	dw MagnetDesc
 	dw EverStoneDesc
-	dw SpellTagDesc
 	dw RageCandyBarDesc
 	dw GSBallDesc
 	dw BlueCardDesc
-	dw MiracleSeedDesc
 	dw ThickClubDesc
 	dw FocusBandDesc
 	dw TeruSama8Desc
-	dw HardStoneDesc
 	dw LuckyEggDesc
 	dw CardKeyDesc
 	dw MachinePartDesc
@@ -159,13 +169,10 @@ ItemDescriptions:
 	dw TeruSama9Desc
 	dw TeruSama10Desc
 	dw TeruSama11Desc
-	dw CharcoalDesc
 	dw BerryJuiceDesc
 	dw ScopeLensDesc
 	dw TeruSama12Desc
 	dw TeruSama13Desc
-	dw MetalCoatDesc
-	dw DragonFangDesc
 	dw TeruSama14Desc
 	dw LeftoversDesc
 	dw TeruSama15Desc
@@ -189,7 +196,6 @@ ItemDescriptions:
 	dw LoveBallDesc
 	dw NormalBoxDesc
 	dw GorgeousBoxDesc
-	dw PolkadotBowDesc
 	dw TeruSama22Desc
 	dw UpGradeDesc
 	dw SquirtBottleDesc

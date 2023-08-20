@@ -5,6 +5,7 @@
 ; - ItemAttributes (see data/items/attributes.asm)
 ; - ItemEffects (see engine/items/item_effects.asm)
 	const_def
+	; CORE ITEMS
 	; BALLS
 	const NO_ITEM      ; 00
 	const MASTER_BALL  ; 01
@@ -66,6 +67,28 @@
 	const DIRE_HIT     ; 2c
 	const GUARD_SPEC   ; 29
 
+    ; HELD ITEMS
+    ; TYPE BOOSTING ITEMS
+	const BLACKBELT_I  ; 62
+	const BLACKGLASSES ; 66
+	const CHARCOAL     ; 8a
+	const DRAGON_FANG  ; 90
+	const HARD_STONE   ; 7d
+	const MAGNET       ; 6c
+	const METAL_COAT   ; 8f
+	const MIRACLE_SEED ; 75
+	const MYSTIC_WATER ; 5f
+	const NEVERMELTICE ; 6b
+	const PINK_BOW     ; 68
+	const POISON_BARB  ; 51
+	const SHARP_BEAK   ; 4d
+	const POLKADOT_BOW ; aa
+	const SILVERPOWDER ; 58
+	const SOFT_SAND    ; 4c
+	const SPELL_TAG    ; 71
+	const TWISTEDSPOON ; 60
+
+    ; BAG-USE ITEMS
     ; EVOLUTION
 	const FIRE_STONE   ; 16
 	const THUNDERSTONE ; 17
@@ -79,6 +102,7 @@
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
 
+    ; OTHER
     ; TREASURE
 	const NUGGET       ; 24
 	const TINYMUSHROOM ; 56
@@ -118,42 +142,28 @@
 	const MOOMOO_MILK  ; 48
 	const QUICK_CLAW   ; 49
 	const GOLD_LEAF    ; 4b
-	const SOFT_SAND    ; 4c
-	const SHARP_BEAK   ; 4d
-	const POISON_BARB  ; 51
 	const KINGS_ROCK   ; 52
 	const RED_APRICORN ; 55
-	const SILVERPOWDER ; 58
 	const BLU_APRICORN ; 59
 	const ITEM_5A      ; 5a
 	const AMULET_COIN  ; 5b
 	const YLW_APRICORN ; 5c
 	const GRN_APRICORN ; 5d
 	const CLEANSE_TAG  ; 5e
-	const MYSTIC_WATER ; 5f
-	const TWISTEDSPOON ; 60
 	const WHT_APRICORN ; 61
-	const BLACKBELT_I  ; 62
 	const BLK_APRICORN ; 63
 	const ITEM_64      ; 64
 	const PNK_APRICORN ; 65
-	const BLACKGLASSES ; 66
 	const SLOWPOKETAIL ; 67
-	const PINK_BOW     ; 68
 	const STICK        ; 69
 	const SMOKE_BALL   ; 6a
-	const NEVERMELTICE ; 6b
-	const MAGNET       ; 6c
 	const EVERSTONE    ; 70
-	const SPELL_TAG    ; 71
 	const RAGECANDYBAR ; 72
 	const GS_BALL      ; 73
 	const BLUE_CARD    ; 74
-	const MIRACLE_SEED ; 75
 	const THICK_CLUB   ; 76
 	const FOCUS_BAND   ; 77
 	const ITEM_78      ; 78
-	const HARD_STONE   ; 7d
 	const LUCKY_EGG    ; 7e
 	const CARD_KEY     ; 7f
 	const MACHINE_PART ; 80
@@ -164,13 +174,10 @@
 	const ITEM_87      ; 87
 	const ITEM_88      ; 88
 	const ITEM_89      ; 89
-	const CHARCOAL     ; 8a
 	const BERRY_JUICE  ; 8b
 	const SCOPE_LENS   ; 8c
 	const ITEM_8D      ; 8d
 	const ITEM_8E      ; 8e
-	const METAL_COAT   ; 8f
-	const DRAGON_FANG  ; 90
 	const ITEM_91      ; 91
 	const LEFTOVERS    ; 92
 	const ITEM_93      ; 93
@@ -194,7 +201,6 @@
 	const LOVE_BALL    ; a6
 	const NORMAL_BOX   ; a7
 	const GORGEOUS_BOX ; a8
-	const POLKADOT_BOW ; aa
 	const ITEM_AB      ; ab
 	const UP_GRADE     ; ac
 	const SQUIRTBOTTLE ; af

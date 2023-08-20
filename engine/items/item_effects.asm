@@ -14,6 +14,7 @@ _DoItemEffect::
 ItemEffects:
 ; entries correspond to item ids (see constants/item_constants.asm)
 	table_width 2, ItemEffects
+	; CORE ITEMS
 	; BALLS
 	dw PokeBallEffect      ; MASTER_BALL
 	dw PokeBallEffect      ; ULTRA_BALL
@@ -74,6 +75,28 @@ ItemEffects:
 	dw DireHitEffect       ; DIRE_HIT
 	dw GuardSpecEffect     ; GUARD_SPEC
 
+    ; HELD ITEMS
+    ; TYPE BOOSTING ITEMS
+	dw NoEffect            ; BLACKBELT_I
+	dw NoEffect            ; BLACKGLASSES
+	dw NoEffect            ; CHARCOAL
+	dw NoEffect            ; DRAGON_FANG
+	dw NoEffect            ; HARD_STONE
+	dw NoEffect            ; MAGNET
+	dw NoEffect            ; METAL_COAT
+	dw NoEffect            ; MIRACLE_SEED
+	dw NoEffect            ; MYSTIC_WATER
+	dw NoEffect            ; NEVERMELTICE
+	dw NoEffect            ; PINK_BOW
+	dw NoEffect            ; POISON_BARB
+	dw NoEffect            ; SHARP_BEAK
+	dw NoEffect            ; POLKADOT_BOW
+	dw NoEffect            ; SILVERPOWDER
+	dw NoEffect            ; SOFT_SAND
+	dw NoEffect            ; SPELL_TAG
+	dw NoEffect            ; TWISTEDSPOON
+
+    ; BAG-USE ITEMS
     ; EVOLUTION
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
@@ -87,6 +110,7 @@ ItemEffects:
 	dw SuperRepelEffect    ; SUPER_REPEL
 	dw MaxRepelEffect      ; MAX_REPEL
 
+    ; OTHER
     ; TREASURE
 	dw NoEffect            ; NUGGET
 	dw NoEffect            ; TINYMUSHROOM
@@ -126,42 +150,28 @@ ItemEffects:
 	dw RestoreHPEffect     ; MOOMOO_MILK
 	dw NoEffect            ; QUICK_CLAW
 	dw NoEffect            ; GOLD_LEAF
-	dw NoEffect            ; SOFT_SAND
-	dw NoEffect            ; SHARP_BEAK
-	dw NoEffect            ; POISON_BARB
 	dw NoEffect            ; KINGS_ROCK
 	dw NoEffect            ; RED_APRICORN
-	dw NoEffect            ; SILVERPOWDER
 	dw NoEffect            ; BLU_APRICORN
 	dw NoEffect            ; ITEM_5A
 	dw NoEffect            ; AMULET_COIN
 	dw NoEffect            ; YLW_APRICORN
 	dw NoEffect            ; GRN_APRICORN
 	dw NoEffect            ; CLEANSE_TAG
-	dw NoEffect            ; MYSTIC_WATER
-	dw NoEffect            ; TWISTEDSPOON
 	dw NoEffect            ; WHT_APRICORN
-	dw NoEffect            ; BLACKBELT_I
 	dw NoEffect            ; BLK_APRICORN
 	dw NoEffect            ; ITEM_64
 	dw NoEffect            ; PNK_APRICORN
-	dw NoEffect            ; BLACKGLASSES
 	dw NoEffect            ; SLOWPOKETAIL
-	dw NoEffect            ; PINK_BOW
 	dw NoEffect            ; STICK
 	dw NoEffect            ; SMOKE_BALL
-	dw NoEffect            ; NEVERMELTICE
-	dw NoEffect            ; MAGNET
 	dw NoEffect            ; EVERSTONE
-	dw NoEffect            ; SPELL_TAG
 	dw RestoreHPEffect     ; RAGECANDYBAR
 	dw NoEffect            ; GS_BALL
 	dw BlueCardEffect      ; BLUE_CARD
-	dw NoEffect            ; MIRACLE_SEED
 	dw NoEffect            ; THICK_CLUB
 	dw NoEffect            ; FOCUS_BAND
 	dw NoEffect            ; ITEM_78
-	dw NoEffect            ; HARD_STONE
 	dw NoEffect            ; LUCKY_EGG
 	dw CardKeyEffect       ; CARD_KEY
 	dw NoEffect            ; MACHINE_PART
@@ -172,13 +182,10 @@ ItemEffects:
 	dw NoEffect            ; ITEM_87
 	dw NoEffect            ; ITEM_88
 	dw NoEffect            ; ITEM_89
-	dw NoEffect            ; CHARCOAL
 	dw RestoreHPEffect     ; BERRY_JUICE
 	dw NoEffect            ; SCOPE_LENS
 	dw NoEffect            ; ITEM_8D
 	dw NoEffect            ; ITEM_8E
-	dw NoEffect            ; METAL_COAT
-	dw NoEffect            ; DRAGON_FANG
 	dw NoEffect            ; ITEM_91
 	dw NoEffect            ; LEFTOVERS
 	dw NoEffect            ; ITEM_93
@@ -202,7 +209,6 @@ ItemEffects:
 	dw PokeBallEffect      ; LOVE_BALL
 	dw NormalBoxEffect     ; NORMAL_BOX
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
-	dw NoEffect            ; POLKADOT_BOW
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
