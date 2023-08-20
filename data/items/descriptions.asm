@@ -83,6 +83,19 @@ ItemDescriptions:
 	dw SpellTagDesc
 	dw TwistedSpoonDesc
 
+    dw BrightpowderDesc
+	dw ExpShareDesc
+	dw QuickClawDesc
+	dw KingsRockDesc
+	dw CleanseTagDesc
+	dw SmokeBallDesc
+	dw EverStoneDesc
+	dw FocusBandDesc
+	dw LuckyEggDesc
+	dw ScopeLensDesc
+	dw LeftoversDesc
+	dw BerserkGeneDesc
+
     ; BAG-USE ITEMS
     ; EVOLUTION
 	dw RepelDesc
@@ -134,7 +147,6 @@ ItemDescriptions:
 	dw SquirtBottleDesc
 	dw RainbowWingDesc
 
-    dw BrightpowderDesc
 	dw EscapeRopeDesc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
@@ -144,46 +156,35 @@ ItemDescriptions:
 	dw SodaPopDesc
 	dw LemonadeDesc
 	dw TeruSama4Desc
-	dw ExpShareDesc
 	dw SilverLeafDesc
 	dw MoomooMilkDesc
-	dw QuickClawDesc
 	dw GoldLeafDesc
-	dw KingsRockDesc
 	dw RedApricornDesc
 	dw BluApricornDesc
 	dw TeruSama6Desc
 	dw AmuletCoinDesc
 	dw YlwApricornDesc
 	dw GrnApricornDesc
-	dw CleanseTagDesc
 	dw WhtApricornDesc
 	dw BlkApricornDesc
 	dw TeruSama7Desc
 	dw PnkApricornDesc
 	dw SlowpokeTailDesc
 	dw StickDesc
-	dw SmokeBallDesc
-	dw EverStoneDesc
 	dw RageCandyBarDesc
 	dw ThickClubDesc
-	dw FocusBandDesc
 	dw TeruSama8Desc
-	dw LuckyEggDesc
 	dw TeruSama9Desc
 	dw TeruSama10Desc
 	dw TeruSama11Desc
 	dw BerryJuiceDesc
-	dw ScopeLensDesc
 	dw TeruSama12Desc
 	dw TeruSama13Desc
 	dw TeruSama14Desc
-	dw LeftoversDesc
 	dw TeruSama15Desc
 	dw TeruSama16Desc
 	dw TeruSama17Desc
 	dw DragonScaleDesc
-	dw BerserkGeneDesc
 	dw TeruSama18Desc
 	dw TeruSama19Desc
 	dw TeruSama20Desc

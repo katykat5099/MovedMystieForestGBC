@@ -96,6 +96,19 @@ ItemEffects:
 	dw NoEffect            ; SPELL_TAG
 	dw NoEffect            ; TWISTEDSPOON
 
+    dw NoEffect            ; BRIGHTPOWDER
+	dw NoEffect            ; EXP_SHARE
+	dw NoEffect            ; QUICK_CLAW
+	dw NoEffect            ; KINGS_ROCK
+	dw NoEffect            ; CLEANSE_TAG
+	dw NoEffect            ; SMOKE_BALL
+	dw NoEffect            ; EVERSTONE
+	dw NoEffect            ; FOCUS_BAND
+	dw NoEffect            ; LUCKY_EGG
+	dw NoEffect            ; SCOPE_LENS
+	dw NoEffect            ; LEFTOVERS
+	dw NoEffect            ; BERSERK_GENE
+
     ; BAG-USE ITEMS
     ; EVOLUTION
 	dw EvoStoneEffect      ; FIRE_STONE
@@ -146,7 +159,6 @@ ItemEffects:
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; RAINBOW_WING
 
-    dw NoEffect            ; BRIGHTPOWDER
 	dw EscapeRopeEffect    ; ESCAPE_ROPE
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
@@ -157,46 +169,35 @@ ItemEffects:
 	dw RestoreHPEffect     ; SODA_POP
 	dw RestoreHPEffect     ; LEMONADE
 	dw NoEffect            ; ITEM_32
-	dw NoEffect            ; EXP_SHARE
 	dw NoEffect            ; SILVER_LEAF
 	dw RestoreHPEffect     ; MOOMOO_MILK
-	dw NoEffect            ; QUICK_CLAW
 	dw NoEffect            ; GOLD_LEAF
-	dw NoEffect            ; KINGS_ROCK
 	dw NoEffect            ; RED_APRICORN
 	dw NoEffect            ; BLU_APRICORN
 	dw NoEffect            ; ITEM_5A
 	dw NoEffect            ; AMULET_COIN
 	dw NoEffect            ; YLW_APRICORN
 	dw NoEffect            ; GRN_APRICORN
-	dw NoEffect            ; CLEANSE_TAG
 	dw NoEffect            ; WHT_APRICORN
 	dw NoEffect            ; BLK_APRICORN
 	dw NoEffect            ; ITEM_64
 	dw NoEffect            ; PNK_APRICORN
 	dw NoEffect            ; SLOWPOKETAIL
 	dw NoEffect            ; STICK
-	dw NoEffect            ; SMOKE_BALL
-	dw NoEffect            ; EVERSTONE
 	dw RestoreHPEffect     ; RAGECANDYBAR
 	dw NoEffect            ; THICK_CLUB
-	dw NoEffect            ; FOCUS_BAND
 	dw NoEffect            ; ITEM_78
-	dw NoEffect            ; LUCKY_EGG
 	dw NoEffect            ; ITEM_87
 	dw NoEffect            ; ITEM_88
 	dw NoEffect            ; ITEM_89
 	dw RestoreHPEffect     ; BERRY_JUICE
-	dw NoEffect            ; SCOPE_LENS
 	dw NoEffect            ; ITEM_8D
 	dw NoEffect            ; ITEM_8E
 	dw NoEffect            ; ITEM_91
-	dw NoEffect            ; LEFTOVERS
 	dw NoEffect            ; ITEM_93
 	dw NoEffect            ; ITEM_94
 	dw NoEffect            ; ITEM_95
 	dw NoEffect            ; DRAGON_SCALE
-	dw NoEffect            ; BERSERK_GENE
 	dw NoEffect            ; ITEM_99
 	dw NoEffect            ; ITEM_9A
 	dw NoEffect            ; ITEM_9B

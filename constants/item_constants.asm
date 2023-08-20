@@ -88,6 +88,19 @@
 	const SPELL_TAG    ; 71
 	const TWISTEDSPOON ; 60
 
+    const BRIGHTPOWDER ; 03
+	const EXP_SHARE    ; 39
+	const QUICK_CLAW   ; 49
+	const KINGS_ROCK   ; 52
+	const CLEANSE_TAG  ; 5e
+	const SMOKE_BALL   ; 6a
+	const EVERSTONE    ; 70
+	const FOCUS_BAND   ; 77
+	const LUCKY_EGG    ; 7e
+	const SCOPE_LENS   ; 8c
+	const LEFTOVERS    ; 92
+	const BERSERK_GENE ; 98
+
     ; BAG-USE ITEMS
     ; EVOLUTION
 	const FIRE_STONE   ; 16
@@ -138,7 +151,6 @@
 	const SQUIRTBOTTLE ; af
 	const RAINBOW_WING ; b2
 
-    const BRIGHTPOWDER ; 03
 	const ESCAPE_ROPE  ; 13
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
@@ -149,46 +161,35 @@
 	const SODA_POP     ; 2f
 	const LEMONADE     ; 30
 	const ITEM_32      ; 32
-	const EXP_SHARE    ; 39
 	const SILVER_LEAF  ; 3c
 	const MOOMOO_MILK  ; 48
-	const QUICK_CLAW   ; 49
 	const GOLD_LEAF    ; 4b
-	const KINGS_ROCK   ; 52
 	const RED_APRICORN ; 55
 	const BLU_APRICORN ; 59
 	const ITEM_5A      ; 5a
 	const AMULET_COIN  ; 5b
 	const YLW_APRICORN ; 5c
 	const GRN_APRICORN ; 5d
-	const CLEANSE_TAG  ; 5e
 	const WHT_APRICORN ; 61
 	const BLK_APRICORN ; 63
 	const ITEM_64      ; 64
 	const PNK_APRICORN ; 65
 	const SLOWPOKETAIL ; 67
 	const STICK        ; 69
-	const SMOKE_BALL   ; 6a
-	const EVERSTONE    ; 70
 	const RAGECANDYBAR ; 72
 	const THICK_CLUB   ; 76
-	const FOCUS_BAND   ; 77
 	const ITEM_78      ; 78
-	const LUCKY_EGG    ; 7e
 	const ITEM_87      ; 87
 	const ITEM_88      ; 88
 	const ITEM_89      ; 89
 	const BERRY_JUICE  ; 8b
-	const SCOPE_LENS   ; 8c
 	const ITEM_8D      ; 8d
 	const ITEM_8E      ; 8e
 	const ITEM_91      ; 91
-	const LEFTOVERS    ; 92
 	const ITEM_93      ; 93
 	const ITEM_94      ; 94
 	const ITEM_95      ; 95
 	const DRAGON_SCALE ; 97
-	const BERSERK_GENE ; 98
 	const ITEM_99      ; 99
 	const ITEM_9A      ; 9a
 	const ITEM_9B      ; 9b
