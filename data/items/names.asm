@@ -108,6 +108,9 @@ ItemNames::
 	li "REPEL"
 	li "SUPER REPEL"
 	li "MAX REPEL"
+	li "ESCAPE ROPE"
+
+	li "# DOLL"
 
     ; OTHER
     ; TREASURE
@@ -145,11 +148,9 @@ ItemNames::
 	li "SQUIRTBOTTLE"
 	li "RAINBOW WING"
 
-	li "ESCAPE ROPE"
 	li "TERU-SAMA"
 	li "LUCKY PUNCH"
 	li "METAL POWDER"
-	li "# DOLL"
 	li "TERU-SAMA"
 	li "FRESH WATER"
 	li "SODA POP"

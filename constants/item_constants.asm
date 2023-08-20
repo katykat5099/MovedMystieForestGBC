@@ -114,6 +114,9 @@
 	const REPEL        ; 14
 	const SUPER_REPEL  ; 2a
 	const MAX_REPEL    ; 2b
+	const ESCAPE_ROPE  ; 13
+
+	const POKE_DOLL    ; 25
 
     ; OTHER
     ; TREASURE
@@ -151,11 +154,9 @@
 	const SQUIRTBOTTLE ; af
 	const RAINBOW_WING ; b2
 
-	const ESCAPE_ROPE  ; 13
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
 	const METAL_POWDER ; 23
-	const POKE_DOLL    ; 25
 	const ITEM_2D      ; 2d
 	const FRESH_WATER  ; 2e
 	const SODA_POP     ; 2f

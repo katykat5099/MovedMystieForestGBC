@@ -122,6 +122,9 @@ ItemEffects:
 	dw RepelEffect         ; REPEL
 	dw SuperRepelEffect    ; SUPER_REPEL
 	dw MaxRepelEffect      ; MAX_REPEL
+	dw EscapeRopeEffect    ; ESCAPE_ROPE
+
+	dw PokeDollEffect      ; POKE_DOLL
 
     ; OTHER
     ; TREASURE
@@ -159,11 +162,9 @@ ItemEffects:
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; RAINBOW_WING
 
-	dw EscapeRopeEffect    ; ESCAPE_ROPE
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
 	dw NoEffect            ; METAL_POWDER
-	dw PokeDollEffect      ; POKE_DOLL
 	dw NoEffect            ; ITEM_2D
 	dw RestoreHPEffect     ; FRESH_WATER
 	dw RestoreHPEffect     ; SODA_POP

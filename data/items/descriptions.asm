@@ -110,6 +110,9 @@ ItemDescriptions:
 	dw TeruSama2Desc
 	dw SuperRepelDesc
 	dw MaxRepelDesc
+	dw EscapeRopeDesc
+
+	dw PokeDollDesc
 
     ; OTHER
     ; TREASURE
@@ -147,10 +150,8 @@ ItemDescriptions:
 	dw SquirtBottleDesc
 	dw RainbowWingDesc
 
-	dw EscapeRopeDesc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
-	dw PokeDollDesc
 	dw TeruSama3Desc
 	dw FreshWaterDesc
 	dw SodaPopDesc
