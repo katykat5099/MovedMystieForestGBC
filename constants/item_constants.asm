@@ -66,18 +66,21 @@
 	const DIRE_HIT     ; 2c
 	const GUARD_SPEC   ; 29
 
-    const BRIGHTPOWDER ; 03
-	const TOWN_MAP     ; 06
-	const BICYCLE      ; 07
-	const MOON_STONE   ; 08
-	const ESCAPE_ROPE  ; 13
-	const REPEL        ; 14
+    ; EVOLUTION
 	const FIRE_STONE   ; 16
 	const THUNDERSTONE ; 17
 	const WATER_STONE  ; 18
+	const SUN_STONE    ; a9
+	const MOON_STONE   ; 08
+	const LEAF_STONE   ; 22
+
+    const BRIGHTPOWDER ; 03
+	const TOWN_MAP     ; 06
+	const BICYCLE      ; 07
+	const ESCAPE_ROPE  ; 13
+	const REPEL        ; 14
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
-	const LEAF_STONE   ; 22
 	const METAL_POWDER ; 23
 	const NUGGET       ; 24
 	const POKE_DOLL    ; 25
@@ -187,7 +190,6 @@
 	const LOVE_BALL    ; a6
 	const NORMAL_BOX   ; a7
 	const GORGEOUS_BOX ; a8
-	const SUN_STONE    ; a9
 	const POLKADOT_BOW ; aa
 	const ITEM_AB      ; ab
 	const UP_GRADE     ; ac

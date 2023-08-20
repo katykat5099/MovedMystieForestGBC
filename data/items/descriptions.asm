@@ -61,18 +61,21 @@ ItemDescriptions:
 	dw DireHitDesc
 	dw GuardSpecDesc
 
-    dw BrightpowderDesc
-	dw TeruSama1Desc
-	dw BicycleDesc
-	dw MoonStoneDesc
-	dw EscapeRopeDesc
+    ; EVOLUTION
 	dw RepelDesc
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
+	dw SunStoneDesc
+	dw MoonStoneDesc
+	dw LeafStoneDesc
+
+    dw BrightpowderDesc
+	dw TeruSama1Desc
+	dw BicycleDesc
+	dw EscapeRopeDesc
 	dw TeruSama2Desc
 	dw LuckyPunchDesc
-	dw LeafStoneDesc
 	dw MetalPowderDesc
 	dw NuggetDesc
 	dw PokeDollDesc
@@ -182,7 +185,6 @@ ItemDescriptions:
 	dw LoveBallDesc
 	dw NormalBoxDesc
 	dw GorgeousBoxDesc
-	dw SunStoneDesc
 	dw PolkadotBowDesc
 	dw TeruSama22Desc
 	dw UpGradeDesc

@@ -74,18 +74,21 @@ ItemEffects:
 	dw DireHitEffect       ; DIRE_HIT
 	dw GuardSpecEffect     ; GUARD_SPEC
 
-    dw NoEffect            ; BRIGHTPOWDER
-	dw TownMapEffect       ; TOWN_MAP
-	dw BicycleEffect       ; BICYCLE
-	dw EvoStoneEffect      ; MOON_STONE
-	dw EscapeRopeEffect    ; ESCAPE_ROPE
-	dw RepelEffect         ; REPEL
+    ; EVOLUTION
 	dw EvoStoneEffect      ; FIRE_STONE
 	dw EvoStoneEffect      ; THUNDERSTONE
 	dw EvoStoneEffect      ; WATER_STONE
+	dw EvoStoneEffect      ; SUN_STONE
+	dw EvoStoneEffect      ; MOON_STONE
+	dw EvoStoneEffect      ; LEAF_STONE
+
+    dw NoEffect            ; BRIGHTPOWDER
+	dw TownMapEffect       ; TOWN_MAP
+	dw BicycleEffect       ; BICYCLE
+	dw EscapeRopeEffect    ; ESCAPE_ROPE
+	dw RepelEffect         ; REPEL
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
-	dw EvoStoneEffect      ; LEAF_STONE
 	dw NoEffect            ; METAL_POWDER
 	dw NoEffect            ; NUGGET
 	dw PokeDollEffect      ; POKE_DOLL
@@ -195,7 +198,6 @@ ItemEffects:
 	dw PokeBallEffect      ; LOVE_BALL
 	dw NormalBoxEffect     ; NORMAL_BOX
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
-	dw EvoStoneEffect      ; SUN_STONE
 	dw NoEffect            ; POLKADOT_BOW
 	dw NoEffect            ; ITEM_AB
 	dw NoEffect            ; UP_GRADE
