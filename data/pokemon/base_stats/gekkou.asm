@@ -1,6 +1,6 @@
 	db GEKKOU ; 004
 
-	db  5,  5,  5,  5,  5,  5 ; to-do
+	db  50,  50,  50,  50,  50,  50 ; todo Add EVs
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, DRAGON ; type
