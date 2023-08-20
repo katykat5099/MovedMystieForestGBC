@@ -7,6 +7,13 @@ ItemDescriptions:
 	dw GreatBallDesc
 	dw PokeBallDesc
 
+    ; MEDICINE
+    dw FullRestoreDesc
+    dw MaxPotionDesc
+    dw HyperPotionDesc
+    dw SuperPotionDesc
+    dw PotionDesc
+
     dw BrightpowderDesc
 	dw TeruSama1Desc
 	dw BicycleDesc
@@ -16,11 +23,6 @@ ItemDescriptions:
 	dw IceHealDesc
 	dw AwakeningDesc
 	dw ParlyzHealDesc
-	dw FullRestoreDesc
-	dw MaxPotionDesc
-	dw HyperPotionDesc
-	dw SuperPotionDesc
-	dw PotionDesc
 	dw EscapeRopeDesc
 	dw RepelDesc
 	dw MaxElixerDesc

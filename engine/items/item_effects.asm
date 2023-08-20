@@ -20,6 +20,13 @@ ItemEffects:
 	dw PokeBallEffect      ; GREAT_BALL
 	dw PokeBallEffect      ; POKE_BALL
 
+    ; MEDICINE
+	dw FullRestoreEffect   ; FULL_RESTORE
+	dw RestoreHPEffect     ; MAX_POTION
+	dw RestoreHPEffect     ; HYPER_POTION
+	dw RestoreHPEffect     ; SUPER_POTION
+	dw RestoreHPEffect     ; POTION
+
     dw NoEffect            ; BRIGHTPOWDER
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
@@ -29,11 +36,6 @@ ItemEffects:
 	dw StatusHealingEffect ; ICE_HEAL
 	dw StatusHealingEffect ; AWAKENING
 	dw StatusHealingEffect ; PARLYZ_HEAL
-	dw FullRestoreEffect   ; FULL_RESTORE
-	dw RestoreHPEffect     ; MAX_POTION
-	dw RestoreHPEffect     ; HYPER_POTION
-	dw RestoreHPEffect     ; SUPER_POTION
-	dw RestoreHPEffect     ; POTION
 	dw EscapeRopeEffect    ; ESCAPE_ROPE
 	dw RepelEffect         ; REPEL
 	dw RestorePPEffect     ; MAX_ELIXER

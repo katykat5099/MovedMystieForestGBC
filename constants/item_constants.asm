@@ -12,6 +12,13 @@
 	const GREAT_BALL   ; 04
 	const POKE_BALL    ; 05
 
+    ; MEDICINE
+	const FULL_RESTORE ; 0e
+	const MAX_POTION   ; 0f
+	const HYPER_POTION ; 10
+	const SUPER_POTION ; 11
+	const POTION       ; 12
+
     const BRIGHTPOWDER ; 03
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
@@ -21,11 +28,6 @@
 	const ICE_HEAL     ; 0b
 	const AWAKENING    ; 0c
 	const PARLYZ_HEAL  ; 0d
-	const FULL_RESTORE ; 0e
-	const MAX_POTION   ; 0f
-	const HYPER_POTION ; 10
-	const SUPER_POTION ; 11
-	const POTION       ; 12
 	const ESCAPE_ROPE  ; 13
 	const REPEL        ; 14
 	const MAX_ELIXER   ; 15

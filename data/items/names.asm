@@ -6,6 +6,13 @@ ItemNames::
 	li "GREAT BALL"
 	li "# BALL"
 
+    ; MEDICINE
+	li "FULL RESTORE"
+	li "MAX POTION"
+	li "HYPER POTION"
+	li "SUPER POTION"
+	li "POTION"
+
     li "BRIGHTPOWDER"
 	li "TERU-SAMA"
 	li "BICYCLE"
@@ -15,11 +22,6 @@ ItemNames::
 	li "ICE HEAL"
 	li "AWAKENING"
 	li "PARLYZ HEAL"
-	li "FULL RESTORE"
-	li "MAX POTION"
-	li "HYPER POTION"
-	li "SUPER POTION"
-	li "POTION"
 	li "ESCAPE ROPE"
 	li "REPEL"
 	li "MAX ELIXER"
