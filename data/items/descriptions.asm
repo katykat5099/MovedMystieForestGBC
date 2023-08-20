@@ -106,6 +106,9 @@ ItemDescriptions:
 	dw MoonStoneDesc
 	dw LeafStoneDesc
 
+	dw DragonScaleDesc
+	dw UpGradeDesc
+
     ; MAP ITEMS
 	dw TeruSama2Desc
 	dw SuperRepelDesc
@@ -185,7 +188,6 @@ ItemDescriptions:
 	dw TeruSama15Desc
 	dw TeruSama16Desc
 	dw TeruSama17Desc
-	dw DragonScaleDesc
 	dw TeruSama18Desc
 	dw TeruSama19Desc
 	dw TeruSama20Desc
@@ -203,7 +205,6 @@ ItemDescriptions:
 	dw NormalBoxDesc
 	dw GorgeousBoxDesc
 	dw TeruSama22Desc
-	dw UpGradeDesc
 	dw TeruSama23Desc
 	dw ParkBallDesc
 	dw TeruSama24Desc

@@ -118,6 +118,9 @@ ItemEffects:
 	dw EvoStoneEffect      ; MOON_STONE
 	dw EvoStoneEffect      ; LEAF_STONE
 
+	dw NoEffect            ; DRAGON_SCALE
+	dw NoEffect            ; UP_GRADE
+
     ; MAP ITEMS
 	dw RepelEffect         ; REPEL
 	dw SuperRepelEffect    ; SUPER_REPEL
@@ -198,7 +201,6 @@ ItemEffects:
 	dw NoEffect            ; ITEM_93
 	dw NoEffect            ; ITEM_94
 	dw NoEffect            ; ITEM_95
-	dw NoEffect            ; DRAGON_SCALE
 	dw NoEffect            ; ITEM_99
 	dw NoEffect            ; ITEM_9A
 	dw NoEffect            ; ITEM_9B
@@ -216,7 +218,6 @@ ItemEffects:
 	dw NormalBoxEffect     ; NORMAL_BOX
 	dw GorgeousBoxEffect   ; GORGEOUS_BOX
 	dw NoEffect            ; ITEM_AB
-	dw NoEffect            ; UP_GRADE
 	dw NoEffect            ; ITEM_B0
 	dw PokeBallEffect      ; PARK_BALL
 	dw NoEffect            ; ITEM_B3

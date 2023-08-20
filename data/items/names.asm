@@ -104,6 +104,9 @@ ItemNames::
 	li "MOON STONE"
 	li "LEAF STONE"
 
+	li "DRAGON SCALE"
+	li "UP-GRADE"
+
     ; MAP ITEMS
 	li "REPEL"
 	li "SUPER REPEL"
@@ -184,7 +187,6 @@ ItemNames::
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
-	li "DRAGON SCALE"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
 	li "TERU-SAMA"
@@ -202,7 +204,6 @@ ItemNames::
 	li "NORMAL BOX"
 	li "GORGEOUS BOX"
 	li "TERU-SAMA"
-	li "UP-GRADE"
 	li "TERU-SAMA"
 	li "PARK BALL"
 	li "TERU-SAMA"

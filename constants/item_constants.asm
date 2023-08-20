@@ -110,6 +110,9 @@
 	const MOON_STONE   ; 08
 	const LEAF_STONE   ; 22
 
+	const DRAGON_SCALE ; 97
+	const UP_GRADE     ; ac
+
     ; MAP ITEMS
 	const REPEL        ; 14
 	const SUPER_REPEL  ; 2a
@@ -190,7 +193,6 @@
 	const ITEM_93      ; 93
 	const ITEM_94      ; 94
 	const ITEM_95      ; 95
-	const DRAGON_SCALE ; 97
 	const ITEM_99      ; 99
 	const ITEM_9A      ; 9a
 	const ITEM_9B      ; 9b
@@ -208,7 +210,6 @@
 	const NORMAL_BOX   ; a7
 	const GORGEOUS_BOX ; a8
 	const ITEM_AB      ; ab
-	const UP_GRADE     ; ac
 	const ITEM_B0      ; b0
 	const PARK_BALL    ; b1
 	const ITEM_B3      ; b3
