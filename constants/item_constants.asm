@@ -19,15 +19,17 @@
 	const SUPER_POTION ; 11
 	const POTION       ; 12
 
-    const BRIGHTPOWDER ; 03
-	const TOWN_MAP     ; 06
-	const BICYCLE      ; 07
-	const MOON_STONE   ; 08
 	const ANTIDOTE     ; 09
 	const BURN_HEAL    ; 0a
 	const ICE_HEAL     ; 0b
 	const AWAKENING    ; 0c
 	const PARLYZ_HEAL  ; 0d
+	const FULL_HEAL    ; 26
+
+    const BRIGHTPOWDER ; 03
+	const TOWN_MAP     ; 06
+	const BICYCLE      ; 07
+	const MOON_STONE   ; 08
 	const ESCAPE_ROPE  ; 13
 	const REPEL        ; 14
 	const MAX_ELIXER   ; 15
@@ -47,7 +49,6 @@
 	const METAL_POWDER ; 23
 	const NUGGET       ; 24
 	const POKE_DOLL    ; 25
-	const FULL_HEAL    ; 26
 	const REVIVE       ; 27
 	const MAX_REVIVE   ; 28
 	const GUARD_SPEC   ; 29

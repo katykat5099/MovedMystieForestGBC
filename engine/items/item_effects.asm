@@ -27,15 +27,17 @@ ItemEffects:
 	dw RestoreHPEffect     ; SUPER_POTION
 	dw RestoreHPEffect     ; POTION
 
-    dw NoEffect            ; BRIGHTPOWDER
-	dw TownMapEffect       ; TOWN_MAP
-	dw BicycleEffect       ; BICYCLE
-	dw EvoStoneEffect      ; MOON_STONE
 	dw StatusHealingEffect ; ANTIDOTE
 	dw StatusHealingEffect ; BURN_HEAL
 	dw StatusHealingEffect ; ICE_HEAL
 	dw StatusHealingEffect ; AWAKENING
 	dw StatusHealingEffect ; PARLYZ_HEAL
+	dw StatusHealingEffect ; FULL_HEAL
+
+    dw NoEffect            ; BRIGHTPOWDER
+	dw TownMapEffect       ; TOWN_MAP
+	dw BicycleEffect       ; BICYCLE
+	dw EvoStoneEffect      ; MOON_STONE
 	dw EscapeRopeEffect    ; ESCAPE_ROPE
 	dw RepelEffect         ; REPEL
 	dw RestorePPEffect     ; MAX_ELIXER
@@ -55,7 +57,6 @@ ItemEffects:
 	dw NoEffect            ; METAL_POWDER
 	dw NoEffect            ; NUGGET
 	dw PokeDollEffect      ; POKE_DOLL
-	dw StatusHealingEffect ; FULL_HEAL
 	dw ReviveEffect        ; REVIVE
 	dw ReviveEffect        ; MAX_REVIVE
 	dw GuardSpecEffect     ; GUARD_SPEC

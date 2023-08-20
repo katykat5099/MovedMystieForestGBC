@@ -14,15 +14,17 @@ ItemDescriptions:
     dw SuperPotionDesc
     dw PotionDesc
 
-    dw BrightpowderDesc
-	dw TeruSama1Desc
-	dw BicycleDesc
-	dw MoonStoneDesc
 	dw AntidoteDesc
 	dw BurnHealDesc
 	dw IceHealDesc
 	dw AwakeningDesc
 	dw ParlyzHealDesc
+	dw FullHealDesc
+
+    dw BrightpowderDesc
+	dw TeruSama1Desc
+	dw BicycleDesc
+	dw MoonStoneDesc
 	dw EscapeRopeDesc
 	dw RepelDesc
 	dw MaxElixerDesc
@@ -42,7 +44,6 @@ ItemDescriptions:
 	dw MetalPowderDesc
 	dw NuggetDesc
 	dw PokeDollDesc
-	dw FullHealDesc
 	dw ReviveDesc
 	dw MaxReviveDesc
 	dw GuardSpecDesc
