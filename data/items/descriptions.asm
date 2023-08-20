@@ -70,6 +70,11 @@ ItemDescriptions:
 	dw MoonStoneDesc
 	dw LeafStoneDesc
 
+    ; MAP ITEMS
+	dw TeruSama2Desc
+	dw SuperRepelDesc
+	dw MaxRepelDesc
+
     ; TREASURE
 	dw NuggetDesc
 	dw TinyMushroomDesc
@@ -83,12 +88,9 @@ ItemDescriptions:
 	dw TeruSama1Desc
 	dw BicycleDesc
 	dw EscapeRopeDesc
-	dw TeruSama2Desc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
 	dw PokeDollDesc
-	dw SuperRepelDesc
-	dw MaxRepelDesc
 	dw TeruSama3Desc
 	dw FreshWaterDesc
 	dw SodaPopDesc

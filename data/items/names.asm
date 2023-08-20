@@ -68,6 +68,11 @@ ItemNames::
 	li "MOON STONE"
 	li "LEAF STONE"
 
+    ; MAP ITEMS
+	li "REPEL"
+	li "SUPER REPEL"
+	li "MAX REPEL"
+
     ; TREASURE
 	li "NUGGET"
 	li "TINYMUSHROOM"
@@ -81,13 +86,10 @@ ItemNames::
 	li "TERU-SAMA"
 	li "BICYCLE"
 	li "ESCAPE ROPE"
-	li "REPEL"
 	li "TERU-SAMA"
 	li "LUCKY PUNCH"
 	li "METAL POWDER"
 	li "# DOLL"
-	li "SUPER REPEL"
-	li "MAX REPEL"
 	li "TERU-SAMA"
 	li "FRESH WATER"
 	li "SODA POP"

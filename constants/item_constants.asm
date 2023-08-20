@@ -74,6 +74,11 @@
 	const MOON_STONE   ; 08
 	const LEAF_STONE   ; 22
 
+    ; MAP ITEMS
+	const REPEL        ; 14
+	const SUPER_REPEL  ; 2a
+	const MAX_REPEL    ; 2b
+
     ; TREASURE
 	const NUGGET       ; 24
 	const TINYMUSHROOM ; 56
@@ -87,13 +92,10 @@
 	const TOWN_MAP     ; 06
 	const BICYCLE      ; 07
 	const ESCAPE_ROPE  ; 13
-	const REPEL        ; 14
 	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
 	const METAL_POWDER ; 23
 	const POKE_DOLL    ; 25
-	const SUPER_REPEL  ; 2a
-	const MAX_REPEL    ; 2b
 	const ITEM_2D      ; 2d
 	const FRESH_WATER  ; 2e
 	const SODA_POP     ; 2f

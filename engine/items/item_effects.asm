@@ -82,6 +82,11 @@ ItemEffects:
 	dw EvoStoneEffect      ; MOON_STONE
 	dw EvoStoneEffect      ; LEAF_STONE
 
+    ; MAP ITEMS
+	dw RepelEffect         ; REPEL
+	dw SuperRepelEffect    ; SUPER_REPEL
+	dw MaxRepelEffect      ; MAX_REPEL
+
     ; TREASURE
 	dw NoEffect            ; NUGGET
 	dw NoEffect            ; TINYMUSHROOM
@@ -95,13 +100,10 @@ ItemEffects:
 	dw TownMapEffect       ; TOWN_MAP
 	dw BicycleEffect       ; BICYCLE
 	dw EscapeRopeEffect    ; ESCAPE_ROPE
-	dw RepelEffect         ; REPEL
 	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
 	dw NoEffect            ; METAL_POWDER
 	dw PokeDollEffect      ; POKE_DOLL
-	dw SuperRepelEffect    ; SUPER_REPEL
-	dw MaxRepelEffect      ; MAX_REPEL
 	dw NoEffect            ; ITEM_2D
 	dw RestoreHPEffect     ; FRESH_WATER
 	dw RestoreHPEffect     ; SODA_POP
