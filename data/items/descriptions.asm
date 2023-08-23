@@ -152,10 +152,10 @@ ItemDescriptions:
 	dw PassDesc
 	dw SquirtBottleDesc
 	dw RainbowWingDesc
+	dw MacheteDesc
 
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
-	dw TeruSama3Desc
 	dw FreshWaterDesc
 	dw SodaPopDesc
 	dw LemonadeDesc
@@ -1043,3 +1043,7 @@ TeruSama33Desc:
 HeirloomDesc:
 	db   "Boosts #MON's"
 	next "greatest stat.@"
+
+MacheteDesc:
+	db   "Cuts through"
+	next "long branches.@"

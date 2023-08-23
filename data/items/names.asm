@@ -151,10 +151,10 @@ ItemNames::
 	li "PASS"
 	li "SQUIRTBOTTLE"
 	li "RAINBOW WING"
+	li "Machete"
 
 	li "LUCKY PUNCH"
 	li "METAL POWDER"
-	li "TERU-SAMA"
 	li "FRESH WATER"
 	li "SODA POP"
 	li "LEMONADE"

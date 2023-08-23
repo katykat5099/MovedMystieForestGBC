@@ -157,10 +157,10 @@
 	const PASS         ; 86
 	const SQUIRTBOTTLE ; af
 	const RAINBOW_WING ; b2
+	const MACHETE      ; b2
 
 	const LUCKY_PUNCH  ; 1e
 	const METAL_POWDER ; 23
-	const ITEM_2D      ; 2d
 	const FRESH_WATER  ; 2e
 	const SODA_POP     ; 2f
 	const LEMONADE     ; 30

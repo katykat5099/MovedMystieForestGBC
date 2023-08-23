@@ -302,12 +302,6 @@ _CantUseItemText::
 	line "here."
 	prompt
 
-_UseCutText::
-	text_ram wStringBuffer2
-	text " used"
-	line "CUT!"
-	prompt
-
 _CutNothingText::
 	text "There's nothing to"
 	line "CUT here."

@@ -165,10 +165,10 @@ ItemEffects:
 	dw NoEffect            ; PASS
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; RAINBOW_WING
+	dw CutEffect           ; MACHETE
 
 	dw NoEffect            ; LUCKY_PUNCH
 	dw NoEffect            ; METAL_POWDER
-	dw NoEffect            ; ITEM_2D
 	dw RestoreHPEffect     ; FRESH_WATER
 	dw RestoreHPEffect     ; SODA_POP
 	dw RestoreHPEffect     ; LEMONADE
@@ -2948,3 +2948,7 @@ GetMthMoveOfCurrentMon:
 	ld b, 0
 	add hl, bc
 	ret
+
+CutEffect:
+    farcall CutFunction
+    ret
