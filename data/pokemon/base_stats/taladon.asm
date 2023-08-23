@@ -1,6 +1,6 @@
 	db TALADON ; 006
 
-	db  5,  5,  5,  5,  5,  5 ; todo Add Base Stats for Taladon
+	db  55,  95,  65,  85,  55,  55
 	;   hp  atk  def  spd  sat  sdf ; todo Add EVs
 
 	db DRAGON, DRAGON ; type
@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm ; to-do
+	tmhm ; todo Moveset Taladon
 	; end

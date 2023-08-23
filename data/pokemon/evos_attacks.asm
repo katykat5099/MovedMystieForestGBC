@@ -52,8 +52,10 @@ WizardonEvosAttacks:
 
 TaladonEvosAttacks:
 	db 0 ; no more evolutions ; todo Add Evolution Types + Evos
-	db 1, DRGN_SCRATCH ; todo Moveset for Taladon
+	db 1, DRGN_SCRATCH
 	db 1, TWISTER
+	db 5, REST
+	; todo Add Moveset for Taladon
 	db 0 ; no more level-up moves
 
 GekklodonEvosAttacks:
