@@ -23,7 +23,7 @@ AlphabeticalPokedexOrder: ; todo Reorganize this mess. (prob when I have all the
 	db CATERPIE
 	db CELEBI
 	db CHANSEY
-	db CHARIZARD
+	db TALADON
 	db GEKKOU
 	db WIZARDON
 	db CHIKORITA

@@ -24,7 +24,7 @@
 	const VANTARO    ; 03
 	const GEKKOU     ; 04
 	const WIZARDON   ; 05
-	const CHARIZARD  ; 06
+	const TALADON    ; 06
 	const GEKKLODON  ; 07
 	const WARTORTLE  ; 08
 	const BLASTOISE  ; 09

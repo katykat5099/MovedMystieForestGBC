@@ -232,7 +232,7 @@ NewPokedexOrder: ; todo Reorganize this mess. (prob when I have all the mons add
 	db VANTARO
 	db GEKKOU
 	db WIZARDON
-	db CHARIZARD
+	db TALADON
 	db GEKKLODON
 	db WARTORTLE
 	db BLASTOISE

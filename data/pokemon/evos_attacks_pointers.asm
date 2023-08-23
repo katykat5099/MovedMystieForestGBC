@@ -7,7 +7,7 @@ EvosAttacksPointers::
 	dw VantaroEvosAttacks
 	dw GekkouEvosAttacks
 	dw WizardonEvosAttacks
-	dw CharizardEvosAttacks
+	dw TaladonEvosAttacks
 	dw GekklodonEvosAttacks
 	dw WartortleEvosAttacks
 	dw BlastoiseEvosAttacks

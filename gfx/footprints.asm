@@ -17,7 +17,7 @@ INCBIN "gfx/footprints/woff.1bpp",       footprint_top
 INCBIN "gfx/footprints/vantaro.1bpp",    footprint_top
 INCBIN "gfx/footprints/gekkou.1bpp",     footprint_top
 INCBIN "gfx/footprints/wizardon.1bpp",   footprint_top
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_top
+INCBIN "gfx/footprints/taladon.1bpp",    footprint_top
 INCBIN "gfx/footprints/gekklodon.1bpp",   footprint_top
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_top
 ; 001-008 bottom halves
@@ -26,7 +26,7 @@ INCBIN "gfx/footprints/woff.1bpp",       footprint_bottom
 INCBIN "gfx/footprints/vantaro.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gekkou.1bpp",     footprint_bottom
 INCBIN "gfx/footprints/wizardon.1bpp",   footprint_bottom
-INCBIN "gfx/footprints/charizard.1bpp",  footprint_bottom
+INCBIN "gfx/footprints/taladon.1bpp",    footprint_bottom
 INCBIN "gfx/footprints/gekklodon.1bpp",   footprint_bottom
 INCBIN "gfx/footprints/wartortle.1bpp",  footprint_bottom
 ; 009-016 top halves

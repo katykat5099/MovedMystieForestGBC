@@ -5,7 +5,7 @@ AnimationPointers:
 	dw VantaroAnimation
 	dw GekkouAnimation
 	dw WizardonAnimation
-	dw CharizardAnimation
+	dw TaladonAnimation
 	dw GekklodonAnimation
 	dw WartortleAnimation
 	dw BlastoiseAnimation

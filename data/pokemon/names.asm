@@ -5,7 +5,7 @@ PokemonNames::
 	db "Vantaro@@@"
 	db "Gekkou@@@@"
 	db "Wizardon@@"
-	db "CHARIZARD@"
+	db "Taladon@@@"
 	db "Gekklodon@"
 	db "WARTORTLE@"
 	db "BLASTOISE@"

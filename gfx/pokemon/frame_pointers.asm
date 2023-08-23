@@ -5,7 +5,7 @@ FramesPointers:
 	dw VantaroFrames
 	dw GekkouFrames
 	dw WizardonFrames
-	dw CharizardFrames
+	dw TaladonFrames
 	dw GekklodonFrames
 	dw WartortleFrames
 	dw BlastoiseFrames

@@ -39,27 +39,16 @@ GekkouEvosAttacks:
 	db 0 ; no more level-up moves
 
 WizardonEvosAttacks:
-	db EVOLVE_LEVEL, 36, CHARIZARD ;todo
+	db EVOLVE_LEVEL, 36, GEKKOU ;todo
 	db 0 ; no more evolutions
 	db 1, SCRATCH ;todo Dragon Scratch here as well.
 	db 1, GROWL
 	db 0 ; no more level-up moves
 
-CharizardEvosAttacks:
-	db 0 ; no more evolutions
-	db 1, SCRATCH
-	db 1, GROWL
-	db 1, EMBER
-	db 1, SMOKESCREEN
-	db 7, EMBER
-	db 13, SMOKESCREEN
-	db 20, RAGE
-	db 27, SCARY_FACE
-	db 34, FLAMETHROWER
-	db 36, WING_ATTACK
-	db 44, SLASH
-	db 54, DRAGON_RAGE
-	db 64, FIRE_SPIN
+TaladonEvosAttacks:
+	db 0 ; no more evolutions ; todo Add Evolution Types + Evos
+	db 1, DRGN_SCRATCH ; todo Moveset for Taladon
+	db 1, TWISTER
 	db 0 ; no more level-up moves
 
 GekklodonEvosAttacks:

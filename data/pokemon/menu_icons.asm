@@ -7,7 +7,7 @@ MonMenuIcons:
 	db ICON_BIRD        ; VANTARO
 	db ICON_CHARMANDER  ; GEKKOU to-do?
 	db ICON_CHARMANDER  ; WISARDON ;todo Design Icon.
-	db ICON_BIGMON      ; CHARIZARD
+	db ICON_BIGMON      ; TALADON ; todo Design Icon.
 	db ICON_MONSTER     ; GEKKLODON ;todo Design Icon.
 	db ICON_SQUIRTLE    ; WARTORTLE
 	db ICON_SQUIRTLE    ; BLASTOISE
