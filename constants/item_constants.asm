@@ -79,7 +79,7 @@
 	const MIRACLE_SEED ; 75
 	const MYSTIC_WATER ; 5f
 	const NEVERMELTICE ; 6b
-	const PINK_BOW     ; 68
+	const PINK_BOWCLIP ; 68
 	const POISON_BARB  ; 51
 	const SHARP_BEAK   ; 4d
 	const SILK_SCARF   ; aa

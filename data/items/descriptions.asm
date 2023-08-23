@@ -74,7 +74,7 @@ ItemDescriptions:
 	dw MiracleSeedDesc
 	dw MysticWaterDesc
 	dw NeverMeltIceDesc
-	dw PinkBowDesc
+	dw PinkBowclipDesc
 	dw PoisonBarbDesc
 	dw SharpBeakDesc
 	dw SilkScarfDesc
@@ -687,7 +687,7 @@ SlowpokeTailDesc:
 	db   "Very tasty. Sell"
 	next "high.@"
 
-PinkBowDesc:
+PinkBowclipDesc:
 	db   "Powers up fairy-"
 	next "type moves. (HOLD)@"
 

@@ -87,7 +87,7 @@ ItemEffects:
 	dw NoEffect            ; MIRACLE_SEED
 	dw NoEffect            ; MYSTIC_WATER
 	dw NoEffect            ; NEVERMELTICE
-	dw NoEffect            ; PINK_BOW
+	dw NoEffect            ; PINK_BOWCLIP
 	dw NoEffect            ; POISON_BARB
 	dw NoEffect            ; SHARP_BEAK
 	dw NoEffect            ; SILK_SCARF

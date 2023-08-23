@@ -73,7 +73,7 @@ ItemNames::
 	li "MIRACLE SEED"
 	li "MYSTIC WATER"
 	li "NEVERMELTICE"
-	li "PINK BOW"
+	li "PINK BOWCLIP"
 	li "POISON BARB"
 	li "SHARP BEAK"
 	li "SILK SCARF"
