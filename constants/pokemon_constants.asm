@@ -26,28 +26,28 @@
 	const WIZARDON   ; 05
 	const TALADON    ; 06
 	const GEKKLODON  ; 07
-	const WARTORTLE  ; 08
-	const BLASTOISE  ; 09
-	const CATERPIE   ; 0a
-	const METAPOD    ; 0b
-	const BUTTERFREE ; 0c
-	const WEEDLE     ; 0d
-	const KAKUNA     ; 0e
-	const BEEDRILL   ; 0f
-	const PIDGEY     ; 10
+	const WARTORTLE  ; 08 ; todo Wizardon Evo 1 (noname)
+	const BLASTOISE  ; 09 ; todo Wizardon Evo 2 (noname)
+	const CATERPIE   ; 0a ; todo Wizardon Evo 3 (noname)
+	const METAPOD    ; 0b ; todo Taladon Evo 1 (noname)
+	const BUTTERFREE ; 0c ; todo Taladon Evo 2 (noname)
+	const WEEDLE     ; 0d ; todo Taladon Evo 3 (noname)
+	const KAKUNA     ; 0e ; todo Gekklodon Evo 1 (Saladon)
+	const BEEDRILL   ; 0f ; todo Gekklodon Evo 1 (Coalizard)
+	const PIDGEY     ; 10 ; todo Gekklodon Evo 1 (Sealodon)
 	const RATSKULL   ; 11
-	const PIDGEOT    ; 12
-	const RATTATA    ; 13
-	const RATICATE   ; 14
-	const SPEAROW    ; 15
-	const FEAROW     ; 16
-	const EKANS      ; 17
-	const ARBOK      ; 18
-	const PIKACHU    ; 19
-	const RAICHU     ; 1a
-	const SANDSHREW  ; 1b
-	const SANDSLASH  ; 1c
-	const NIDORAN_F  ; 1d
+	const PIDGEOT    ; 12 ; todo Ratchlege
+	const RATTATA    ; 13 ; todo Raglotolas
+	const RATICATE   ; 14 ; todo Pinelak
+	const SPEAROW    ; 15 ; todo Pikei
+	const FEAROW     ; 16 ; todo Pokipins
+	const EKANS      ; 17 ; todo Lauleo
+	const ARBOK      ; 18 ; todo Stamper
+	const PIKACHU    ; 19 ; todo Polartier
+	const RAICHU     ; 1a ; todo Mystdeer
+	const SANDSHREW  ; 1b ; todo Tower 1 Boss
+	const SANDSLASH  ; 1c ; todo Tower 2 Boss
+	const NIDORAN_F  ; 1d ; todo Tower 3 Boss
 	const NIDORINA   ; 1e
 	const NIDOQUEEN  ; 1f
 	const NIDORAN_M  ; 20
