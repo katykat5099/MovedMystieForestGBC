@@ -1,6 +1,6 @@
 	db GEKKLODON ; 007
 
-	db  5,  5,  5,  5,  5,  5 ; to-do
+	db  95,  55,  75,  60,  50,  75
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, DRAGON ; type

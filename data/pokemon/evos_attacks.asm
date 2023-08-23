@@ -57,8 +57,10 @@ TaladonEvosAttacks:
 GekklodonEvosAttacks:
 	db EVOLVE_LEVEL, 16, WARTORTLE ;todo
 	db 0 ; no more evolutions
-	db 1, SCRATCH ;todo Dragon Scratch here as well.
-    db 1, GROWL
+	db 1, DRGN_SCRATCH
+	db 1, TWISTER
+	db 5, REST
+	; todo Add Moveset for Gekklodon
 	db 0 ; no more level-up moves
 
 WartortleEvosAttacks:
