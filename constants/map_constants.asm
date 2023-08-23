@@ -459,7 +459,7 @@ ENDM
     map_const TOWER_TWO,                                   10, 18 ;  9
 	map_const THREE_TOWERS_CONNECT,                        30,  9 ;  3
 	map_const ELDERS_TOWER,                                10, 10 ;  1
-	map_const MYSTIE_FOREST_VILLAGE,                       10,  9 ;  4
+	map_const MYSTIE_FOREST_VILLAGE,                       11,  9 ;  4
 	map_const ELDERS_TOWER_INDOOR,                          5,  5 ;  5
 	map_const PLAYERS_HOUSE,                                3,  3 ;  6
 	map_const ELDERS_TOWER_INDOOR_TWO,                      5,  5 ;  8
