@@ -20,6 +20,8 @@ MeetMomScript:
 	end
 
 MomScript:
+    checkevent START_TOWERS_CHALLENGE
+    iftrue MomGiveHeirloom
     faceplayer
     opentext
     writetext BetterGetGoing
@@ -27,9 +29,38 @@ MomScript:
     closetext
 	end
 
+MomGiveHeirloom:
+    checkevent EVENT_MOM_HEIRLOOM_GIVEN
+    iftrue MomScript2
+    opentext
+    writetext TakeHeirloom
+    promptbutton
+    waitsfx
+    verbosegiveitem HEIRLOOM
+    iffalse BugCheatCheck
+    writetext HeirloomGiveTextFinish
+    promptbutton
+    closetext
+    setevent EVENT_MOM_HEIRLOOM_GIVEN
+    end
+
+MomScript2:
+    faceplayer
+    opentext
+    writetext BetterGetGoing
+    promptbutton
+    closetext
+	end
+
+BugCheatCheck:
+    writetext BugCheatCheckItemText
+    promptbutton
+    closetext
+    end
+
 ;TEXT BELOW
 GoToElder:
-    text "<PLAYER>!!"
+    text "Mom: <PLAYER>!!"
 
     para "Are you going out?"
 
@@ -49,7 +80,32 @@ GoToElder:
     done
 
 BetterGetGoing:
-    text "Better get going!"
+    text "Mom: Better get"
+    line "going!"
+    done
+
+TakeHeirloom:
+    text "Mom: <PLAYER>!!"
+
+    para "So, you started"
+    line "your research yet?"
+
+    para "I think it's"
+    line "about time I give"
+    cont "you this…"
+    done
+
+HeirloomGiveTextFinish:
+    text "Stay safe out"
+    line "there!"
+    done
+
+BugCheatCheckItemText:
+    text "Bag is full"
+
+    para "You're most"
+    line "likely cheating, or"
+    cont "this is a bug."
     done
 
 ;MOVEMENT BELOW
