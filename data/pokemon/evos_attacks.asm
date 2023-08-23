@@ -38,6 +38,7 @@ GekkouEvosAttacks:
 	db 0 ; no more evolutions
 	db 1, DRGN_SCRATCH
 	db 1, TWISTER
+	db 7, REST
 	db 0 ; no more level-up moves
 
 WizardonEvosAttacks:
