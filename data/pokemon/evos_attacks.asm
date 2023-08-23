@@ -32,7 +32,9 @@ VantaroEvosAttacks:
 	db 0 ; no more level-up moves
 
 GekkouEvosAttacks:
-	db EVOLVE_LEVEL, 16, WIZARDON ; to-do
+	db EVOLVE_STAT, 16, ATK_LT_SP_ATK, WIZARDON ; todo Make comparing stats more strict. Even if Atk and SP Atk arent equal, and if HP is higher, then it should be Gekklodon.
+	db EVOLVE_STAT, 16, ATK_GT_SP_ATK, TALADON
+	db EVOLVE_STAT, 16, ATK_EQ_SP_ATK, GEKKLODON
 	db 0 ; no more evolutions
 	db 1, DRGN_SCRATCH
 	db 1, TWISTER
@@ -3059,9 +3061,7 @@ SmeargleEvosAttacks:
 	db 0 ; no more level-up moves
 
 TyrogueEvosAttacks:
-	db EVOLVE_STAT, 20, ATK_LT_DEF, HITMONCHAN
-	db EVOLVE_STAT, 20, ATK_GT_DEF, HITMONLEE
-	db EVOLVE_STAT, 20, ATK_EQ_DEF, HITMONTOP
+	db EVOLVE_LEVEL, 20, HITMONCHAN
 	db 0 ; no more evolutions
 	db 1, TACKLE
 	db 0 ; no more level-up moves

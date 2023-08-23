@@ -163,9 +163,9 @@ DEF NUM_HOF_TEAMS EQU 30
 
 ; EVOLVE_STAT triggers
 	const_def 1
-	const ATK_GT_DEF
-	const ATK_LT_DEF
-	const ATK_EQ_DEF
+	const ATK_GT_SP_ATK
+	const ATK_LT_SP_ATK
+	const ATK_EQ_SP_ATK
 
 ; wild data
 

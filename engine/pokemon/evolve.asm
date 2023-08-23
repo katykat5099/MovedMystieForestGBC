@@ -87,7 +87,10 @@ EvolveAfterBattle_MasterLoop:
 	cp EVOLVE_HAPPINESS
 	jr z, .happiness
 
-; EVOLVE_STAT
+    cp EVOLVE_STAT
+    jr z, .gekkou
+
+.gekkou
 	ld a, [wTempMonLevel]
 	cp [hl]
 	jp c, .dont_evolve_1
@@ -97,15 +100,15 @@ EvolveAfterBattle_MasterLoop:
 
 	push hl
 	ld de, wTempMonAttack
-	ld hl, wTempMonDefense
+	ld hl, wTempMonSpclAtk
 	ld c, 2
 	call CompareBytes
-	ld a, ATK_EQ_DEF
-	jr z, .got_tyrogue_evo
-	ld a, ATK_LT_DEF
-	jr c, .got_tyrogue_evo
-	ld a, ATK_GT_DEF
-.got_tyrogue_evo
+	ld a, ATK_EQ_SP_ATK
+	jr z, .got_stat_evo
+	ld a, ATK_LT_SP_ATK
+	jr c, .got_stat_evo
+	ld a, ATK_GT_SP_ATK
+.got_stat_evo
 	pop hl
 
 	inc hl
