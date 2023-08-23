@@ -98,7 +98,6 @@ ItemDescriptions:
 
     ; BAG-USE ITEMS
     ; EVOLUTION
-	dw RepelDesc
 	dw FireStoneDesc
 	dw ThunderStoneDesc
 	dw WaterStoneDesc
@@ -110,7 +109,7 @@ ItemDescriptions:
 	dw UpGradeDesc
 
     ; MAP ITEMS
-	dw TeruSama2Desc
+	dw RepelDesc
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw EscapeRopeDesc
@@ -153,6 +152,7 @@ ItemDescriptions:
 	dw SquirtBottleDesc
 	dw RainbowWingDesc
 
+	dw TeruSama2Desc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
 	dw TeruSama3Desc
