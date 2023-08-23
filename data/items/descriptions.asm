@@ -77,7 +77,7 @@ ItemDescriptions:
 	dw PinkBowDesc
 	dw PoisonBarbDesc
 	dw SharpBeakDesc
-	dw PolkadotBowDesc
+	dw SilkScarfDesc
 	dw SilverPowderDesc
 	dw SoftSandDesc
 	dw SpellTagDesc
@@ -936,7 +936,7 @@ SunStoneDesc:
 	db   "Evolves certain"
 	next "kinds of #MON.@"
 
-PolkadotBowDesc:
+SilkScarfDesc:
 	db   "Powers up normal-"
 	next "type moves. (HOLD)@"
 

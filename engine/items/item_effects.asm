@@ -90,7 +90,7 @@ ItemEffects:
 	dw NoEffect            ; PINK_BOW
 	dw NoEffect            ; POISON_BARB
 	dw NoEffect            ; SHARP_BEAK
-	dw NoEffect            ; POLKADOT_BOW
+	dw NoEffect            ; SILK_SCARF
 	dw NoEffect            ; SILVERPOWDER
 	dw NoEffect            ; SOFT_SAND
 	dw NoEffect            ; SPELL_TAG

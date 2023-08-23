@@ -82,7 +82,7 @@
 	const PINK_BOW     ; 68
 	const POISON_BARB  ; 51
 	const SHARP_BEAK   ; 4d
-	const POLKADOT_BOW ; aa
+	const SILK_SCARF   ; aa
 	const SILVERPOWDER ; 58
 	const SOFT_SAND    ; 4c
 	const SPELL_TAG    ; 71

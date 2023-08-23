@@ -76,7 +76,7 @@ ItemNames::
 	li "PINK BOW"
 	li "POISON BARB"
 	li "SHARP BEAK"
-	li "POLKADOT BOW"
+	li "SILK SCARF"
 	li "SILVERPOWDER"
 	li "SOFT SAND"
 	li "SPELL TAG"
