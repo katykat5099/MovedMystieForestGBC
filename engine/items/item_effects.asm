@@ -108,6 +108,7 @@ ItemEffects:
 	dw NoEffect            ; SCOPE_LENS
 	dw NoEffect            ; LEFTOVERS
 	dw NoEffect            ; BERSERK_GENE
+	dw NoEffect            ; HEIRLOOM
 
     ; BAG-USE ITEMS
     ; EVOLUTION
@@ -165,7 +166,6 @@ ItemEffects:
 	dw SquirtbottleEffect  ; SQUIRTBOTTLE
 	dw NoEffect            ; RAINBOW_WING
 
-	dw NoEffect            ; ITEM_19
 	dw NoEffect            ; LUCKY_PUNCH
 	dw NoEffect            ; METAL_POWDER
 	dw NoEffect            ; ITEM_2D

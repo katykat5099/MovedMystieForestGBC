@@ -94,6 +94,7 @@ ItemNames::
 	li "SCOPE LENS"
 	li "LEFTOVERS"
 	li "BERSERK GENE"
+	li "Heirloom"
 
     ; BAG-USE ITEMS
     ; EVOLUTION
@@ -151,7 +152,6 @@ ItemNames::
 	li "SQUIRTBOTTLE"
 	li "RAINBOW WING"
 
-	li "TERU-SAMA"
 	li "LUCKY PUNCH"
 	li "METAL POWDER"
 	li "TERU-SAMA"

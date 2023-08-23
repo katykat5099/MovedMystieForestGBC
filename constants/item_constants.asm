@@ -100,6 +100,7 @@
 	const SCOPE_LENS   ; 8c
 	const LEFTOVERS    ; 92
 	const BERSERK_GENE ; 98
+	const HEIRLOOM     ; todo Add Hold Effect (Raises Best Stat by 5% (not HP))
 
     ; BAG-USE ITEMS
     ; EVOLUTION
@@ -157,7 +158,6 @@
 	const SQUIRTBOTTLE ; af
 	const RAINBOW_WING ; b2
 
-	const ITEM_19      ; 19
 	const LUCKY_PUNCH  ; 1e
 	const METAL_POWDER ; 23
 	const ITEM_2D      ; 2d

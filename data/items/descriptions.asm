@@ -95,6 +95,7 @@ ItemDescriptions:
 	dw ScopeLensDesc
 	dw LeftoversDesc
 	dw BerserkGeneDesc
+	dw HeirloomDesc
 
     ; BAG-USE ITEMS
     ; EVOLUTION
@@ -109,7 +110,7 @@ ItemDescriptions:
 	dw UpGradeDesc
 
     ; MAP ITEMS
-	dw RepelDesc
+    dw RepelDesc
 	dw SuperRepelDesc
 	dw MaxRepelDesc
 	dw EscapeRopeDesc
@@ -152,7 +153,6 @@ ItemDescriptions:
 	dw SquirtBottleDesc
 	dw RainbowWingDesc
 
-	dw TeruSama2Desc
 	dw LuckyPunchDesc
 	dw MetalPowderDesc
 	dw TeruSama3Desc
@@ -1039,3 +1039,7 @@ TeruSama32Desc:
 
 TeruSama33Desc:
 	db   "?@"
+
+HeirloomDesc:
+	db   "Boosts #MON's"
+	next "greatest stat.@"
