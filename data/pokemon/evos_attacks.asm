@@ -44,8 +44,10 @@ GekkouEvosAttacks:
 WizardonEvosAttacks:
 	db EVOLVE_LEVEL, 36, GEKKOU ;todo
 	db 0 ; no more evolutions
-	db 1, SCRATCH ;todo Dragon Scratch here as well.
-	db 1, GROWL
+	db 1, DRGN_SCRATCH
+	db 1, TWISTER
+	db 5, REST
+	; todo Add Moveset for Wizardon
 	db 0 ; no more level-up moves
 
 TaladonEvosAttacks:

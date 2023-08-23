@@ -1,6 +1,6 @@
 	db WIZARDON ; 005
 
-	db  5,  5,  5,  5,  5,  5 ; to-do
+	db  55,  55,  55,  85,  95,  65 ; to-do
 	;   hp  atk  def  spd  sat  sdf
 
 	db DRAGON, DRAGON ; type
@@ -17,5 +17,5 @@
 	dn EGG_NONE, EGG_NONE ; egg groups
 
 	; tm/hm learnset
-	tmhm ; to-do
+	tmhm ; todo Moveset Wizardon
 	; end
