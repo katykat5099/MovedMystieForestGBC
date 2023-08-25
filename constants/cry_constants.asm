@@ -42,12 +42,9 @@
 
 ; gen 2
 	const CRY_MARILL
-	const CRY_SPINARAK
-	const CRY_TOGEPI
 	const CRY_GIRAFARIG
 	const CRY_RAIKOU
 	const CRY_MAREEP
-	const CRY_TOGETIC
 	const CRY_HOOTHOOT
 	const CRY_SENTRET
 	const CRY_SLOWKING
@@ -74,5 +71,6 @@
 
 ;NEW
     const CRY_GEKKOU
+    const CRY_BUCKLEO
 
 DEF NUM_CRIES EQU const_value

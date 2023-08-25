@@ -39,12 +39,9 @@ Cries:
 	dba Cry_Vulpix
 	dba Cry_Weepinbell
 	dba Cry_Marill
-	dba Cry_Spinarak
-	dba Cry_Togepi
 	dba Cry_Girafarig
 	dba Cry_Raikou
 	dba Cry_Mareep
-	dba Cry_Togetic
 	dba Cry_Hoothoot
 	dba Cry_Sentret
 	dba Cry_Slowking
@@ -69,4 +66,5 @@ Cries:
 	dba Cry_Dunsparce
 	dba Cry_Donphan
 	dba Cry_Gekkou
+	dba Cry_Buckleo
 	assert_table_length NUM_CRIES

@@ -4,27 +4,17 @@ Cry_Gekkou:
 	channel 6, Cry_Gekkou_Ch6
 	channel 8, Cry_Gekkou_Ch8
 
+Cry_Buckleo:
+	channel_count 3
+	channel 5, Cry_Buckleo_Ch5
+	channel 6, Cry_Buckleo_Ch6
+	channel 8, Cry_Buckleo_Ch8
+
 Cry_Marill:
 	channel_count 3
 	channel 5, Cry_Marill_Ch5
 	channel 6, Cry_Marill_Ch6
 	channel 8, Cry_Marill_Ch8
-
-Cry_Togepi:
-	channel_count 2
-	channel 5, Cry_Togepi_Ch5
-	channel 6, Cry_Togepi_Ch6
-
-Cry_Togetic:
-	channel_count 2
-	channel 5, Cry_Togetic_Ch5
-	channel 6, Cry_Togetic_Ch6
-
-Cry_Spinarak:
-	channel_count 3
-	channel 5, Cry_Spinarak_Ch5
-	channel 6, Cry_Spinarak_Ch6
-	channel 8, Cry_Spinarak_Ch8
 
 Cry_Raikou:
 	channel_count 3
@@ -349,48 +339,6 @@ Cry_Marill_Ch8:
 	noise_note 2, 6, 8, 106
 	noise_note 2, 6, 8, 107
 	noise_note 10, 6, 2, 108
-	sound_ret
-
-Cry_Togepi_Ch5:
-	pitch_offset 2
-Cry_Togepi_Ch6:
-	duty_cycle_pattern 1, 1, 0, 2
-	square_note 4, 15, 1, 1942
-	square_note 4, 15, 1, 1837
-	square_note 7, 0, 0, 0
-	square_note 16, 15, 1, 1959
-	sound_ret
-
-Cry_Togetic_Ch5:
-	pitch_offset 2
-Cry_Togetic_Ch6:
-	sound_call Cry_Togepi_Ch6
-	sound_loop 2, Cry_Togetic_Ch6
-	square_note 14, 0, 0, 0
-	square_note 8, 15, 2, 1986
-	sound_ret
-
-Cry_Spinarak_Ch5:
-	duty_cycle 1
-	square_note 3, 2, -4, 1988
-	square_note 1, 0, 0, 1
-	square_note 5, 5, -1, 1977
-	square_note 6, 11, 4, 1979
-	sound_ret
-
-Cry_Spinarak_Ch6:
-	duty_cycle_pattern 0, 2, 2, 2
-	square_note 3, 2, -4, 1991
-	square_note 1, 0, 0, 0
-	square_note 5, 5, -1, 1982
-	square_note 6, 11, 4, 1981
-	sound_ret
-
-Cry_Spinarak_Ch8:
-	noise_note 3, 9, 2, 16
-	noise_note 1, 3, -1, 0
-	noise_note 5, 6, -1, 16
-	noise_note 6, 9, 3, 0
 	sound_ret
 
 Cry_Raikou_Ch5:
@@ -2117,3 +2065,30 @@ Cry_Gekkou_Ch8:
 	noise_note 8, 12, 2, 1
 	sound_ret
 
+Cry_Buckleo_Ch5:
+	duty_cycle_pattern 3, 3, 0, 0
+	square_note 8, 14, 4, 1936
+	square_note 8, 14, 4, 1935
+	pitch_sweep 12, 1
+    square_note 8, 13, 1, 2008
+    square_note 8, 13, 1, 2014
+	square_note 15, 15, 5, 1984
+	sound_ret
+
+Cry_Buckleo_Ch6:
+	duty_cycle_pattern 2, 2, 1, 1
+	square_note 8, 14, 4, 1930
+	pitch_sweep 15, 1
+.loopBuckleo:
+    square_note 8, 13, 1, 1999
+    square_note 8, 13, 1, 2000
+    square_note 8, 13, 1, 1999
+    sound_loop 2, .loopBuckleo
+	sound_ret
+
+Cry_Buckleo_Ch8:
+	noise_note 32, 1, 1, 3
+	noise_note 2, 14, 1, 44
+	noise_note 2, 14, 1, 44
+	noise_note 6, 14, 6, 150
+	sound_ret

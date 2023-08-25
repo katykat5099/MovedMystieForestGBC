@@ -6,7 +6,7 @@ ENDM
 PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
-	mon_cry CRY_BULBASAUR,   128,  129 ; BUCKLEO to-do
+	mon_cry CRY_BUCKLEO,       0,  100 ; BUCKLEO to-do
 	mon_cry CRY_BULBASAUR,    32,  256 ; WOFF to-do
 	mon_cry CRY_BULBASAUR,     0,  320 ; VANTARO to-do
 	mon_cry CRY_GEKKOU,        0,    0 ; GEKKOU
@@ -172,16 +172,16 @@ PokemonCries::
 	mon_cry CRY_HOOTHOOT,      0,  416 ; NOCTOWL
 	mon_cry CRY_LEDYBA,        0,  222 ; LEDYBA
 	mon_cry CRY_LEDYBA,     -150,  312 ; LEDIAN
-	mon_cry CRY_SPINARAK,     17,  512 ; SPINARAK
-	mon_cry CRY_SPINARAK,   -174,  482 ; ARIADOS
+	mon_cry CRY_WEEDLE,       17,  512 ; SPINARAK
+	mon_cry CRY_WEEDLE,     -174,  482 ; ARIADOS
 	mon_cry CRY_WEEDLE,      -16,  320 ; CROBAT
 	mon_cry CRY_CYNDAQUIL,   969,  320 ; CHINCHOU
 	mon_cry CRY_CYNDAQUIL,   720,  272 ; LANTURN
 	mon_cry CRY_PICHU,         0,  320 ; PICHU
 	mon_cry CRY_CLEFFA,       97,  145 ; CLEFFA
 	mon_cry CRY_CHIKORITA,   232,  232 ; IGGLYBUFF
-	mon_cry CRY_TOGEPI,       16,  256 ; TOGEPI
-	mon_cry CRY_TOGETIC,      59,   56 ; TOGETIC
+	mon_cry CRY_WEEDLE,       16,  256 ; TOGEPI
+	mon_cry CRY_WEEDLE,       59,   56 ; TOGETIC
 	mon_cry CRY_NATU,       -103,  256 ; NATU
 	mon_cry CRY_NATU,       -167,  360 ; XATU
 	mon_cry CRY_MAREEP,       34,  216 ; MAREEP
@@ -252,7 +252,7 @@ PokemonCries::
 	mon_cry CRY_ENTEI,         0,  416 ; ENTEI
 	mon_cry CRY_MAGCARGO,      0,  384 ; SUICUNE
 	mon_cry CRY_RAIKOU,       95,  208 ; LARVITAR
-	mon_cry CRY_SPINARAK,   -475,  336 ; PUPITAR
+	mon_cry CRY_WEEDLE,     -475,  336 ; PUPITAR
 	mon_cry CRY_RAIKOU,     -256,  384 ; TYRANITAR
 	mon_cry CRY_TYPHLOSION,    0,  256 ; LUGIA
 	mon_cry CRY_AIPOM,         0,  384 ; HO_OH
