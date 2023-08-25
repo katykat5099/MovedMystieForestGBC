@@ -7,8 +7,8 @@ PokemonCries::
 ; entries correspond to constants/pokemon_constants.asm
 	table_width MON_CRY_LENGTH, PokemonCries
 	mon_cry CRY_BUCKLEO,       0,  100 ; BUCKLEO to-do
-	mon_cry CRY_BULBASAUR,    32,  256 ; WOFF to-do
-	mon_cry CRY_BULBASAUR,     0,  320 ; VANTARO to-do
+	mon_cry CRY_GEKKOU,      230,  300 ; WOFF to-do
+	mon_cry CRY_BUCKLEO,     200,  320 ; VANTARO to-do
 	mon_cry CRY_GEKKOU,        0,    0 ; GEKKOU
 	mon_cry CRY_WEEDLE,       55,  200 ; WIZARDON
 	mon_cry CRY_GEKKOU,        0,  256 ; TALADON ; todo Make Cries for starter mon & evos.
