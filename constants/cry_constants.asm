@@ -31,7 +31,6 @@
 	const CRY_VENONAT
 	const CRY_LAPRAS
 	const CRY_METAPOD
-	const CRY_SQUIRTLE
 	const CRY_PARAS
 	const CRY_GROWLITHE
 	const CRY_KRABBY
@@ -72,5 +71,8 @@
 	const CRY_AIPOM
 	const CRY_DUNSPARCE
 	const CRY_DONPHAN
+
+;NEW
+    const CRY_GEKKOU
 
 DEF NUM_CRIES EQU const_value

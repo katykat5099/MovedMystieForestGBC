@@ -1,3 +1,9 @@
+Cry_Gekkou:
+	channel_count 3
+	channel 5, Cry_Gekkou_Ch5
+	channel 6, Cry_Gekkou_Ch6
+	channel 8, Cry_Gekkou_Ch8
+
 Cry_Marill:
 	channel_count 3
 	channel 5, Cry_Marill_Ch5
@@ -1028,12 +1034,6 @@ Cry_Metapod:
 	channel 6, Cry_Metapod_Ch6
 	channel 8, Cry_Metapod_Ch8
 
-Cry_Squirtle:
-	channel_count 3
-	channel 5, Cry_Squirtle_Ch5
-	channel 6, Cry_Squirtle_Ch6
-	channel 8, Cry_Squirtle_Ch8
-
 Cry_Paras:
 	channel_count 3
 	channel 5, Cry_Paras_Ch5
@@ -1954,34 +1954,6 @@ Cry_Venonat_Ch8:
 	noise_note 8, 13, 1, 44
 	sound_ret
 
-Cry_Squirtle_Ch5:
-	duty_cycle_pattern 3, 3, 1, 0
-	square_note 15, 15, 0, 1797
-	square_note 10, 14, 0, 1792
-	square_note 6, 11, 4, 1808
-	square_note 4, 13, 3, 1792
-	square_note 6, 11, 2, 1568
-	square_note 8, 10, 1, 1572
-	sound_ret
-
-Cry_Squirtle_Ch6:
-	duty_cycle_pattern 0, 2, 0, 2
-	square_note 15, 11, 0, 1731
-	square_note 10, 10, 0, 1729
-	square_note 6, 8, 4, 1746
-	square_note 4, 9, 3, 1729
-	square_note 6, 8, 2, 1505
-	square_note 8, 6, 1, 1512
-	sound_ret
-
-Cry_Squirtle_Ch8:
-	noise_note 6, 14, 6, 76
-	noise_note 15, 13, 6, 60
-	noise_note 10, 12, 5, 74
-	noise_note 1, 11, 2, 91
-	noise_note 15, 12, 2, 76
-	sound_ret
-
 Cry_Fearow_Ch5:
 	duty_cycle_pattern 1, 1, 0, 0
 	square_note 10, 15, 5, 1664
@@ -2108,3 +2080,40 @@ Cry_Rattata_Ch8:
 	noise_note 1, 10, 2, 57
 	noise_note 8, 9, 1, 73
 	sound_ret
+
+Cry_Gekkou_Ch5:
+	duty_cycle 0
+	pitch_sweep 15, 7
+    square_note 2, 15, 8, 1980
+    square_note 2, 15, 8, 1979
+    square_note 2, 15, 8, 1970
+    square_note 2, 15, 8, 1969
+    square_note 2, 15, 8, 1960
+    square_note 2, 15, 8, 1955
+    pitch_sweep 15, -7
+	square_note 2, 15, 8, 1953
+	square_note 2, 15, 8, 1951
+	pitch_sweep 8, 8
+	sound_ret
+
+Cry_Gekkou_Ch6:
+	duty_cycle_pattern 0, 1, 0, 0
+    pitch_sweep 12, 1
+    square_note 2, 15, 8, 1979
+    square_note 2, 15, 8, 1978
+    square_note 2, 15, 8, 1970
+    square_note 2, 15, 8, 1969
+    square_note 2, 15, 8, 1960
+    square_note 2, 15, 8, 1955
+	square_note 2, 15, 8, 1952
+	square_note 2, 15, 8, 1950
+	sound_ret
+
+Cry_Gekkou_Ch8:
+	noise_note 2, 11, 8, 1
+	noise_note 2, 11, 8, 2
+	noise_note 2, 12, 8, 2
+	noise_note 2, 11, 8, 1
+	noise_note 8, 12, 2, 1
+	sound_ret
+

@@ -30,7 +30,6 @@ Cries:
 	dba Cry_Venonat
 	dba Cry_Lapras
 	dba Cry_Metapod
-	dba Cry_Squirtle
 	dba Cry_Paras
 	dba Cry_Growlithe
 	dba Cry_Krabby
@@ -69,4 +68,5 @@ Cries:
 	dba Cry_Aipom
 	dba Cry_Dunsparce
 	dba Cry_Donphan
+	dba Cry_Gekkou
 	assert_table_length NUM_CRIES

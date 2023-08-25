@@ -32,9 +32,9 @@ VantaroEvosAttacks:
 	db 0 ; no more level-up moves
 
 GekkouEvosAttacks:
-	db EVOLVE_STAT, 16, ATK_LT_SP_ATK, WIZARDON ; todo Make comparing stats more strict. Even if Atk and SP Atk arent equal, and if HP is higher, then it should be Gekklodon.
-	db EVOLVE_STAT, 16, ATK_GT_SP_ATK, TALADON
-	db EVOLVE_STAT, 16, ATK_EQ_SP_ATK, GEKKLODON
+	db EVOLVE_STAT, 12, ATK_LT_SP_ATK, WIZARDON ; todo Make comparing stats more strict. Even if Atk and SP Atk arent equal, and if HP is higher, then it should be Gekklodon.
+	db EVOLVE_STAT, 12, ATK_GT_SP_ATK, TALADON
+	db EVOLVE_STAT, 12, ATK_EQ_SP_ATK, GEKKLODON
 	db 0 ; no more evolutions
 	db 1, DRGN_SCRATCH
 	db 1, TWISTER
