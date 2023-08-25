@@ -12,7 +12,7 @@ PokemonCries::
 	mon_cry CRY_GEKKOU,        0,    0 ; GEKKOU
 	mon_cry CRY_WEEDLE,       55,  200 ; WIZARDON
 	mon_cry CRY_GEKKOU,        0,  256 ; TALADON ; todo Make Cries for starter mon & evos.
-	mon_cry CRY_GEKKOU,       96,  192 ; GEKKLODON ; todo Make cry.
+	mon_cry CRY_GEKKOU,       96,  240 ; GEKKLODON
 	mon_cry CRY_WEEDLE,       32,  192 ; WARTORTLE
 	mon_cry CRY_BLASTOISE,     0,  256 ; BLASTOISE
 	mon_cry CRY_CATERPIE,    128,  160 ; CATERPIE
